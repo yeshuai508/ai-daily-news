@@ -1,0 +1,121 @@
+accounts:
+- handle: zarazhangrui
+  name: Zara Zhang
+  bio: AI content creator, founder of LongCut
+  weight: medium
+- handle: karpathy
+  name: Andrej Karpathy
+  bio: Former Tesla AI Director, former OpenAI researcher
+  weight: high
+- handle: swyx
+  name: swyx
+  bio: Founder of Latent Space, AI engineer community leader
+  weight: high
+- handle: gregisenberg
+  name: Greg Isenberg
+  bio: CEO of Late Checkout, startup builder
+  weight: medium
+- handle: lennysan
+  name: Lenny Rachitsky
+  bio: Product growth advisor, Lenny's Newsletter author
+  weight: medium
+- handle: joshwoodward
+  name: Josh Woodward
+  bio: VP of Gemini and Google Labs, Google
+  weight: high
+- handle: kevinweil
+  name: Kevin Weil
+  bio: Head of Product at OpenAI
+  weight: high
+- handle: petergyang
+  name: Peter Yang
+  bio: Product leader, Creator Economy newsletter author
+  weight: medium
+- handle: thenanyu
+  name: Nan Yu
+  bio: Head of Product at Linear
+  weight: medium
+- handle: realmadhuguru
+  name: Madhu Guru
+  bio: Product Leader at Google Gemini
+  weight: high
+- handle: mckaywrigley
+  name: Mckay Wrigley
+  bio: Vibe-coding educator, builder
+  weight: medium
+- handle: stevenbjohnson
+  name: Steven Johnson
+  bio: Author, soul behind NotebookLM
+  weight: medium
+- handle: AmandaAskell
+  name: Amanda Askell
+  bio: Character lead at Anthropic, AI alignment researcher
+  weight: high
+- handle: _catwu
+  name: Cat Wu
+  bio: Claude Code PM at Anthropic
+  weight: high
+- handle: trq212
+  name: Thariq
+  bio: Claude Code team at Anthropic
+  weight: medium
+- handle: GoogleLabs
+  name: Google Labs
+  bio: Google's home for latest AI tools and experiments
+  weight: high
+- handle: george__mack
+  name: George Mack
+  bio: Writer on high-agency thinking and mental models
+  weight: medium
+- handle: raizamrtn
+  name: Raiza Martin
+  bio: Cofounder of Huxe, former PM of NotebookLM
+  weight: medium
+- handle: amasad
+  name: Amjad Masad
+  bio: CEO of Replit
+  weight: high
+- handle: rauchg
+  name: Guillermo Rauch
+  bio: CEO of Vercel
+  weight: high
+- handle: rileybrown
+  name: Riley Brown
+  bio: Vibe coding educator and builder
+  weight: medium
+- handle: alexalbert__
+  name: Alex Albert
+  bio: Claude Relations at Anthropic
+  weight: high
+- handle: HamelHusain
+  name: Hamel Husain
+  bio: AI/ML engineer, evals expert
+  weight: medium
+- handle: levie
+  name: Aaron Levie
+  bio: CEO of Box
+  weight: medium
+- handle: garrytan
+  name: Garry Tan
+  bio: President of Y Combinator
+  weight: high
+- handle: lulumeservey
+  name: Lulu Cheng Meservey
+  bio: Comms and go-to-market strategist
+  weight: medium
+- handle: venturetwins
+  name: Justine Moore
+  bio: Investor at a16z, consumer AI trends
+  weight: medium
+- handle: mattturck
+  name: Matt Turck
+  bio: VC at FirstMark Capital
+  weight: medium
+- handle: joulee
+  name: Julie Zhuo
+  bio: Founder of Sundial, former VP Design at Facebook
+  weight: medium
+- handle: PJaccetturo
+  name: PJ Ace
+  bio: Viral AI ad creator
+  weight: medium

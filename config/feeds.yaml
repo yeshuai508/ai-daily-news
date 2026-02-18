@@ -1,0 +1,34 @@
+# RSS feeds that are verified working
+rss_feeds:
+  - name: "The Keyword (Google Blog)"
+    rss: "https://blog.google/rss/"
+
+  - name: "Peter Yang"
+    rss: "https://creatoreconomy.so/feed"
+
+  - name: "The Verge AI"
+    rss: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+
+  - name: "TechCrunch AI"
+    rss: "https://techcrunch.com/category/artificial-intelligence/feed/"
+
+  - name: "Ars Technica AI"
+    rss: "https://arstechnica.com/ai/feed/"
+
+  - name: "MIT Technology Review"
+    rss: "https://www.technologyreview.com/feed/"
+
+# These need Gmail integration (no public RSS)
+# TODO: Phase 2 - Gmail API integration
+gmail_newsletters:
+  - name: "Ben's Bites"
+    url: "https://bensbites.beehiiv.com"
+
+  - name: "AI Valley"
+    url: "https://www.theaivalley.com"
+
+  - name: "Every"
+    url: "https://every.to"
+
+  - name: "AINews by smol.ai"
+    url: "https://news.smol.ai"
