@@ -9,7 +9,8 @@ import markdown
 # Token cache
 _token_cache = {"token": None, "expires_at": 0}
 
-WECHAT_API = os.environ.get("WECHAT_API_BASE", "https://api.weixin.qq.com/cgi-bin")
+WECHAT_API = "https://api.weixin.qq.com/cgi-bin"
+WECHAT_TOKEN_API = os.environ.get("WECHAT_API_BASE", WECHAT_API)
 
 
 def get_access_token():
@@ -22,7 +23,7 @@ def get_access_token():
     app_secret = os.environ["WECHAT_APP_SECRET"]
 
     resp = requests.get(
-        f"{WECHAT_API}/token",
+        f"{WECHAT_TOKEN_API}/token",
         params={
             "grant_type": "client_credential",
             "appid": app_id,
