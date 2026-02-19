@@ -5,3 +5,5 @@ __pycache__/
 dist/
 *.egg-info/
 .aws-sam/
+data/
+.DS_Store

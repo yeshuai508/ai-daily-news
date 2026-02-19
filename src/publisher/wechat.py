@@ -153,8 +153,23 @@ def create_draft(title, html_content, thumb_media_id):
     return data.get("media_id")
 
 
-def publish(digest_md, date_str):
-    """Main entry: convert markdown → HTML, upload cover, create draft."""
+def freepublish(media_id):
+    """Publish a draft article (cannot be undone)."""
+    token = get_access_token()
+    resp = requests.post(
+        f"{WECHAT_API}/freepublish/submit",
+        params={"access_token": token},
+        json={"media_id": media_id},
+        timeout=15,
+    )
+    data = resp.json()
+    if data.get("errcode", 0) != 0:
+        raise RuntimeError(f"Failed to freepublish: {data}")
+    return data.get("publish_id")
+
+
+def publish(digest_md, date_str, filtered_info=None):
+    """Main entry: convert markdown → HTML, upload cover, create draft, publish."""
     print("  Converting markdown to HTML...")
     html_content = md_to_html(digest_md)
 
@@ -169,19 +184,24 @@ def publish(digest_md, date_str):
     print("  Creating draft...")
     title = f"AI Daily {date_str}"
     media_id = create_draft(title, html_content, thumb_media_id)
-
     print(f"  Draft created (media_id: {media_id})")
-    print("  → Please review and publish manually in WeChat backend.")
+
+    print("  Publishing...")
+    publish_id = freepublish(media_id)
+    print(f"  Published (publish_id: {publish_id})")
 
     # Server酱微信通知
     serverchan_key = os.environ.get("SERVERCHAN_KEY")
     if serverchan_key:
+        desp = f"日期：{date_str}\n\nmedia_id：`{media_id}`\n\npublish_id：`{publish_id}`"
+        if filtered_info:
+            desp += f"\n\n⚠ 已过滤敏感内容：{filtered_info}"
         try:
             requests.post(
                 f"https://sctapi.ftqq.com/{serverchan_key}.send",
                 data={
-                    "title": "AI Daily 草稿已创建",
-                    "desp": f"日期：{date_str}\n\nmedia_id：`{media_id}`\n\n请前往微信公众平台后台确认发布。",
+                    "title": "AI Daily 已自动发布",
+                    "desp": desp,
                 },
                 timeout=10,
             )

@@ -61,6 +61,16 @@ def run(hours=24):
     print(f"\n[4/5] Generating digest with LLM...")
     digest = generate_digest(processed_items, date_str)
 
+    # 4.5 Content safety check
+    from src.processor.content_filter import check_content, filter_content
+    filtered_info = None
+    is_safe, flagged = check_content(digest)
+    if not is_safe:
+        print(f"\n  ⚠ Sensitive content detected: {flagged}")
+        digest = filter_content(digest)
+        filtered_info = ", ".join(flagged)
+        print(f"  Filtered digest ready.")
+
     # 4. Save output
     output_path = f"data/digest-{date_str}.md"
     with open(output_path, "w") as f:
@@ -71,7 +81,7 @@ def run(hours=24):
     if os.environ.get("WECHAT_APP_ID"):
         print(f"\n[5/5] Publishing to WeChat...")
         try:
-            wechat_publish(digest, date_str)
+            wechat_publish(digest, date_str, filtered_info=filtered_info)
         except Exception as e:
             print(f"  WeChat publish failed: {e}")
     else:

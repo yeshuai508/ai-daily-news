@@ -1,0 +1,7 @@
+feedparser
+requests
+pyyaml
+twikit
+python-dotenv
+openai
+markdown
