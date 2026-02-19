@@ -228,15 +228,12 @@ def publish(digest_md, date_str, filtered_info=None, audio_path=None):
     title = f"AI Daily {date_str}"
     media_id = create_draft(title, html_content, thumb_media_id)
     print(f"  Draft created (media_id: {media_id})")
-
-    print("  Publishing...")
-    publish_id = freepublish(media_id)
-    print(f"  Published (publish_id: {publish_id})")
+    print("  Draft ready — publish manually from WeChat backend.")
 
     # Server酱微信通知
     serverchan_key = os.environ.get("SERVERCHAN_KEY")
     if serverchan_key:
-        desp = f"日期：{date_str}\n\nmedia_id：`{media_id}`\n\npublish_id：`{publish_id}`"
+        desp = f"日期：{date_str}\n\nmedia_id：`{media_id}`\n\n请前往公众号后台手动发布。"
         if filtered_info:
             desp += f"\n\n⚠ 已过滤敏感内容：{filtered_info}"
         try:
