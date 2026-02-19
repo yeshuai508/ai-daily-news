@@ -23,3 +23,4 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           RSSHUB_BASE_URL: ${{ secrets.RSSHUB_BASE_URL }}
+          WECHAT_API_BASE: ${{ secrets.WECHAT_API_BASE }}

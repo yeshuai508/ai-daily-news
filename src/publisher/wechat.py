@@ -9,7 +9,7 @@ import markdown
 # Token cache
 _token_cache = {"token": None, "expires_at": 0}
 
-WECHAT_API = "https://api.weixin.qq.com/cgi-bin"
+WECHAT_API = os.environ.get("WECHAT_API_BASE", "https://api.weixin.qq.com/cgi-bin")
 
 
 def get_access_token():
@@ -168,10 +168,52 @@ def freepublish(media_id):
     return data.get("publish_id")
 
 
-def publish(digest_md, date_str, filtered_info=None):
+def upload_voice(audio_path):
+    """Upload voice material to WeChat, return media_id."""
+    token = get_access_token()
+
+    with open(audio_path, "rb") as f:
+        resp = requests.post(
+            f"{WECHAT_API}/material/add_material",
+            params={"access_token": token, "type": "voice"},
+            files={"media": ("audio.mp3", f, "audio/mpeg")},
+            timeout=60,
+        )
+    data = resp.json()
+    if "media_id" not in data:
+        raise RuntimeError(f"Failed to upload voice: {data}")
+
+    return data["media_id"]
+
+
+def embed_audio_in_html(html_content, voice_media_id):
+    """Insert <mpvoice> tag after the opening <div> in HTML content."""
+    voice_tag = (
+        f'<mpvoice frameborder="0" width="580" height="55" '
+        f'src="{voice_media_id}" name="AI Daily 语音版"></mpvoice>'
+    )
+    # Insert after the first <div ...>
+    return html_content.replace(
+        'font-family:-apple-system,BlinkMacSystemFont,sans-serif;">',
+        f'font-family:-apple-system,BlinkMacSystemFont,sans-serif;">{voice_tag}',
+        1,
+    )
+
+
+def publish(digest_md, date_str, filtered_info=None, audio_path=None):
     """Main entry: convert markdown → HTML, upload cover, create draft, publish."""
     print("  Converting markdown to HTML...")
     html_content = md_to_html(digest_md)
+
+    # Embed audio if available
+    if audio_path and os.path.isfile(audio_path):
+        try:
+            print("  Uploading voice material...")
+            voice_media_id = upload_voice(audio_path)
+            print(f"  Voice uploaded (media_id: {voice_media_id})")
+            html_content = embed_audio_in_html(html_content, voice_media_id)
+        except Exception as e:
+            print(f"  Voice upload failed (publishing without audio): {e}")
 
     print("  Uploading cover image...")
     cover_path = os.path.join(
