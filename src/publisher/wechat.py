@@ -6,6 +6,12 @@ import json
 import requests
 import markdown
 
+NAME = "wechat"
+
+
+def is_configured():
+    return bool(os.getenv("WECHAT_APP_ID") and os.getenv("WECHAT_APP_SECRET"))
+
 # Token cache
 _token_cache = {"token": None, "expires_at": 0}
 

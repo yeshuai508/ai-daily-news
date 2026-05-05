@@ -190,4 +190,16 @@ def preprocess(items, accounts_config):
         item["source_count"] = 1 + len(related)
 
     dedup_count = original_count - len(items)
-    return items, {"original": original_count, "after_dedup": len(items), "removed": dedup_count}
+
+    # Light filtering: remove very low score items (noise)
+    before_filter = len(items)
+    items = [i for i in items if i.get("score", 0) >= 5]
+    filtered_count = before_filter - len(items)
+
+    return items, {
+        "original": original_count,
+        "after_dedup": before_filter,
+        "removed": dedup_count,
+        "after_filter": len(items),
+        "filtered": filtered_count,
+    }

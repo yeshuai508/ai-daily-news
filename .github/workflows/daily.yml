@@ -1,7 +1,7 @@
 name: AI Daily Digest
 on:
   schedule:
-    - cron: '0 0 * * *'  # UTC 00:00 = 北京时间 08:00
+    - cron: '0 0 * * *'  # UTC 00:00
   workflow_dispatch:
 jobs:
   run:
@@ -14,13 +14,22 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python src/handler.py 24
         env:
-          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
-          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+          # LLM
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          DIGEST_LANG: ${{ vars.DIGEST_LANG }}
+          # Sources
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
-          RSSHUB_BASE_URL: ${{ secrets.RSSHUB_BASE_URL }}
+          # Publishers
+          PUBLISHERS: ${{ vars.PUBLISHERS }}
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
           WECHAT_API_BASE: ${{ secrets.WECHAT_API_BASE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional
+          ENABLE_CONTENT_FILTER: ${{ vars.ENABLE_CONTENT_FILTER }}
+          DISABLE_AUDIO: ${{ vars.DISABLE_AUDIO }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}

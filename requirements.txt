@@ -5,3 +5,5 @@ twikit
 python-dotenv
 openai
 markdown
+podcastfy
+edge-tts

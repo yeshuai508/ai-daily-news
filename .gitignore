@@ -6,4 +6,5 @@ dist/
 *.egg-info/
 .aws-sam/
 data/
+*.mp3
 .DS_Store
