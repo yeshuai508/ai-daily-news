@@ -17,6 +17,7 @@
 
 市面上 AI 新闻聚合不少，但这个项目认真做了几件事：
 
+- **配一次，每天自动出报**：自带 GitHub Actions 定时任务，配好一次之后每天自动跑、自动发布到你指定的渠道。零服务器、走 Actions 免费额度。
 - **多源去重 + 打分**：三层去重（URL → 标题相似度 → 摘要相似度）+ 时间衰减打分，5 家外媒报同一件事会合并成一条交叉验证的条目，而不是塞进 5 行重复信息。
 - **开箱即用的播客音频**：每篇日报都能用 Podcastfy + Edge TTS 自动生成中文双人播客 MP3，公众号内嵌、Telegram 推送都行。
 - **可插拔发布器**：本地 Markdown、微信公众号、Telegram 频道，按 env 自动启用，加个新平台只要 30 行。
@@ -42,6 +43,16 @@ cp .env.example .env  # 改一下
 docker compose up
 ```
 
+## 每天自动跑
+
+仓库自带 [`.github/workflows/daily.yml`](.github/workflows/daily.yml) —— 一个每天 UTC 00:00 自动执行的 GitHub Actions 工作流。开启方式：
+
+1. Fork 本仓库（这样 Actions 跑在你自己的账号下）
+2. Settings → Secrets and variables → Actions → 加上 `LLM_API_KEY` 和你想用的发布渠道凭证（`WECHAT_APP_ID`、`TELEGRAM_BOT_TOKEN` 等）
+3. 完事。明早就会有一篇日报落到你配的渠道里。
+
+想换时间？改 `daily.yml` 里的 cron。比如 `'0 22 * * *'` 是 UTC 22:00（北京时间次日早 6:00）。本地 cron / Cloud Run / Lambda 也行，按自己的调度调用 `python src/handler.py 24` 即可。
+
 ## 配置信源
 
 - `config/feeds.yaml` — RSS 源，加任意 feed URL 即可。
@@ -63,10 +74,6 @@ X 抓取需要 `X_AUTH_TOKEN` 和 `X_CT0` 两个 cookies（浏览器开发者工
 ### 加你自己的发布器
 
 在 `src/publisher/` 下新建一个模块，暴露 `NAME`、`is_configured()`、`publish(digest_md, date_str, **kwargs)` 三个接口，到 `src/publisher/__init__.py` 注册即可。最简模板看 `markdown_file.py`（约 12 行）。
-
-## 定时调度
-
-仓库自带 GitHub Actions workflow（`.github/workflows/daily.yml`），每天 UTC 00:00 跑一次。把 env 变量挪进仓库 Secrets 就行。本地 cron / Cloud Run / 任何调度器，调 `python src/handler.py 24` 即可。
 
 ## 流水线
 
