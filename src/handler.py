@@ -40,7 +40,7 @@ def _generate_audio_if_configured(digest, date_str):
 
 def run(hours=24):
     date_str = datetime.now().strftime("%Y-%m-%d")
-    print(f"=== AI Feeds Daily Digest: {date_str} ===\n")
+    print(f"=== AI Daily News: {date_str} ===\n")
 
     print("[1/5] Collecting RSS feeds...")
     rss_items = collect_rss(hours=hours)

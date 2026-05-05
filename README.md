@@ -1,4 +1,4 @@
-# ai-feeds
+# AI Daily News
 
 > A self-hosted AI news pipeline: pulls from RSS + X, dedupes across sources, lets an LLM curate a daily digest, optionally narrates it as a podcast, and publishes wherever you want.
 
@@ -23,7 +23,7 @@ A sample digest lives at [`examples/sample-digest.md`](examples/sample-digest.md
 ## Quickstart
 
 ```bash
-git clone https://github.com/<you>/ai-feeds && cd ai-feeds
+git clone https://github.com/<you>/ai-daily-news && cd ai-daily-news
 pip install -r requirements.txt
 cp .env.example .env  # fill in LLM_API_KEY at minimum
 python src/handler.py 24    # 24 = look back this many hours
