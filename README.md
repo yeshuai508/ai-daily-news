@@ -4,6 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+**English** | [简体中文](README.zh.md)
+
 <p align="center">
   <img src="docs/screenshot-headlines.png" width="240" alt="Top stories section" />
   <img src="docs/screenshot-opinions.png" width="240" alt="Worth-reading opinions" />
