@@ -4,6 +4,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <img src="docs/screenshot-headlines.png" width="240" alt="Top stories section" />
+  <img src="docs/screenshot-opinions.png" width="240" alt="Worth-reading opinions" />
+  <img src="docs/screenshot-products.png" width="240" alt="Product updates section" />
+</p>
+<p align="center"><em>A daily digest published to a WeChat Official Account. Chinese by default — set <code>DIGEST_LANG=en</code> for English.</em></p>
+
 **Why another news bot?**
 
 - **Multi-source dedup with scoring** — three-layer dedup (URL → title similarity → summary similarity) and a recency-weighted score so the same story across 5 outlets becomes one cross-validated entry, not five.
