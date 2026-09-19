@@ -3,9 +3,6 @@ on:
   schedule:
     - cron: '25 21 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - x-cloud-uat-trigger-3
 permissions:
   contents: write
 jobs:
