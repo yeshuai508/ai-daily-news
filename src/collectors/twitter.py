@@ -1,100 +1,35 @@
-"""X/Twitter collector using twikit."""
-
-import asyncio
-import yaml
-import os
+"""Read-only X collector using twikit."""
+import asyncio, os, yaml
 from datetime import datetime, timedelta, timezone
 from twikit import Client
 from dotenv import load_dotenv
-
 load_dotenv()
-
-
-async def _collect(hours=24) -> list[dict]:
-    proxy = os.getenv("PROXY_URL")
-    client = Client("en-US", proxy=proxy)
-    client.set_cookies({
-        "auth_token": os.getenv("X_AUTH_TOKEN"),
-        "ct0": os.getenv("X_CT0"),
-    })
-
-    with open("config/x_accounts.yaml") as f:
-        config = yaml.safe_load(f)
-
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
-    items = []
-
-    for account in config.get("accounts", []):
-        handle = account["handle"]
-        name = account.get("name", handle)
-        bio = account.get("bio", "")
-        print(f"  Fetching X: @{handle}")
+MAX_TWEETS_PER_ACCOUNT=40
+async def _collect_report(hours=40):
+    auth=os.getenv("X_AUTH_TOKEN"); ct0=os.getenv("X_CT0")
+    if not auth or not ct0: raise RuntimeError("X read-only secrets are required")
+    client=Client("en-US",proxy=os.getenv("PROXY_URL"))
+    client.set_cookies({"auth_token":auth,"ct0":ct0})
+    config=yaml.safe_load(open("config/x_accounts.yaml")) or {}
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=hours)
+    items=[]; targets=[]
+    for account in config.get("accounts",[]):
+        h=account["handle"]
         try:
-            user = await client.get_user_by_screen_name(handle)
-            tweets = await user.get_tweets("Tweets", count=10)
-            count = 0
-            for tweet in tweets:
-                created = datetime.strptime(
-                    tweet.created_at, "%a %b %d %H:%M:%S %z %Y"
-                )
-                if created < cutoff:
-                    continue
-                items.append({
-                    "title": f"@{handle}: {tweet.text[:80]}",
-                    "url": f"https://x.com/{handle}/status/{tweet.id}",
-                    "summary": tweet.text,
-                    "source": f"@{handle}",
-                    "source_name": name,
-                    "source_bio": bio,
-                    "source_type": "twitter",
-                    "published": created.isoformat(),
-                    "metrics": {
-                        "likes": tweet.favorite_count,
-                        "retweets": tweet.retweet_count,
-                        "replies": tweet.reply_count,
-                    },
-                })
-                count += 1
-            print(f"    Got {count} tweets")
-            await asyncio.sleep(3)  # rate limit
+            user=await client.get_user_by_screen_name(h)
+            tweets=await user.get_tweets("Tweets",count=MAX_TWEETS_PER_ACCOUNT)
+            n=0
+            for t in tweets:
+                created=datetime.strptime(t.created_at,"%a %b %d %H:%M:%S %z %Y")
+                if created < cutoff: continue
+                items.append({"title":f"@{h}: {t.text[:80]}","url":f"https://x.com/{h}/status/{t.id}","summary":t.text,"source":f"@{h}","source_type":"twitter","published":created.isoformat()})
+                n+=1
+            targets.append({"handle":h,"ok":True,"items":n})
         except Exception as e:
-            if "429" in str(e):
-                print(f"    Rate limited, waiting 60s...")
-                await asyncio.sleep(60)
-                try:
-                    user = await client.get_user_by_screen_name(handle)
-                    tweets = await user.get_tweets("Tweets", count=10)
-                    count = 0
-                    for tweet in tweets:
-                        created = datetime.strptime(
-                            tweet.created_at, "%a %b %d %H:%M:%S %z %Y"
-                        )
-                        if created < cutoff:
-                            continue
-                        items.append({
-                            "title": f"@{handle}: {tweet.text[:80]}",
-                            "url": f"https://x.com/{handle}/status/{tweet.id}",
-                            "summary": tweet.text,
-                            "source": f"@{handle}",
-                            "source_name": name,
-                            "source_bio": bio,
-                            "source_type": "twitter",
-                            "published": created.isoformat(),
-                            "metrics": {
-                                "likes": tweet.favorite_count,
-                                "retweets": tweet.retweet_count,
-                                "replies": tweet.reply_count,
-                            },
-                        })
-                        count += 1
-                    print(f"    Retry got {count} tweets")
-                except Exception as e2:
-                    print(f"    Retry failed: {e2}")
-            else:
-                print(f"    Error: {e}")
-
-    return items
-
-
-def collect_twitter(hours=24) -> list[dict]:
-    return asyncio.run(_collect(hours))
+            targets.append({"handle":h,"ok":False,"error":str(e)[:300]})
+        await asyncio.sleep(2)
+    ok=sum(1 for x in targets if x["ok"]); expected=len(targets)
+    coverage="COMPLETE" if expected and ok==expected else ("FAILED" if ok==0 else "PARTIAL")
+    return {"coverage":coverage,"expected_accounts":expected,"successful_accounts":ok,"targets":targets,"items":items}
+def collect_twitter_report(hours=40): return asyncio.run(_collect_report(hours))
+def collect_twitter(hours=24): return collect_twitter_report(hours)["items"]
