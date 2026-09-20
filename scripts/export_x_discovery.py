@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Read-only X topic discovery.
 
-This is a discovery layer only. Results are candidates and must be verified
-against the original post and, for material claims, an official source.
+Discovery only: every result is a candidate. Material claims must be verified
+against the original post and, when possible, an official source.
 """
 import asyncio
 import json
@@ -32,6 +32,15 @@ def tweet_created_at(tweet):
     raise ValueError("tweet created_at unavailable")
 
 
+async def search_one(client, query):
+    """Prefer Latest for daily discovery; fall back to Top only when Latest is empty."""
+    latest = await client.search_tweet(query, "Latest", MAX_PER_QUERY)
+    if len(latest):
+        return latest, "Latest"
+    top = await client.search_tweet(query, "Top", MAX_PER_QUERY)
+    return top, "Top_fallback"
+
+
 async def collect():
     now = datetime.now(JST)
     prev = now.date() - timedelta(days=1)
@@ -58,7 +67,10 @@ async def collect():
         return {
             **base,
             "coverage": "FAILED",
+            "semantic_health": "FAILED",
             "successful_queries": 0,
+            "total_returned": 0,
+            "total_in_window": 0,
             "queries": [],
             "items": [],
             "error": "X read-only secrets are required",
@@ -74,7 +86,7 @@ async def collect():
         qid = qcfg["id"]
         query = qcfg["query"]
         try:
-            tweets = await client.search_tweet(query, "Latest", MAX_PER_QUERY)
+            tweets, mode = await search_one(client, query)
             in_window = 0
             for tweet in tweets:
                 try:
@@ -126,6 +138,7 @@ async def collect():
                 "id": qid,
                 "query": query,
                 "ok": True,
+                "mode": mode,
                 "returned": len(tweets),
                 "in_window": in_window,
             })
@@ -139,7 +152,22 @@ async def collect():
         await asyncio.sleep(2)
 
     ok = sum(1 for q in query_status if q["ok"])
-    coverage = "COMPLETE" if queries and ok == len(queries) else ("FAILED" if ok == 0 else "PARTIAL")
+    total_returned = sum(q.get("returned", 0) for q in query_status)
+    total_in_window = sum(q.get("in_window", 0) for q in query_status)
+
+    if ok == 0:
+        coverage = "FAILED"
+        semantic_health = "FAILED"
+    elif total_returned == 0:
+        coverage = "EMPTY"
+        semantic_health = "SUSPECT_EMPTY"
+    elif ok < len(queries):
+        coverage = "PARTIAL"
+        semantic_health = "DEGRADED"
+    else:
+        coverage = "COMPLETE"
+        semantic_health = "HEALTHY"
+
     items = sorted(
         items_by_id.values(),
         key=lambda x: x["published"],
@@ -149,7 +177,10 @@ async def collect():
     return {
         **base,
         "coverage": coverage,
+        "semantic_health": semantic_health,
         "successful_queries": ok,
+        "total_returned": total_returned,
+        "total_in_window": total_in_window,
         "queries": query_status,
         "items": items,
     }
@@ -160,8 +191,11 @@ OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encodin
 print(
     "X_DISCOVERY_EXPORT",
     payload["coverage"],
+    payload["semantic_health"],
     payload["successful_queries"],
     "/",
     payload["expected_queries"],
+    payload["total_returned"],
+    payload["total_in_window"],
     len(payload["items"]),
 )
