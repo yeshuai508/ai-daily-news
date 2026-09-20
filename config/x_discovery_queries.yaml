@@ -1,0 +1,16 @@
+# Read-only X discovery queries.
+# Purpose: complement the fixed-account watchlist with broader discovery.
+# These queries are NOT "complete X coverage"; failures must remain visible.
+queries:
+  - id: openai_ecosystem
+    query: '(OpenAI OR ChatGPT OR Codex OR GPT) (launch OR release OR update OR API OR agent OR desktop)'
+  - id: anthropic_ecosystem
+    query: '(Anthropic OR Claude) (launch OR release OR update OR agent OR safety OR evaluation)'
+  - id: google_ecosystem
+    query: '("Google DeepMind" OR Gemini) (launch OR release OR update OR agent OR model)'
+  - id: china_models
+    query: '(DeepSeek OR MiniMax OR Qwen OR Alibaba) (launch OR release OR open source OR agent OR model)'
+  - id: agent_tools
+    query: '("AI agent" OR "coding agent" OR "computer use") (launch OR release OR "open source" OR benchmark)'
+  - id: ai_policy_safety
+    query: '("AI safety" OR "AI regulation" OR "AI policy") (OpenAI OR Anthropic OR Google OR Meta OR Microsoft)'
