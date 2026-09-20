@@ -1,0 +1,528 @@
+{
+  "schema": "ai-daily-news.x-discovery.v1",
+  "generated_at": "2026-09-21T08:16:04.996378+09:00",
+  "window_start": "2026-09-20T00:00:00+09:00",
+  "window_end": "2026-09-21T08:16:04.996378+09:00",
+  "write_actions": "NONE",
+  "scope": "DYNAMIC_NETWORK_EXPANSION_FROM_CORE_X",
+  "candidate_only": true,
+  "verification_required": true,
+  "collector_method": "core_retweet_mention_expansion",
+  "max_expansion_accounts": 10,
+  "discovered_accounts": 10,
+  "coverage": "COMPLETE",
+  "semantic_health": "HEALTHY",
+  "expected_accounts": 10,
+  "successful_accounts": 10,
+  "targets": [
+    {
+      "handle": "thomas_guilcher",
+      "ok": true,
+      "items": 2,
+      "signal_score": 7,
+      "discovered_via_count": 2
+    },
+    {
+      "handle": "seftsaint",
+      "ok": true,
+      "items": 4,
+      "signal_score": 7,
+      "discovered_via_count": 2
+    },
+    {
+      "handle": "Voxyz_ai",
+      "ok": true,
+      "items": 9,
+      "signal_score": 7,
+      "discovered_via_count": 2
+    },
+    {
+      "handle": "LiamFedus",
+      "ok": true,
+      "items": 0,
+      "signal_score": 7,
+      "discovered_via_count": 2
+    },
+    {
+      "handle": "heiga_zen",
+      "ok": true,
+      "items": 4,
+      "signal_score": 2,
+      "discovered_via_count": 2
+    },
+    {
+      "handle": "ericvishria",
+      "ok": true,
+      "items": 2,
+      "signal_score": 1,
+      "discovered_via_count": 1
+    },
+    {
+      "handle": "buccocapital",
+      "ok": true,
+      "items": 4,
+      "signal_score": 1,
+      "discovered_via_count": 1
+    },
+    {
+      "handle": "JensenHuang",
+      "ok": true,
+      "items": 0,
+      "signal_score": 1,
+      "discovered_via_count": 1
+    },
+    {
+      "handle": "CBSSunday",
+      "ok": true,
+      "items": 13,
+      "signal_score": 1,
+      "discovered_via_count": 1
+    },
+    {
+      "handle": "AIFJ2025",
+      "ok": true,
+      "items": 0,
+      "signal_score": 1,
+      "discovered_via_count": 1
+    }
+  ],
+  "items": [
+    {
+      "title": "@heiga_zen: 【東京科学大学での大学院特別講義】\n\n11月9日（月）、東京科学大学 生体材料工学研究所の主催による大学院セミナー「AI＆医療研究の最前線」に登壇します。鈴鹿高専の先輩である東京科学大学 名誉教授・プロジェクト教授の三林浩二先生にお声がけい",
+      "url": "https://x.com/heiga_zen/status/2101809867849957841",
+      "summary": "【東京科学大学での大学院特別講義】\n\n11月9日（月）、東京科学大学 生体材料工学研究所の主催による大学院セミナー「AI＆医療研究の最前線」に登壇します。鈴鹿高専の先輩である東京科学大学 名誉教授・プロジェクト教授の三林浩二先生にお声がけいただき、今回のセミナーが実現しました🏫",
+      "source": "@heiga_zen",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T23:04:56+00:00",
+      "discovered_via_core": [
+        "https://x.com/SakanaAILabs/status/2101580293228679412",
+        "https://x.com/hardmaru/status/2101544383212572874"
+      ]
+    },
+    {
+      "title": "@buccocapital: $2T capex for this",
+      "url": "https://x.com/buccocapital/status/2101797791336985085",
+      "summary": "$2T capex for this",
+      "source": "@buccocapital",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T22:16:57+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: RT @Voxyz_ai: One more thing: \nwant Codex to build good-looking pages without having to keep saying “make it look better",
+      "url": "https://x.com/Voxyz_ai/status/2101771843711418729",
+      "summary": "RT @Voxyz_ai: One more thing: \nwant Codex to build good-looking pages without having to keep saying “make it look better”?  Try these 3 des…",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T20:33:51+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@buccocapital: Can’t stop thinking about the term “post-economic” \n\nI fear it has wormed itself deep into the crevices of my brain, nev",
+      "url": "https://x.com/buccocapital/status/2101754726979113131",
+      "summary": "Can’t stop thinking about the term “post-economic” \n\nI fear it has wormed itself deep into the crevices of my brain, never to be dislodged",
+      "source": "@buccocapital",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T19:25:50+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@CBSSunday: A 29-year-old pest control salesman says he bets on sports every day, wagering between $80,000 and $120,000 a year — as ",
+      "url": "https://x.com/CBSSunday/status/2101725178812076404",
+      "summary": "A 29-year-old pest control salesman says he bets on sports every day, wagering between $80,000 and $120,000 a year — as much as or more than his $97,000 salary.\n\nHe tells @JimAxelrod he sometimes puts an entire paycheck on his bets. https://t.co/UqHBnA4zHT https://t.co/DRtXpvAWfA",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T17:28:25+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: One of my favorite ways to work with Codex is to have it explain a component or page update in an 𝗛𝗧𝗠𝗟 𝗽𝗮𝗴𝗲 once the cha",
+      "url": "https://x.com/Voxyz_ai/status/2101718032108151107",
+      "summary": "One of my favorite ways to work with Codex is to have it explain a component or page update in an 𝗛𝗧𝗠𝗟 𝗽𝗮𝗴𝗲 once the changes are done.\n\nI want to see what changed, how it affects the way people use it, and how I can check the result.\n\nSo I turned this into a 𝗦𝗸𝗶𝗹𝗹👇 https://t.co/k1yqaCnKvp",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T17:00:01+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@CBSSunday: Hollywood dealmaker @AriEmanuel is telling his life story in a raw, raunchy and rollicking new memoir, \"Roll the Calls.\"",
+      "url": "https://x.com/CBSSunday/status/2101700693232914794",
+      "summary": "Hollywood dealmaker @AriEmanuel is telling his life story in a raw, raunchy and rollicking new memoir, \"Roll the Calls.\" He talks with Turner Classic Movies host Ben Mankiewicz about his rise from the agency mail room to becoming executive chairman of WME Group and executive https://t.co/w4G7KdthgJ",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T15:51:07+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: The last thing you want from Codex Astra / Claude Code is a small change turning into a big project.\n\nAsk it to fix a bu",
+      "url": "https://x.com/Voxyz_ai/status/2101687831492284687",
+      "summary": "The last thing you want from Codex Astra / Claude Code is a small change turning into a big project.\n\nAsk it to fix a button, and it refactors the whole page. Ask it to change a condition, and it starts adding tests for unrelated features, running the full suite again and again. https://t.co/W2IeT0oYPT",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T15:00:01+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@CBSSunday: We leave you this Sunday morning wandering among the red rocks at Canyonlands National Park in Utah. Videographer: Brad ",
+      "url": "https://x.com/CBSSunday/status/2101685616337432782",
+      "summary": "We leave you this Sunday morning wandering among the red rocks at Canyonlands National Park in Utah. Videographer: Brad Markel. https://t.co/mg4cX4DJca https://t.co/7E4gzrsfTY",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T14:51:13+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: Two-term Kentucky Governor Andy Beshear advises his fellow Democrats to speak like \"normal people\" and not shy away from",
+      "url": "https://x.com/CBSSunday/status/2101684371623174430",
+      "summary": "Two-term Kentucky Governor Andy Beshear advises his fellow Democrats to speak like \"normal people\" and not shy away from progressive politics or religious faith. \n\nBeshear shares that recipe for success in a deep-red state with \"Sunday Morning\" national correspondent https://t.co/83HFxRVL60",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T14:46:16+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@seftsaint: RT @songsgohard: playboi carti - play this https://t.co/aJ5v6lD5z4",
+      "url": "https://x.com/seftsaint/status/2101682218813018197",
+      "summary": "RT @songsgohard: playboi carti - play this https://t.co/aJ5v6lD5z4",
+      "source": "@seftsaint",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T14:37:42+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469579868561659",
+        "https://x.com/OpenAIDevs/status/2101469579868561659"
+      ]
+    },
+    {
+      "title": "@CBSSunday: This past week, a herd of 40 buffalo roamed the concrete canyons of Lower Manhattan and Brooklyn – life-size puppets tha",
+      "url": "https://x.com/CBSSunday/status/2101682155902456271",
+      "summary": "This past week, a herd of 40 buffalo roamed the concrete canyons of Lower Manhattan and Brooklyn – life-size puppets that are part of a public arts project by St. Ann's Warehouse, a Brooklyn theater. https://t.co/OQUetQD9qe https://t.co/kHy6gsdjpa",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T14:37:27+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: We look back on the life of Peter Max, whose psychedelic pop art became synonymous with the 1960s; and remembers costume",
+      "url": "https://x.com/CBSSunday/status/2101679692193390923",
+      "summary": "We look back on the life of Peter Max, whose psychedelic pop art became synonymous with the 1960s; and remembers costume designer Bob Mackie, who dressed the likes of Cher, Carol Burnett and Diana Ross. https://t.co/kCyDXBXM1e https://t.co/T5v7649w1R",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T14:27:40+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: In his first interview about his new book, \"Swan Song: Diana, My Sister,\" Charles Spencer talks with Mark Phillips about",
+      "url": "https://x.com/CBSSunday/status/2101671834034806922",
+      "summary": "In his first interview about his new book, \"Swan Song: Diana, My Sister,\" Charles Spencer talks with Mark Phillips about his attempt to set down what he calls the true history of the life of his sister, Princess Diana. \n\nHe also talks about Prince Harry's grief after Diana's https://t.co/SL27TpDsPm",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:56:27+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: In 2019, Lonnie Bunch became both the first historian and the first African American to serve as Secretary of the Smiths",
+      "url": "https://x.com/CBSSunday/status/2101667695393443999",
+      "summary": "In 2019, Lonnie Bunch became both the first historian and the first African American to serve as Secretary of the Smithsonian Institution. Now 73, Bunch has announced he is retiring. \n\nHe talks with @MoRocca about fulfilling and enriching the Smithsonian's mandate. He also talks https://t.co/lZXCp1gRQm",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:40:00+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: The Atlantic recently called Nvidia founder and CEO Jensen Huang \"the most powerful man in AI.\" \n\nHe talks with CBS News",
+      "url": "https://x.com/CBSSunday/status/2101667126914261375",
+      "summary": "The Atlantic recently called Nvidia founder and CEO Jensen Huang \"the most powerful man in AI.\" \n\nHe talks with CBS News' @jolingkent at Nvidia headquarters in Santa Clara, Calif., about the latest developments in artificial intelligence and the ongoing debate over safety and https://t.co/jtpRRBV3xY",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:37:44+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: The art of illustrators, that tells mythic narratives and stories of our shared humanity, is at the core of a new Los An",
+      "url": "https://x.com/CBSSunday/status/2101664084492013893",
+      "summary": "The art of illustrators, that tells mythic narratives and stories of our shared humanity, is at the core of a new Los Angeles institution: The @lucasmuseum of Narrative Art, showcasing works featured in magazines, comics, fantasy stories, and motion picture design. \n\nCBS News' https://t.co/sYvJGNJEfm",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:25:39+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@CBSSunday: The money legally wagered on sports gambling has surged to $167 billion a year since it was legalized beyond Nevada in 2",
+      "url": "https://x.com/CBSSunday/status/2101660147676262904",
+      "summary": "The money legally wagered on sports gambling has surged to $167 billion a year since it was legalized beyond Nevada in 2018. But data show, in states where online gambling has been made legal, bankruptcies and credit card delinquencies go up 25%. \n\n@JimAxelrod talks to a gambler https://t.co/fB6BBm8zhJ",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:10:00+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@seftsaint: RT @NewestMagazine: ‘Kool Aid &amp; Frozen Pizza’ still sounds like being young with your whole life ahead of you.\n\nRIP ",
+      "url": "https://x.com/seftsaint/status/2101659845585985591",
+      "summary": "RT @NewestMagazine: ‘Kool Aid &amp; Frozen Pizza’ still sounds like being young with your whole life ahead of you.\n\nRIP Mac Miller. https://t.c…",
+      "source": "@seftsaint",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:08:48+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469579868561659",
+        "https://x.com/OpenAIDevs/status/2101469579868561659"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: One more thing: \nwant Codex to build good-looking pages without having to keep saying “make it look better”?  Try these ",
+      "url": "https://x.com/Voxyz_ai/status/2101657631249031507",
+      "summary": "One more thing: \nwant Codex to build good-looking pages without having to keep saying “make it look better”?  Try these 3 design Skills together:\n\n𝟭. 𝗜𝗺𝗽𝗲𝗰𝗰𝗮𝗯𝗹𝗲\n\nUse it when the page is built, but something still feels off.\n\nToo bland? Use bolder. Too cluttered? Use",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T13:00:00+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: RT @Voxyz_ai: Stop telling Claude Code / Codex “do this.”\nStop telling Claude Code / Codex “write code.”\nStop telling Cl",
+      "url": "https://x.com/Voxyz_ai/status/2101617860996940151",
+      "summary": "RT @Voxyz_ai: Stop telling Claude Code / Codex “do this.”\nStop telling Claude Code / Codex “write code.”\nStop telling Claude Code / Codex “…",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T10:21:58+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@heiga_zen: 日本経済新聞の連載インタビュー #仕事人秘録 の最終回が公開されました。GDM東京が正式な研究開発拠点となるまでの試行錯誤と、現在地についてお話ししています。",
+      "url": "https://x.com/heiga_zen/status/2101615163472531880",
+      "summary": "日本経済新聞の連載インタビュー #仕事人秘録 の最終回が公開されました。GDM東京が正式な研究開発拠点となるまでの試行錯誤と、現在地についてお話ししています。",
+      "source": "@heiga_zen",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T10:11:15+00:00",
+      "discovered_via_core": [
+        "https://x.com/SakanaAILabs/status/2101580293228679412",
+        "https://x.com/hardmaru/status/2101544383212572874"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: RT @Voxyz_ai: One of the prompts I’ve been using the most lately:\n\nImplement [REQUIREMENT] and keep HANDOFF.md updated w",
+      "url": "https://x.com/Voxyz_ai/status/2101601203138199783",
+      "summary": "RT @Voxyz_ai: One of the prompts I’ve been using the most lately:\n\nImplement [REQUIREMENT] and keep HANDOFF.md updated with current progres…",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T09:15:47+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@seftsaint: RT @just_jianwoheee: 이케다 시즌 2는 정말 긴장감 넘쳤어요.\n#메이드인코리아2 \n #MadeInKorea2\n #원지안 #WonJiAn #wonjian https://t.co/7KdFW2PKIj",
+      "url": "https://x.com/seftsaint/status/2101587544584687888",
+      "summary": "RT @just_jianwoheee: 이케다 시즌 2는 정말 긴장감 넘쳤어요.\n#메이드인코리아2 \n #MadeInKorea2\n #원지안 #WonJiAn #wonjian https://t.co/7KdFW2PKIj",
+      "source": "@seftsaint",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T08:21:30+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469579868561659",
+        "https://x.com/OpenAIDevs/status/2101469579868561659"
+      ]
+    },
+    {
+      "title": "@heiga_zen: RT @hardmaru: 日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle Brain東京チームを立ち上げた日々を懐かしく思います",
+      "url": "https://x.com/heiga_zen/status/2101555285341196372",
+      "summary": "RT @hardmaru: 日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle Brain東京チームを立ち上げた日々を懐かしく思います。当時は時差の厳しい深夜の会議をこなし…",
+      "source": "@heiga_zen",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T06:13:19+00:00",
+      "discovered_via_core": [
+        "https://x.com/SakanaAILabs/status/2101580293228679412",
+        "https://x.com/hardmaru/status/2101544383212572874"
+      ]
+    },
+    {
+      "title": "@heiga_zen: RT @partha_p_t: Indic LLM Arena needs you! 🇮🇳\n\n​Try out which LLM works best for your Indic language queries and vote fo",
+      "url": "https://x.com/heiga_zen/status/2101491360100729070",
+      "summary": "RT @partha_p_t: Indic LLM Arena needs you! 🇮🇳\n\n​Try out which LLM works best for your Indic language queries and vote for the winner! \n​\n h…",
+      "source": "@heiga_zen",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-20T01:59:18+00:00",
+      "discovered_via_core": [
+        "https://x.com/SakanaAILabs/status/2101580293228679412",
+        "https://x.com/hardmaru/status/2101544383212572874"
+      ]
+    },
+    {
+      "title": "@CBSSunday: Princess Diana's brother, Charles Spencer, recounted \"a peculiar conversation\" he shared with then-Prince Charles follow",
+      "url": "https://x.com/CBSSunday/status/2101441382514606568",
+      "summary": "Princess Diana's brother, Charles Spencer, recounted \"a peculiar conversation\" he shared with then-Prince Charles following his father's death. He recalled being told how lucky he was \"to have inherited so young,\" after becoming the 9th Earl Spencer. \n\nWatch more from their https://t.co/lmaRsDxxwL",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T22:40:43+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@buccocapital: One great benefit to getting married  young(er) is you’re both dumb and broke. So you take on the world together and car",
+      "url": "https://x.com/buccocapital/status/2101431238191980804",
+      "summary": "One great benefit to getting married  young(er) is you’re both dumb and broke. So you take on the world together and carve out your own space in it - together. \n\nBecause the dirty little secret is you’re not getting together with one person…you’re marrying the idea of a person",
+      "source": "@buccocapital",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T22:00:24+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@seftsaint: GPT-6 Astra + Unreal + Blender\n\nI got a new MacBook, so I decided to try switching from Godot to Unreal. I moved the con",
+      "url": "https://x.com/seftsaint/status/2101395711015497764",
+      "summary": "GPT-6 Astra + Unreal + Blender\n\nI got a new MacBook, so I decided to try switching from Godot to Unreal. I moved the concept I had already made in Godot over to Unreal, then made a few changes to the trees and lighting. This is how it turned out. https://t.co/o9NbBfSWSY",
+      "source": "@seftsaint",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T19:39:14+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469579868561659",
+        "https://x.com/OpenAIDevs/status/2101469579868561659"
+      ]
+    },
+    {
+      "title": "@thomas_guilcher: 3/ Finally, I give those keyframes to Astra and ask it to animate the rig it created in step 1.\n\nInstead of figuring out",
+      "url": "https://x.com/thomas_guilcher/status/2101391731082346783",
+      "summary": "3/ Finally, I give those keyframes to Astra and ask it to animate the rig it created in step 1.\n\nInstead of figuring out the movement from a text prompt alone, Astra now has explicit visual references for the poses throughout the animation.\n\nSo the workflow is:\n\n3D mesh → Astra https://t.co/MzLuXgHfrc",
+      "source": "@thomas_guilcher",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T19:23:25+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469821389201541",
+        "https://x.com/OpenAIDevs/status/2101469821389201541"
+      ]
+    },
+    {
+      "title": "@thomas_guilcher: Experimenting with a pretty cool way to animate 3D meshes with @OpenAI Astra (High) + ImageGen.\n\nThis bunny animation wa",
+      "url": "https://x.com/thomas_guilcher/status/2101390478688079969",
+      "summary": "Experimenting with a pretty cool way to animate 3D meshes with @OpenAI Astra (High) + ImageGen.\n\nThis bunny animation was created with:\n\n🐰 1 mesh\n🦴 Astra for rigging\n🖼️ ImageGen for animation keyframes\n🎬 Astra again for the final animation\nNo manual keyframing.\n\nHere’s how ↓ https://t.co/1OL5viG80n",
+      "source": "@thomas_guilcher",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T19:18:26+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101469821389201541",
+        "https://x.com/OpenAIDevs/status/2101469821389201541"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: RT @Voxyz_ai: If you still think Sol and Astra suck at design, try this:\n\n“Use imagegen to reimagine this page, then imp",
+      "url": "https://x.com/Voxyz_ai/status/2101386075189006675",
+      "summary": "RT @Voxyz_ai: If you still think Sol and Astra suck at design, try this:\n\n“Use imagegen to reimagine this page, then implement it.”\n\nCodex…",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T19:00:56+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@ericvishria: Bro, why u do me like that? https://t.co/01R0Eyj5Qz",
+      "url": "https://x.com/ericvishria/status/2101362555201728721",
+      "summary": "Bro, why u do me like that? https://t.co/01R0Eyj5Qz",
+      "source": "@ericvishria",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T17:27:29+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@ericvishria: RT @jay_drainjr: @buccocapital @ericvishria https://t.co/Ds8q8JNYqF",
+      "url": "https://x.com/ericvishria/status/2101362017852645631",
+      "summary": "RT @jay_drainjr: @buccocapital @ericvishria https://t.co/Ds8q8JNYqF",
+      "source": "@ericvishria",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T17:25:21+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: Stop telling Claude Code / Codex “do this.”\nStop telling Claude Code / Codex “write code.”\nStop telling Claude Code / Co",
+      "url": "https://x.com/Voxyz_ai/status/2101355643882065971",
+      "summary": "Stop telling Claude Code / Codex “do this.”\nStop telling Claude Code / Codex “write code.”\nStop telling Claude Code / Codex “fix this bug.”\n\nYou’re still treating a 𝘀𝗲𝗻𝗶𝗼𝗿 𝗔𝗜 like an intern who needs you to walk it through every step.\n\nLet it handle requirements and",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T17:00:01+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    },
+    {
+      "title": "@CBSSunday: RT @CBSNewsPress: A packed show on this week’s @CBSSunday\n ☀️@JimAxelrod investigates online sports betting and the cons",
+      "url": "https://x.com/CBSSunday/status/2101350930595602860",
+      "summary": "RT @CBSNewsPress: A packed show on this week’s @CBSSunday\n ☀️@JimAxelrod investigates online sports betting and the consequences for some o…",
+      "source": "@CBSSunday",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T16:41:17+00:00",
+      "discovered_via_core": [
+        "https://x.com/nvidia/status/2101683275634712630"
+      ]
+    },
+    {
+      "title": "@buccocapital: I increasingly love this take from @ericvishria \n\nWe are seeing such an explosion of capabilities and innovation that I ",
+      "url": "https://x.com/buccocapital/status/2101326537274335254",
+      "summary": "I increasingly love this take from @ericvishria \n\nWe are seeing such an explosion of capabilities and innovation that I think it’s quite likely it all works https://t.co/2vruUGPmN2",
+      "source": "@buccocapital",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T15:04:21+00:00",
+      "discovered_via_core": [
+        "https://x.com/kevinweil/status/2101373379098165575"
+      ]
+    },
+    {
+      "title": "@Voxyz_ai: One of the prompts I’ve been using the most lately:\n\nImplement [REQUIREMENT] and keep HANDOFF.md updated with current pr",
+      "url": "https://x.com/Voxyz_ai/status/2101325439805583554",
+      "summary": "One of the prompts I’ve been using the most lately:\n\nImplement [REQUIREMENT] and keep HANDOFF.md updated with current progress, key decisions and why you made them, relevant files, verification results, unresolved issues, and next steps. Keep both DX (developer experience) and AX https://t.co/uSv1xxzuRg",
+      "source": "@Voxyz_ai",
+      "source_type": "twitter_network_discovery",
+      "published": "2026-09-19T15:00:00+00:00",
+      "discovered_via_core": [
+        "https://x.com/OpenAIDevs/status/2101335091712774484",
+        "https://x.com/OpenAIDevs/status/2101335091712774484"
+      ]
+    }
+  ]
+}

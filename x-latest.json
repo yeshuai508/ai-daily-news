@@ -1,0 +1,238 @@
+{
+  "schema": "ai-daily-news.x-cloud.v1",
+  "generated_at": "2026-09-21T08:15:22.684011+09:00",
+  "window_start": "2026-09-20T00:00:00+09:00",
+  "window_end": "2026-09-21T08:15:22.684011+09:00",
+  "write_actions": "NONE",
+  "coverage": "COMPLETE",
+  "expected_accounts": 16,
+  "successful_accounts": 16,
+  "targets": [
+    {
+      "handle": "OpenAI",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "OpenAIDevs",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "handle": "ChatGPT",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "thsottiaux",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "handle": "kevinweil",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "handle": "AnthropicAI",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "claudeai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "nvidia",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "handle": "xai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "karpathy",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "deepseek_ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "MiniMax_AI",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "handle": "alibaba_cloud",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "handle": "SakanaAILabs",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "handle": "hardmaru",
+      "ok": true,
+      "items": 1
+    }
+  ],
+  "items": [
+    {
+      "title": "@OpenAIDevs: RT @thomas_guilcher: Experimenting with a pretty cool way to animate 3D meshes w",
+      "url": "https://x.com/OpenAIDevs/status/2101469821389201541",
+      "summary": "RT @thomas_guilcher: Experimenting with a pretty cool way to animate 3D meshes with @OpenAI Astra (High) + ImageGen.\n\nThis bunny animation…",
+      "source": "@OpenAIDevs",
+      "source_type": "twitter",
+      "published": "2026-09-20T00:33:43+00:00"
+    },
+    {
+      "title": "@OpenAIDevs: RT @seftsaint: GPT-6 Astra + Unreal + Blender\n\nI got a new MacBook, so I decided",
+      "url": "https://x.com/OpenAIDevs/status/2101469579868561659",
+      "summary": "RT @seftsaint: GPT-6 Astra + Unreal + Blender\n\nI got a new MacBook, so I decided to try switching from Godot to Unreal. I moved the concept…",
+      "source": "@OpenAIDevs",
+      "source_type": "twitter",
+      "published": "2026-09-20T00:32:45+00:00"
+    },
+    {
+      "title": "@OpenAIDevs: RT @Voxyz_ai: If you still think Sol and Astra suck at design, try this:\n\n“Use i",
+      "url": "https://x.com/OpenAIDevs/status/2101335091712774484",
+      "summary": "RT @Voxyz_ai: If you still think Sol and Astra suck at design, try this:\n\n“Use imagegen to reimagine this page, then implement it.”\n\nCodex…",
+      "source": "@OpenAIDevs",
+      "source_type": "twitter",
+      "published": "2026-09-19T15:38:21+00:00"
+    },
+    {
+      "title": "@thsottiaux: 2026 is the year of linux desktop",
+      "url": "https://x.com/thsottiaux/status/2101431497437950458",
+      "summary": "2026 is the year of linux desktop",
+      "source": "@thsottiaux",
+      "source_type": "twitter",
+      "published": "2026-09-19T22:01:26+00:00"
+    },
+    {
+      "title": "@kevinweil: RT @LiamFedus: All roads for AI for science lead to real labs",
+      "url": "https://x.com/kevinweil/status/2101414528164790725",
+      "summary": "RT @LiamFedus: All roads for AI for science lead to real labs",
+      "source": "@kevinweil",
+      "source_type": "twitter",
+      "published": "2026-09-19T20:54:00+00:00"
+    },
+    {
+      "title": "@kevinweil: This is exactly the right take from @ericvishria @buccocapital",
+      "url": "https://x.com/kevinweil/status/2101373379098165575",
+      "summary": "This is exactly the right take from @ericvishria @buccocapital",
+      "source": "@kevinweil",
+      "source_type": "twitter",
+      "published": "2026-09-19T18:10:29+00:00"
+    },
+    {
+      "title": "@nvidia: Moving fast and building safely aren’t at odds.\n\nAI should move as fast as we ca",
+      "url": "https://x.com/nvidia/status/2101683275634712630",
+      "summary": "Moving fast and building safely aren’t at odds.\n\nAI should move as fast as we can, with rigorous testing, monitoring, and safeguards every step of the way.\n\n@JensenHuang on @CBSSunday: https://t.co/BPOUmgBWpj",
+      "source": "@nvidia",
+      "source_type": "twitter",
+      "published": "2026-09-20T14:41:54+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: The future of AI runs on a stronger data foundation.\nAt #ApsaraConference2026, Y",
+      "url": "https://x.com/alibaba_cloud/status/2101622679488930072",
+      "summary": "The future of AI runs on a stronger data foundation.\nAt #ApsaraConference2026, Yuki Horikoshi, CTO of Mynet Inc., will discuss how PolarDB is supporting AI-driven applications and the evolving demands of the AI era.\nRegister now: https://t.co/6LcNUmSlkX \nSign up for the https://t.co/y85c1FsejO",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T10:41:07+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: Alibaba Cloud joins @AIFJ2025 for AIFJ Creative Foundry #01, a hands-on session ",
+      "url": "https://x.com/alibaba_cloud/status/2101620741980684327",
+      "summary": "Alibaba Cloud joins @AIFJ2025 for AIFJ Creative Foundry #01, a hands-on session to test WonderClip within actual video creation workflows. Let’s explore the future of AI-assisted production together.\n#AI #AIFJCreativeFoundry",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T10:33:25+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: Meet Qwen3.8-LiveTranslate, Qwen's next-generation real-time simultaneous interp",
+      "url": "https://x.com/alibaba_cloud/status/2101560636148994449",
+      "summary": "Meet Qwen3.8-LiveTranslate, Qwen's next-generation real-time simultaneous interpretation model! 📢\n\nBuilt on an Interleave architecture, it improves faithfulness, fluency, and conciseness while reducing average lagging (LAAL) from 2.8s to 2.3s across 60 languages.\n\nNew https://t.co/0Pe7LWoEH5",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T06:34:35+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: Catch the International Agentic AI Forum livestream at Apsara Conference 2026 an",
+      "url": "https://x.com/alibaba_cloud/status/2101555892290535755",
+      "summary": "Catch the International Agentic AI Forum livestream at Apsara Conference 2026 and hear global technology leaders share how agentic AI is evolving across infrastructure, applications, and industries.\n\nDate: September 23, 2026 | Time: 09:30–12:00 (UTC+8) https://t.co/GQS15eO3s9",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T06:15:44+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: Your front-row seat to the agent-native era awaits.\n\nCatch the International AI ",
+      "url": "https://x.com/alibaba_cloud/status/2101555446071034362",
+      "summary": "Your front-row seat to the agent-native era awaits.\n\nCatch the International AI Agent Tech Forum livestream at Apsara Conference 2026 and explore the technologies powering the next wave of AI.\n\nDate: September 23, 2026 | Time: 14:00–16:25 (UTC+8) https://t.co/yUrPjuEf8u",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T06:13:58+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: See Southeast Asia's AI story unfold, live.\n\nTune into the Regional Forum: ASEAN",
+      "url": "https://x.com/alibaba_cloud/status/2101554446941720664",
+      "summary": "See Southeast Asia's AI story unfold, live.\n\nTune into the Regional Forum: ASEAN livestream at Apsara Conference 2026 and discover how AI adoption is evolving across the region.\n\nDate: September 22, 2026 | Time: 14:00–16:00 (UTC+8) https://t.co/ZBFkiIATuo",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T06:09:59+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: The future of video production is getting smarter.\nAt #ApsaraConference2026, Pau",
+      "url": "https://x.com/alibaba_cloud/status/2101525555254345778",
+      "summary": "The future of video production is getting smarter.\nAt #ApsaraConference2026, Paul Du, Staff Product Manager, MaaS Business Line, Alibaba Token Hub; Tao Santimakorn, Chief of Project Commercialization, T&amp;B Media Global; and Peeradon Gabriel, Regional Managing Director &amp; Founder, https://t.co/qKObtRMp2o",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T04:15:11+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: The next chapter of AI is agentic.\nJoin the International AI Agent Tech Forum at",
+      "url": "https://x.com/alibaba_cloud/status/2101494851736875183",
+      "summary": "The next chapter of AI is agentic.\nJoin the International AI Agent Tech Forum at #ApsaraConference2026 to explore the innovations powering AI-native enterprises and enabling new possibilities in cloud, data, intelligent work, coding, and content creation.\nRegister now: https://t.co/4QHgtIU1MN",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T02:13:11+00:00"
+    },
+    {
+      "title": "@alibaba_cloud: Happy weekend! Let's forget all the troubles in daily life; just go outside to t",
+      "url": "https://x.com/alibaba_cloud/status/2101491269927104548",
+      "summary": "Happy weekend! Let's forget all the troubles in daily life; just go outside to touch some grass! 🫳🌱\n\nMore API access：\n• Qwen Cloud: https://t.co/WJCfRwlBMW    \n• Model Studio: https://t.co/sh6KH6R4d8 https://t.co/EVumN3NKHc",
+      "source": "@alibaba_cloud",
+      "source_type": "twitter",
+      "published": "2026-09-20T01:58:57+00:00"
+    },
+    {
+      "title": "@SakanaAILabs: RT @hardmaru: 日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heiga",
+      "url": "https://x.com/SakanaAILabs/status/2101580293228679412",
+      "summary": "RT @hardmaru: 日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle Brain東京チームを立ち上げた日々を懐かしく思います。当時は時差の厳しい深夜の会議をこなし…",
+      "source": "@SakanaAILabs",
+      "source_type": "twitter",
+      "published": "2026-09-20T07:52:42+00:00"
+    },
+    {
+      "title": "@hardmaru: 日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle B",
+      "url": "https://x.com/hardmaru/status/2101544383212572874",
+      "summary": "日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle Brain東京チームを立ち上げた日々を懐かしく思います。当時は時差の厳しい深夜の会議をこなしながら、日本のAI研究の存在感を示すために必死でした。\n\n現在、彼が",
+      "source": "@hardmaru",
+      "source_type": "twitter",
+      "published": "2026-09-20T05:30:00+00:00"
+    }
+  ]
+}

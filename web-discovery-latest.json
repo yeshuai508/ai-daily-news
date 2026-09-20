@@ -1,0 +1,2427 @@
+{
+  "schema": "ai-daily-news.web-discovery.v1",
+  "generated_at": "2026-09-21T08:16:31.635990+09:00",
+  "window_start": "2026-09-20T00:00:00+09:00",
+  "window_end": "2026-09-21T08:16:31.635990+09:00",
+  "write_actions": "NONE",
+  "scope": "GOOGLE_NEWS_RSS_CANDIDATES_NOT_FULL_WEB",
+  "candidate_only": true,
+  "verification_required": true,
+  "expected_queries": 4,
+  "coverage": "COMPLETE",
+  "successful_queries": 4,
+  "queries": [
+    {
+      "id": "us_core_ai",
+      "ok": true,
+      "returned": 100,
+      "in_window": 60,
+      "source_url": "https://news.google.com/rss/search?q=%22OpenAI%22+OR+%22Anthropic%22+OR+%22Google+DeepMind%22+OR+%22xAI%22+artificial+intelligence+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "id": "agents_tools",
+      "ok": true,
+      "returned": 81,
+      "in_window": 60,
+      "source_url": "https://news.google.com/rss/search?q=%22AI+agent%22+OR+%22computer+use%22+OR+%22AI+coding%22+OR+%22AI+safety%22+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "id": "china_ai",
+      "ok": true,
+      "returned": 100,
+      "in_window": 60,
+      "source_url": "https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+%E6%99%BA%E8%83%BD%E4%BD%93+OR+DeepSeek+OR+%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE+OR+MiniMax+when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+    },
+    {
+      "id": "japan_ai",
+      "ok": true,
+      "returned": 100,
+      "in_window": 60,
+      "source_url": "https://news.google.com/rss/search?q=%E7%94%9F%E6%88%90AI+OR+AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A1d&hl=ja&gl=JP&ceid=JP%3Aja"
+    }
+  ],
+  "items": [
+    {
+      "title": "PKSHA、人事労務業務をAIエージェントが実行する「AI BPO」サービス開始 トライアンフと協業 - enterprisezine.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByMGpnMVNBZkJhRGMyYlZZd3VxTWxqdGctOEFXMnpnaHIwT2U0VlkwemhydGFCaW5xdk1sYlMzSXZDTkltdGtJSEtMcjEzTXpHenExZUhB?oc=5",
+      "publisher": "enterprisezine.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T23:04:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "有图有真相？AI时代，眼见未必为实 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nLXRCRDZ3X0pvM3pOMWwzLWllYy1YeXZZaWc2dHJvVkFIcWtxbi1HV1ZaQkh6dUowWm96UktaQnhSVExZMW0wamZsWU1qSklzR2MzbndjYUJxRDBYLUE?oc=5",
+      "publisher": "京报网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T23:02:13+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Gemini採用でSiriが覚醒？「iOS 27」の注目ポイント - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wN211Z3lpVzh6LUVyMTYwZTdsZXVYNEJzXy1YS0dhdy1tSFliQ3FTWXd3a0hZNXJsU2VBM0lORVZsdEk2M2FTWUJIcG1JbTFodmtxeXF3OTlpUWJOMGhMZ2RxdHFsd1JtNFBfTThMVE9sSXhIU295cVFqbw?oc=5",
+      "publisher": "ニコニコニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T23:00:15+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "特朗普欲建“人工智能部队” - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DQk1NeENRQkNzd05hMUFOUkR1YnZPUjI1N1hGNU5xU3EwYkZPbHVrTDhHNkw2ZGk0dnFuNUJKeC11MU9Ed0tTclQ4dkVLM1BUTEJrbDZpWExSWVpyRWRLaXlEYUFLNkRpdFJIb08zVQ?oc=5",
+      "publisher": "上观新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:52:46+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Geminiが使えるスマートウォッチ「Google Pixel Watch 5」を使ってみた - GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWaHItalY4UW9FRzNBeUFGdkZzbS16S1g0eVZjZVF2STB0NzQ4M0lNcWVXcllYMV9PRWpnT0x3dHJZTC0wZlZjUEN2N1pRZ1BzR2dKOHNVaFFuNWVXdGdpa0ZNeGZfNEU2SWVmWGZB?oc=5",
+      "publisher": "GIGAZINE",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:52:30+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "从算力券到模型券，江西为企业用AI铺了哪几条路？ - 凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BU1ZoaGo5TkdudnBGbm00U0hwVDRONnBLdWNVeklZUnFDWlh1eENCY2pReTh1MGQxdHI0VTdJR01lRjdBbHUwOW13?oc=5",
+      "publisher": "凤凰网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:47:04+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "特朗普称将组建“AI部队” - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IaDROSUZvdnQ4V3NQR0s5aGJLekdOaWdHTVdBdFQ4X0doUXJJQkxDc1ViQXFSMDZCelJmVF9GZU1mOVc3bk42ZENoV0p4TVdUZkExQVloOFJJSHFEZjZ6RV9FbUxmTmZiUDFFTUhlTERtWHFwV1pCTg?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:45:02+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "青岛：建强应用“先导区” ，形成产业“新高地” - 青岛日报",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nYXp2Wll2SmVhbVVGckNQS0pwTUh6a3VSTkY5LW1MZFpUdDk5bW96RUp4M01LS3RhUTk2am1DRzlCRHBPWEFnX1JXY052b2k5SmFkVFF5TmM?oc=5",
+      "publisher": "青岛日报",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:39:11+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "【Dreamforce 2026 開幕】UIを大きく刷新する「AIforce」、Anthropicと進める「Claudeforce」など明らかに - enterprisezine.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54TU84UGJuNmo0ZVFBa1FScVBrOGtWaVpzM212NFVycmtTeDRldEtRbTEzTEs2VUtCMGJneE03aElpMW90U2p0LXA2X1p0ZE5KU0tNUmJn?oc=5",
+      "publisher": "enterprisezine.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:36:38+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "個人向けAIエージェント競争が加速 Metaも拡大、新興勢も資金確保急ぐ - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSnYyUkU3ZnRpd25jemR6WXVDbDBvTUE4M0ZYWFRYLWIxYnl3dmJzWGtQRExlN0x0c19USG5IM2dmbV91aVkxT3F2SEVTUUFDYmozbjF3Qk1zZnc5VWVmV3ZqWU5MRFJEQjU4eUExYm5JU0dIaVdfQVE3STBkSEJvNzUyY21lOTB0bkh5RjU0WHR6X1N5ZGhqcHJuaU05ZFhQalg1RTJlamk?oc=5",
+      "publisher": "디지털투데이",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "贵阳贵安出台人工智能OPC全生命周期市场监管合规指引 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGtnYnJ6VVJvTWZVRlVaVXdiOWtqaGdiRWphdEZocTM1aHJENEhlSTROQkFPZHZaSjVVSVJvNXloVGRmWE1jejRJdEpNdXB5UVo3THpWNXNqVjY1VnoxMWJ1MmJmZktWbF9MZHBQNWF3bXpNblE0WXVLUE9BbXMyNmRjZ25nb2xVa0ZBYWRSYi1rMC1PZjdXXw?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:26:59+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "White House Push for ‘AI Force’ Ignites Policy Debate as AI Agent Risks Escalate - WWD",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcFI0bl9DSHoyaTFIZVhEM3JpQUhBSm9wZFpFcDBOVUhvUFJjN1YxaTNsc3lPcm04cDUzVnU3RmQtTVdiakxwRTZmNllEc2F6TzZWUlZ5TFE0blJudFZXSHg0WVBaLUlON1Q1QTJYR1owZ0hOdzhEbnlGSHRJT2hMbGozemZRbDVjb2lzNWhmZGJYZkVXWlB2N0hxYTc5Mng0TkZsVXoxOHZQWWNQMmtZ?oc=5",
+      "publisher": "WWD",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:09:25+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Anthropic Mulls New AI Model Amid Investors’ Pre-IPO Worries - pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWp5cTZXc0VwMGkzZWNRM29aQ09xbG0ta1BvaEVxT3AxLW1PdHZzMEV4MEZBemgyVFNjVEpEMHUtUTg3TVZwcElQNkJtUDhybzNTdFh2Sk5iTjM1a3pUUkNyTVBBbDl2dTR5U2t0MTJxN3NWbzZaX0p4UzB1RTJiRklSeno3WUtRdk5IUWxMZ1hQb05RUjJ5cVFhVFE5Y0IxOVdfTEdkemhMRVRpMnp1LUJPQVJaWFNk?oc=5",
+      "publisher": "pymnts.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:07:43+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Divisions emerge in tech industry over calls for AI slowdown - 1News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTGZsY3htRVBoWTBBaEwySEdQal9ScE42aGtyZFJpcmdCZmdUM0dSUl9PQkxBaDlvM0VHODZrMmt4THE5NjZTSHZQNVFkQ2FOQno2cDNOX1hNU1RYVjhnV1BVbERBRDRwazRhNEtqQzdiRjVtMkZfOFpzakZRdnRpZmNySFVaSUVjM0phRUFzTF9ZbVBCcHpaUGhBTTQ?oc=5",
+      "publisher": "1News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:01:35+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "34万台を監視して分かった「壊れないHDD」 2026年度上期ニュース記事トップ10 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zSUJ4MnoxTVRCaWJ6TF9QVU5ZWUhWQ0dzc3BGQnFSc1ZtbUFxRjFiNDEyNW1KZEZSOGc3eWtwdFdCbG9ZWUJTUHBPQjRFQzMwVDY3RG1HRVRkQTdCTmo2aWR3bm5lVWNQdXE5cEEtb3pDTVFO?oc=5",
+      "publisher": "ITmedia",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T22:00:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "【科创之声】升级治理应对“AI+科教”变局 - 中国经济网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5EdlMxenpfWFFnUzh3djNfN0xSbXRWaXZ4dmNpc1FoY1hBMTJUT1puWTJzc09tYWZrWUxNbTZPcjJyRkZIbEw2a3Y1WmxyMHJneE9CSS1FNUdiOFFfdHI5TWk5Tm9uZVRTY2hhY0hpSQ?oc=5",
+      "publisher": "中国经济网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:57:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Googleの「Gemini」も能力テスト中に実在企業3社に侵入──WSJ報道 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaZkxueEZBM0VWZFpUZzI3Si1FSmVQSTE5Vl9jNUR6YVZHM1oxa013T2NyN3ZpbDM5cHU4N3pVeFdhS3hxNDRiaXd3OTl2LUtXWlhlbnc2R3BhZ245MVJwM2hrQm9RaGJEcGc?oc=5",
+      "publisher": "ITmedia",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:50:52+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "国际人工智能机构负责人期待中国引领国际合作 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5INUhJdXp2OWVVYW1fRHNmSjBMNUJuTDJPVVI0SnZrVzVEM0FNZzM2OVRad3lpU0tvbTB2VjRVQ0Z5aTRSaUR5THNZYWJ0b2g5eElfaHVQYUV3bHlfeEN4TG5tTFJnOHRwU2ZIVlVPU2NQeWhpMW1Wcw?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:46:51+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "中方举办“人工智能赋能人权发展”主题边会 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GSmgzTzB1R21SR09VczJmUUFIRzFHMWN6VXExV2psLWlWR1pIQnZUOUtrZHZzNzN5Slh4MEJ0NEZfZUwyeVg0RE1YdlJJWmYxb1l5REo3cTl6MW1vd3lyRHpxNWs2Z3NTNHRaWXVxblo5d2g0MGIwOA?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:46:45+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "生成AIの投資対効果、ガバナンスなき拡大に持続性はあるか：『ビジネス2.0』の視点 - オルタナティブ・ブログ",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPemxubGJ0V0ltWXNuSmp5VUlKMXlsLWd6Y3pQZldSb1lQT01qZ0hyeHlnN2JYSEdLb1ZjWUVEVEJ3a2RsVlZVbGlzTTJweHEzMHB0VzVaLUctWTNmU3haQ3VpaEx6UjNHb2JF?oc=5",
+      "publisher": "オルタナティブ・ブログ",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:41:44+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Google Geminiが実在3社へアクセス、外部AI評価の通信と監視を検証 - XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12a0F3cTg3M3BJekd1S1RlT0NFZ0FqX3dNX0dJTkQ2VDlCc0tSaFlLNXZsZjUtNTMyWWpDcWNDNjZ5YmRxX2l5YTJRWTN1TS0xX25RZzZtdVdxUUxFX0dwMTJTbjl4TXdkeGtPUlI2MExrbWRsRlZN?oc=5",
+      "publisher": "XenoSpectrum",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:39:51+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "JevがXのAIクラスタを熱狂させているのはなぜか？AIエージェントを激安・爆速化する「意思決定専用AI」を大解説 - オルタナティブ・ブログ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83WEZsVkgzNE5sVVV5RFpuTVVzTFlUc3NlNFVGbE44UHZ4VFBHSnpQNk5PTFVfb1Rya1NpMWlULW9DYVM3LXNpSVp1YWdGLS1QRkZaYk9VLUEySzhKV2hWcFVGYXRVU1pQMmc?oc=5",
+      "publisher": "オルタナティブ・ブログ",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:33:18+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "AIの危険は“間違った答え”だけではない…AIエージェントに「任せてはいけない領域」 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0S3c1OExWUmtVbkFWQm9RZEpmcGYtV0dTYXMtRm02dVVfZENGaTFKQnFGN1h0OUtOa3p0MXVlMmVnc1hhUTl3SElGaXpSUEk?oc=5",
+      "publisher": "ビジネス+IT",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "核軍縮と同じ道を辿れるか？米中AI戦争で問われる回線と信頼、核のホットラインが残した教訓 - JBpress",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fb2xLdzE0YlVvVEpteV9fWnJ1UjZ3TS1ESTdLMTJnZVlremt1ZHdQcUFPdUxIb1VuSUM3OU9DNGQ1a19VNVNnX011ajZFVk1SQkNvV1ZFRjVMUDAzdmpMaEg1dG84eVpJ?oc=5",
+      "publisher": "JBpress",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:24:45+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Escobar: Congress must strengthen AI oversight, security, and transparency - Rio Grande Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclkwOUFCQnFNeFVBUFd3YjV0OXB4Z3p4VHYtRlRoLXZhVXliVHdIS2JUVWZieVNXUDRBcVk5UTF2TXJQRElFQzkxcmdhSFI5NHRCdG1HbXpqUWlJTHZtU1ZSU2RTVkd5elJLajZ1LURjYmxYQnNDWE1taUlzTDhHSHJMbU53ZUNFYm5FS0JNRmlrbEpLTTNqbUFCOHBGUDktR1c4WV9GZnFWNlFWaWxLLWxCbXkydw?oc=5",
+      "publisher": "Rio Grande Guardian",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:24:33+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "青木大介が語る！多くのプロを排出し続ける釣り『専門学校』と生成AI時代のフォトトーナメント - ルアマガプラス",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qWjFvQzV2MHFiYUVjUGFLRkpqZlp0MXFILWRYLWFqbG9tUV9Xc0d2eTBCRVptX0UyZVdnakxFMGUyTHNVQ1QtRnJiTmVpc1RlTUFWVjBB?oc=5",
+      "publisher": "ルアマガプラス",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:15:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "OPENAI $0.0000298 | 今日のライブ OPENAI 価格チャート、USDT で変換 | MEXC - MEXC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOEZjT001UjNVTkdfejZNVFNqWHJEbGZ2U0VYWmtETGJSOTh4YUU5dXF2MFB6aVctZGU3cGZWNzZ1dHNDR01VOTl2MmlTSF9tS3JVbS0tOThwQS1DQTJYOUMzLUJTWmFZYl9QOGt6TkcyZjctdWVzb1JvN21oVVA3bUJ0ZlZ0UlFKUDAwZk5tSGQ?oc=5",
+      "publisher": "MEXC",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:08:30+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "【西川和久の不定期コラム】Qwen3.8で動画解析→生成AI動画プロンプト化してみた。LM Studioも対応 - PC Watch",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PWndkT25aTHd2SXhRV0dDNGZFSEpIMVFaS1drOHhnQXd6U0JXNnlnd3BSdU1iLXdZLXZ2THdBTE5FUXdkYXQ5S2g0V01ZLXhBc2hRRk5qaW1xMGozMGtNNllrdTRLYmZqdGxJYXpoTi1mM2s?oc=5",
+      "publisher": "PC Watch",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:06:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "メタ「月239円＆無料動画AI」衝撃の狙い…OpenAIを揺さぶる”AI無償化”とビジネス現場の激変 - 千葉テレビ放送",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WS20zQkl2ZXlUSTQ2VjN4bGZXUV9TWktPZjNDR1lybWxTb3o3SkxFSGVEbDhCaFBMSE00TXdIVUlEQ3FOX2pFQUxZazNrWWtTWlh0cXhmdmFPM1JqOG9B?oc=5",
+      "publisher": "千葉テレビ放送",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:03:23+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "AI fears burst onto Trump-Xi agenda, but challenges abound - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaEtJLWtrTzRQWVV5SjBNLXJkclk2WTdJX0xidjVwMUl3blpYZG5UbENLOHI5c21jMWVZYTdEVlA5SG5fWGxzQjVCNWVucHZ5MjBjQUtoaXBQUWF1QWN5TWc5UjdZWDh5cHdURHVHeGRsb3MzbjJqVzdMZzVaMnZwRVdR0gGHAUFVX3lxTE1rNE1EZWNEbDBtbUdYYUVXNWFVYklFdnpYamN1Z1ZCQUgybHAxQWE5dThIYVV0LVJXa0hhMjJETDJ6ZHFZMnNNNmh2Nlp2QnU2M3FFOWNRQXEwNXJZRzFtZTVyRXpuTndEV3BfUmprdk10RVlYNkFCWkZTcjVUYV9haTk3UXVoUQ?oc=5",
+      "publisher": "The Hill",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:00:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "グーグル、家族向けAIエージェント「CC」を米国向けに提供 - ケータイ Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PRG1uTWFZNXNxMHdiTFlEMHE2c1BOV0hDdTlrY0d6VWV6ZUtEYmdlVmJhX2hScVc2TkE0b1otZjRubUEzVDV4NnBjNERQdWkzSmFScTRhbzBEaEo5Z2FERmJxcWw1SzQ?oc=5",
+      "publisher": "ケータイ Watch",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T21:00:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "なぜAIスカウトは見抜かれるのか…生成AI導入率57.7%でも返信率は6.7%止まり - ビジネスジャーナル",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwbXF1eUQxcDJiYXBOTlRrYVNnOF9hVWx2ZU9QblhNQjIzRzJ5Nk9JN3hsRm5zTjlibXBfbVRVbkI3ekRGMFRSeTNxN05yQVpyY1o4M2VJdnY1QTA?oc=5",
+      "publisher": "ビジネスジャーナル",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:55:47+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Anthropic quietly sets up biology lab - iTnews",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNzNQWGRpRThtRDlWcHQzUUltcE1Tb0pDd29OUjZKclF2Vm9rRlhuS2djMkQwc2RITkZjZ2Jza2pseTZqUGNPN1RMcHpHcGlzU2RkMGwxZ2szS1dTdFYzQk45cTJMVkc2OTBEeUk2VElENEdGSGtYUU5EREIyN1JYSw?oc=5",
+      "publisher": "iTnews",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:45:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "特朗普打算组建AI部队，还要给人工智能改名，发起网络投票… - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd2w0Rmt5MDJPdGZDbkVINUhjM1E3N1hleFYyTFB6andSdXE1NnpfbVVzUmdmSUZuUEhaWUtNWjV0ejhEZW5KR2pfejJBY3FwRTV0TEQtN29IZk1VOGV3b2Z0OTVDZzY5T2F1WDF2VkJOQWVYeXpUaGhIWmpwRm9xUA?oc=5",
+      "publisher": "手机新浪网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:44:04+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "美国AI四巨头遭反垄断诉讼 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82S3ZQREcyQ0x5YkUwX3c4VFUxRHpQN1g4NGR5MVpwdnI3NUozTTZFbkMtOWFSSzBoZjZubGI3X3FxeEI1S1MzczVtWVNtVHFsMl8tc3F0SWxLME9RSm1GRUlIRmxQRnpBNVVJcFhpTnJBdw?oc=5",
+      "publisher": "手机新浪网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:44:04+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "AI safety fears mount as researchers quit and labs admit losing control - The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOFhHQkRwWTM5SFN1N2Y0UEJVazFlWWc4blh2YnlxTkxQTmlqUVJWR2hwT0c0dDVGRi1XVmh4VHY1cFZwdkM3Ym5ib3RrbjM4VWZNWU9ZZVN6dEdGTmJtWklvWXVhUXItQmRIQlN3WTZRUlhZelNqU1VfM0RrTVE0blVaV2duZVVFWDE0WHdTUVpDUko0ZnFHRURacndwRk9PdjNSbHFCNnVtYzdQNG04eks0bDFzVVpqM21KVk1ia3owYTJv?oc=5",
+      "publisher": "The Daily Star",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:42:15+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "StubHub Brings Live Event Ticket Discovery Directly Into Anthropic’s Claude AI Assistant - That Eric Alper",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRIY3VjSnVpa215bFJLSzhZZjcyVXBVN0FUWUlzakk1UW1EOFpCOXE0bVBoSzBGd0Z3UTY0TlNOUGQ4MU0tQWhMRE1UdVBVaEpkUWMyTXdMMjlSd1RwWGY4d3RKZVc0c3RsbkZuMmVsMTNST2JNb2lFNmptU0NIRHU4TGlYeHNrU1ZwNThILTZKZkNNVm1LWHdQbFViS29JM3dNQ1RWV0k2VFRBck4zeTV3REppclYtcnZKclFLMXFqLThILTg1cA?oc=5",
+      "publisher": "That Eric Alper",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:17:29+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "生成AI業界が成長を見直す、巨大モデル競争から効率重視へ | ウクライナニュース - #Mezha - Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZRXp3bmhTb1BSQmtiNmVMTTRTR1BWc1hzeFUwbWhkYlZOSUxDTTZ0OTMwUy1KMjJ2M3lINjRvVjJucmdqVkdYQkVNX1JReDdTejVUSzJzdkhjUkJMUlBjTg?oc=5",
+      "publisher": "Межа. Новини України.",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:06:32+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "首发！AI解码“云商精神” - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91dmZEVXFoOGduR0ZqcGNEbzJUMlVaTlVmQWxDZ3BjMXVyV2hTNjJPS1lJS1cyZl9ZNDhTMGlkeE9iNVVTNmVydzk4QklIV2plYjdxNUpCTURpTnhNUDAtYjRoYnM3X21EaFJTZW9FRERGUWhfamc?oc=5",
+      "publisher": "新浪新闻_手机新浪网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:05:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "サステナ開示資料､AIエージェントで自動作成 ビヨント - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZZ3BWZVI1SDk3WGl6NVgwczJFZE0zNVVUcW8tXzNXSGhEdUFFcGlIbDJEbFNoeTN3Tk52NXFta09lckNUazZ3bFN3NXlCN0ZBbFRYdFhNYlFMT2dST1lnanpKekQ0ellRWXBIMWY2YVBOa3NfTHVr?oc=5",
+      "publisher": "日本経済新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T20:00:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "特朗普抛出“AI军”，美科技巨头集体沉默 - 新浪军事",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SaTNZWE1ncEtNMkVVWGxQOEJQak43SU9Ka0NCLTBuNF92TjItQkJKbENEVVdScUZZaXpRM09tMXA3TkdYajBTVndqWXItVUY0Q2NKZUozWkFsMDhaLTF2Wk1uaExrd0xhWXpab19NTjQyRVE?oc=5",
+      "publisher": "新浪军事",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:53:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Dismisses ‘Doomsday Narratives’ Surrounding AI Development - The Daily Signal",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MS1ZmbE9ReVZibC1SS0dSZXcybHVSeHAwNFU1TC00LVM3QmFvVU1kR3BDNEptdlVEZ0RHS1hBUmRGbFJkWWRJSWl6VkdLTnlHeEE2YnFCaElPbFcyYXUxNEJQbUlvZHp6RTA2aUZPUmJFbFpoc2hTNUEtRE8?oc=5",
+      "publisher": "The Daily Signal",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:40:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "重仓国产AI的这只ETF低位连阳！右侧信号显现？黄仁勋重磅发声+华为全联接大会召开，AI芯片沸腾！ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVVpZX2NOd0JYcVNwd3RPdHhpSm1DTkpjN3JXTUhjTVNDeGE5MzlfTVY3VUhnbk9iMEdMbExRbzlNRDlSV1JMUlAtSlpISDk0YVAxMEQxeV9McmhHdXRITzBicll6SFFldEdyTnhZYXJydTViRWFlX0pPLTNZVFpRaDNaU0E?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:39:20+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "AI时代，我们需要什么样的学术规范 - 光明网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94amhGeDBVc2NOd3pFWDUzbFV6VE8xT3dRVmgxaDZsN0wxSXhKRWxYQ1N5S0I1aVhrc0Iza2gyWjNGY2tReF9DT05nREoySnBwWXhNWmc1VU8wQVVYSV83TA?oc=5",
+      "publisher": "光明网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:35:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial - theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcjItcDBPVG5ZQ0RNUWJDTVc5dTg5Tk02cURGWUJIRmhjcWZpV2hmLUJPbmNJRDh5MUphdnczLTJIMmF5aXpIWFdKWkRYbGZlUm0ycmJNckNrR2dhQUlQSm8zVmRvMS01RnRhdkloNzJ5NVdRanZzd18xOXRYbDB6bGlHWGdrc1ROM1Nmc014UlFFSktNc1F0V3F3ZTVLSFU0N3dBNHU4ZjdDb1dJN1ZhYXM4M21kemxvMHB6X0hlVkN1NE9QM3NZUGFaQTJocURFS2dIMGNVczFPTW82U0RpajNsQ1ZLR2xyeHpOM0tDMHJyV1I2U1ZR?oc=5",
+      "publisher": "theguardian.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:16:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "ローソン、生成AI発案の新商品3品を発売 ピクルス×レモンタルトなど「なんだこりゃ？」を商品化 - 山陽新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SU2lfSXlBQ3M0bWV3Ul9rTXZiSC1QUGdNVEVweml0UGtOSFRXck10VnlueEt3WmMtVkJicVpvbGZOcXc5OTdVT2hXLWl1RG9vUWc?oc=5",
+      "publisher": "山陽新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:14:39+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "重みが公開されたQwen-Image-2.1はGoogle・OpenAIにどこまで迫ったか、公表スコアと7Bの実像 - XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ISkFNV2tUaFRpUU1uY2RRWDRiRXdsUE8wMDVGcjFEVG1EVFR3di1ZT25qTURQREZuaFNIem5ScHcydzlVaUJ3ZUYtZlpMb29JY0Q0aXVsSEliLWJwSjhycWtVdjg3Z0RXUjY2dw?oc=5",
+      "publisher": "XenoSpectrum",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:12:12+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Computer use is now in public preview in Microsoft Copilot Studio - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOODk3eUFxQ1RBRXFjQWt2WTNObWJhcGtSc282VHBnZ0FvTjNCMDBKQlQ4YjJrb29mMjhWYlpHTGtBNWZSYm83QXVTTW5acFYtdlhlYVVSRUdGeTBjNnpoT1l6RE91SkFQUzE0eGo0TjBpRy1TNTJnRFJ6eTVtNzhCb1dILWYyZC0wMVlCUldqWEhMcXJPLTE0NlpSRnlJMGhIaFpHN0JNNUg1ZkttdWlXcDRxSkVTU2hFamhOczM3TUFLaFNE?oc=5",
+      "publisher": "Microsoft",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:04:08+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Xsolla AI Toolkit Embeds Game Commerce Integration Into AI Coding Tools - The Fintech Times",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdWVlRzZxeUk0dzEyYjMwcTZxR1JiS2tHd0FOeEVTSnVKdHh1ZHViYVFIczRqMWRSRksyQVMzLVdUWEw0NThFOFBvMkFidXRVdm5rMUtXU1VQWElEb2oxdklWOGY5LVh6RzUwbEgtY0x5VjlmUndteFBRcnFsUWVmZEZUWS1fNVNmcl9fOE9Nc1NyTTB2VnlKX0RqOHAxanVnaFE?oc=5",
+      "publisher": "The Fintech Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T19:00:52+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Arkansas family sues xAI over use of Grok to create deepfake child sex abuse material - KATV",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSjE0NHBFMXczeEhmU2VyMEVwSGF6Vm54V2pEZmNpcWhab1V3YVVZZGFvUEZXTk5xTE5IbW9CREJhTVpnVFNXdXh1emlOcmpfMEQ3NGUwdFl6Qms0ZXdKRmRVdmRIblpISDFhakswRGVRdHpvVEk4SWZQRlBCUlhSSHpqOXhxYU5sa0xxM1FRTHVpdHFrVkZZdjNfUjMtNVNZRUpZVmpVWENienV1b1VsaW0xS1lMN3d2QWpRc1pnLW14SnNOWEt3Rg?oc=5",
+      "publisher": "KATV",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:57:30+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Is the AI industry really ready to slow down? - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV3JETDlNeFloZXZBOUhEcFRqM2J4ZHBUc0hlV2JLel9uOHlEZEs3OVlwLXFOT0tHc29MVE5meWxrVHktQ1R2RHhhZW1uZmRGTHVtNnNjQl95Y1B5SUM1b2RQcmNXOWxDa0c1bjRfTWtXWlluWkFCZzlYMlhheWpSN3VNcVJWUQ?oc=5",
+      "publisher": "TechCrunch",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:56:04+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "The AI Superintelligence Slowdown - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS1ZFT3c1a0Jyb1YtbUxJQTdCemEzYmtIQVZkaDhVRl9BSjl1Mmw3Sjl3bFRnRzAwcXNVRkpDTk1KczI3REZ6TzV1ejdkV3VlSnphSzJVSDIwR0F0QlNqaDQzaE93N0UzRlc4MXptWUFlMTZDZm04WktqRUVxVFJVU0lFUVZXVFMzRmV3V2k4YW5ncjRZ?oc=5",
+      "publisher": "The Verge",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:50:18+00:00",
+      "matched_queries": [
+        "us_core_ai",
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "️ AI safety moves mainstream: Anthropic teams up with Acce - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FTUlIZ1NIcjI4dDNWV1p3VERWelc1MHZTLTA1aUJFZHYyMnFYYjFUdmZXZ2F6OUd1YlB3QWlVTUkyd1IwQldDVVNtYmt6cnJ2Y3o4eFV2Z2h6MlE1V2VOdkZvWW0tS25QWl9zcmZRdnl5UQ?oc=5",
+      "publisher": "KuCoin",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:48:05+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Trump Calls AI Safety Concerns a “Democratic Hoax” and Announces New AI Force - entARABI",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORTJPcEdIVkdsZjNGdG4zUEZhT0JDUmE1WUJZYzUtTWdtNnA4WWxLVTRSb0swY2JTQy05V2pDQkY0UmE1MWpkY0IyRTBTc1JGSEJ6MWJ3bE54RTU1eWo0X2s2ZkQzOGdOUWtmbDh3Z2tqVWVJR0p0WWxVOGZ2ZFNORG5QUExVS1JWSHdKT3dPNjc1TWc1WU5fVFRBd0tGUVdMSkJzZEpIUTBUcFRO?oc=5",
+      "publisher": "entARABI",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:46:55+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "AI「キルスイッチ」義務化を推進…シリコンバレーの速度調整論争が激化 - finance.biggo.jp",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRlJYS09nZEkyanM1MHdYdGJnU05zV1E3bE5hZFFjNXpCTDdTWTZjVXNIenltZ1FIcFQwdDhQVWE2UlRYVXI1UzFJZmFTLXRNQ29STFIzS3BVZWNucUIxelh3TnFSVTgwRlF5eUNpUWdtbERi?oc=5",
+      "publisher": "finance.biggo.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:06:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Anthropic, OpenAI, SpaceXAI and Google face antitrust lawsuit over AI slowdown - Indian Television Dot Com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGwtYjlYaU4zZUJKdjk2cVdqdHhOWHpfd2hBN25DU2t5cU9wSm5oZHZxdmtOZTUxdE41Z01uVnEzaEtBVVQ5d0dobG1iYmFGRXptRldONE42ZUpGeExSakk0UnRBS2FDSDBkenhlTlp1VGl2ZGQyZWVfSkt4eWt0bWhoampnLUQ3Z1VVMDNQeVpBZmpKeVpoLWsyNjAyOVQwSXpTVldYU0lkQWdIRGRz?oc=5",
+      "publisher": "Indian Television Dot Com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T18:05:57+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "中国工程院院士孙其信：人工智能将带来育种的彻底革命 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yVzhXcUx3VWoxOHk1RlVnTDJseklyYTFZb1gweEs2YUdPTm5IZHRhVkJrZkY3M2pfdHdWb3lKWUd6czZ1OTlDV1VRb2ZDMVJCa09BVTM5S0dwcWtPVU9aSEF1Wm42bF9qa0tUNXdZaV92YVZjNnZZ?oc=5",
+      "publisher": "中国农业大学新闻网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:44:57+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Biggest AI Rivals Agree They Need to Slow It Down - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc044MVJrTFhxOFJSaHVGUUQySWtORFVvVmRSc19sWFNGYjRzYkpvVDJ4U0laZ0dKVTJ5MXp5YzdGNnMxcTYtWFBOdkJJcm9oWkk3T0ZhdlVaRDIxN2Rxem93VUU4OURNVWFZWTZHT0ZaQWJNMlExOFhpdkhrYkluN0pwZE55QWZ5Qm51LUhHNm5hQQ?oc=5",
+      "publisher": "WSJ",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:25:38+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Anthropic Weighs New AI Model As OpenAI’s GPT-6 Astra Threatens Enterprise Lead - Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGQ4ckcxRGYtQTdWbE5xT1lYOEhHLWUyT25QOXF5TTR4WUF6T2d6LVNZMnQ1TUZXb2FNQ1BJMFFsbkYxYi1XakVZN2VjREZFMHpLNU55MUlBS1d0OWJkbld0UmFuLWFDQTZKMmlhNDdRVFNBZTdIUERuVVhRUmd5S3hLYncybXRHUkdSYWVPMFdMYVVvTlRvYVhwNklPak5wUlRsR2dn?oc=5",
+      "publisher": "Tekedia",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:16:38+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Trump Announces ‘AI Force’ and AI Czar Amid Growing Safety Concerns - Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXVNRVFxMkVBdFRsR1dnRkttZUJKWG8xdG02MTJZS2psTjNqYkVlemc4WHdzN3l0Vi0zNDRrd2d3eDJVdGQ4Tms0NVJSZXNGd1lGRjNoVTNsaGtmX255VDctMTdMTTUyY09NQ24tOUNPSm9Zdi1NNGhsQXNTQlBXMXg1Z2Z5NW5mZDJQTUlub1BxMURRMDdiSXhURExGdFk3UHB3VzZpSHZFVDBIWjdZZkxDc1I?oc=5",
+      "publisher": "Morocco World News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:13:52+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Meta’s Muse TV ad is the latest sign that AI agents are going mainstream - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMC1jOEZZUFZpN2ZjdDJ0YVFyV0hhMGI4Vk5aNXFKMEpzWVFkSjVKWi1oN05DZkZrY1JZN1dJSDhXaGhVWW5SNTh4WlJQeXZRajdwODFWSXRobzczS292eWFLR2dldzZ5X2FkUWdFbHNNdzdBVUVyVjRHVlo0NVJHOC1YRC1ucGFpZWViekh6OA?oc=5",
+      "publisher": "Business Insider",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:11:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "纳米Work校园行走进毕节，360以AI实训激活西部青年就业动能 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPems4REozeEhWYXUxMXQxNzlwejF2b2l3d1JQb2Q0cGNabzNYSDN5dTV5LW5DMDdaamI3SklVS19mbDc4dnBiSkRyd3dVZGpHdWRCZWZJOTRDTFpQb1NONkNFUC1xaUhESHlEbUE2VFFZWHhManJIR2hsMExGLUNxRjlCbjB5RTBoeWNiYnVpanBxZ3Z4c1BmTVF6Y3ZjcjdqdjdXWURZOA?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:06:50+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "President Trump to Create an “AI Force,” Appoint an AI Czar as AI Fears Grow - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVU1uR0dsSC1IUU5pamJvS00ySVkxc0tyOW1VQWd4aGViVUU2bmI3R3dqNHNlQzA4eVJJLUtmTmZaRGUzYXdTX19Rc0toLW1qZ1g5VVR6MmpjYmNIb01WN3RScTVxTEpoaW1YaGw2TjRsdlNkX2hRRWNyY3U3RDUzSVg4WUU5YlVzVE53eVVia2hZSXRVUC1fa090UkdZdmZnYldpdnBGVGZDMUdCemVuaVVRRFN6X2xx?oc=5",
+      "publisher": "24/7 Wall St.",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T17:03:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "AI部队——特朗普称将组建一支“人工智能部队”｜有画说 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGlXa2tPTW1DcDhWSFcyRUJWaFRFOURmTHpGdU5xRHRFQ084OEZhSXB4TmFVckhZa3dOYmdSR1M5VXFBSFpMOVBzSFpMU1QwLU02Rl9wdWdvQ2tsNFlPdHZ2QmlWanpFUVhnVGphcnRnMUlVMlRqbjdIMU16VzRpTUVGZVQtcDJrOXF4RHp0R3R0YmJ3c2dQQ25vcG1ZLUZJOV9KdGRxdw?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:49:36+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "上半年制造业人工智能重点场景应用普及率超34% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xWXU1azBUV1NrNkZ3ZDg2N3dLUkoyTHpEdEg4WkZrcGc2T2lIeEUwYkVCU29rRTJnYWV1eVJZVWNjV2lkWThGeHloVW9TYjFXaWFWWm5UQzUwdEVDdUhsVlpaM252QQ?oc=5",
+      "publisher": "东方财富",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:47:01+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Gov. Wes Moore stands by Maryland’s AI deal with Anthropic despite pushback - Washington Examiner",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN1lwNlNXV3U2NjlhRUZtLXE1OVZSbFhCWS1wZVloLWpzaG5jQzhTd0pOWEdaOURzNWxOSkJDRGlkN0xnZWNpbmpfUGxRQW9JQkV2aGx3eC03cVVoLV9qZUc5bUNrMUkweWxVY21ybjQ3YjlxNk5vbXl2UVJvSDU3NldaTjNobnlqRzliMXM0dUUxVTdqZ1FvWHBzaFJNMEE?oc=5",
+      "publisher": "Washington Examiner",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:45:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "构筑全方位生态，助力AI产业加速“生长” - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MTnJfM0J0Z0Q4WVFYOU1NWXo5UEIydzN1VFotUFFIYVpHSTlNMnpoQ0ZYTWFPY3ItQ0NXZ3VPaHY1Zm1zRUhHc0lvU0xqRXBROXpiUGR6VzdiZlZ6cXc?oc=5",
+      "publisher": "同花顺",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:31:30+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "AI部队——特朗普称将组建一支“人工智能部队”｜有画说 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpRU5hdXJJVTl4eGpWVHd1N2ZKQ0JmVm00cFU1OEtPenZERnc0di0tTWhSN2dzemlpVjc2Ul9tRlhSdlBYVGlmTFVoMzZGaUdHMlZNSFR1S2lfLTNKbmNNTVgzS3BPQWpmTTVjYVlibUV5bEpHX2k0WXV2NGw?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:30:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Aptos launches AI agent tools for fast, cheap G... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV0dHVVFPWGtmUjl2cDZoMFFDaU9jQUVqQkc0bEdFUFl3aVI3aGlJbnFrNFlxUnpObVlWRDlIT281LWk0TVlZdURuZjBqeTlkRV9UN1A2cnh2MnlManNFY3ZNRlVKMHFCMXBXUkQxT05wa21adk4xdHJDU2dLQUZkdGhvMUR6V0NsODdNc0I1WE15dXNtTnI3TDFXUkc?oc=5",
+      "publisher": "Pluang",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:24:54+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "读懂人工智能的过去与未来，深圳坪山以书香架起科技普及之桥 - 深圳新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CaVFNeG92NW9HYVZqUlpqX0s3ZzN1MmJiU2x3ZkozVE1YWVQyUENSenduMlJOQVpMUWJhcWw2dUt0TEFtMTVkRUhVajhxOUNlenFlYnRoOS1uMEVNcGhZU3NTMzB5MmVqaGdZNUxkc1FkQXVHc1JYa1JR?oc=5",
+      "publisher": "深圳新闻网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:16:46+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "The AI Agent Wars Just Got Personal: Google’s CC vs. Meta’s Muse - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTJ5TGk1bEdGc1VkV3M1blF0TjhPYUs2WDBkMjJYNzNDV0hGOEt4RTNWRzdpWVhFRzcwdjVyS01BRkNiOXpabFFiQkRQdjRKLXNublVwYV8wNlRGV0VZWGtFWVNSZF9uUkF4aUNjS1NZSjN1a1BuWHdHUlNIamNrd2xMdkI4MGZobjUteG5VX1M?oc=5",
+      "publisher": "Yahoo Finance",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:14:57+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "The AI Agent Wars Just Got Personal: Google’s CC vs. Meta’s Muse - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR0ttVDY0dFZiM09pVDJ1UXBQV05EU2M2NlhLaWN3ZW51TWloVy1ybG1JaUQ3ajh3N0xQRUhJZjJ1ckZYaGFabFhKeXhVaGRJOERjVUFqN2NRNFltUHJZQnQwWUxOclBYcE10OEtxZFd3bGx1bG5kWFk4OG1JZ1JBZnRJSmV3N3pOZ2hMZE85ZkFVMExTdVJpN3dJc2JyTWpsVWtJR3NDcw?oc=5",
+      "publisher": "24/7 Wall St.",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:14:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Salesforce and OpenAI Launch Missionforce to Revolutionize Government AI Operations - Small Business Trends",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcnVxZEh4bEx3TS0xZG9Icm1rZVJvaW93a3l6TXA5Vk9IWXdTb3FYUXM3cVBpSXZCU01maGhfRG0wclp4WjgxX010ZGo4N2JVd2ppNGlzM05YZ0JQaTJTTW5OdTc2LXZvZEo3YlQ1MjhSSGFERUZhNnNPaHl0UEEtNkw1TlpsZllsdnBUUTduTFAtdmpzYnBEXzRvTUFzcnZjb2JhRTdZcFZJV0tfM2Y1ag?oc=5",
+      "publisher": "Small Business Trends",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:11:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "An AI agent tried to guess what wine I was drinking based on my description — and the results were mixed to say the least - TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQalU0MEVLSkVuWmRhZndJZ3ZPWW1UcG5MUGlHTXE3V1JkV3RYQlRjSWZJM3ZYRm83ZGR4YmhPZFp1Zll1X0tUSGZ6d1UzaFNLTTlHWUREMU50bXlocW1iYm9xaDhoOW5HNnpzMWxrREZhNDBhXzhSdUxCN0EzZ1Z0MEszWnhULUQyZURzbFI5MlBoZF9PaFR2dkJIVFNtVDVGdVJ4ekgtX3JUWm0wS3p2Nk0yUGFEdDdoTnV4QUs4VG16TmR2VGZhVlRwd0I3dWhrVFM5TFVBZFMxb2ZtX2ZBYjVINA?oc=5",
+      "publisher": "TechRadar",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:05:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Trump dials Nvidia CEO, slams AI safety regulations as a 'hoax' - The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQmlFaTc4MlVLeEE0Tmh6eDY1aXUtcGQyYW80TkZPRHA1dm1iVUJ0anZVTjFhZFNFSExyOVcxWVFfQlNXelprMFI4cWk4ZUF0VjZSMk5mbFJQcWpzWi1LWFE3NmlVd3FLdFRQczB2NE10YXN5ZmVWU2tqRHVSc3AxU1RxY29vMnBxcWFjdUVsNnBzTVZqVExmSw?oc=5",
+      "publisher": "The Business Standard",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:04:19+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Newsom Orders Faster AI Safety Oversight, Explores ‘Kill Switch’ - Yo! Venice!",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTHRKYVRYa1RNUV93VS1UNmlBcUxaemxpbmNhM3FESGZXazN1cjlFYU1tYlJPWkZFajRsVWZYOG1EaldZM3I5d2p4YVU3cU9OVEg4dHUyaGtTMGZwRjJRY19ORlJMM0R0Nk92by1vXzJVY2t6YWVXdVdOMkYtcFo0TFkxdHA1YjJocFJINkhabG5TWUFWSkhocUxrSmJzcFlaclU5TVRocFJMQVdzUGNaaFdXcjJua25f?oc=5",
+      "publisher": "Yo! Venice!",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:03:57+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Hackers who broke into OpenAI warn the AI industry has a security problem - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM19yZG9CWkxLRGFEaVVfeGNTMFRZY3h3eW5uQTQ1VThHbmF5TFZSMTBNSWhIRG1ialpDTlVDWW5zZjgwQzNaRkxIZTVTQ2Y5blFWcGpfd3I5dUN5dElTbGt4dEZiQU04aG1fQm9yUi1qTUlOWXA1enBnUmhCdjFhNmJMYjR5NGhUMHBWZm1IQVRKUjI3NkRkdHQtWHBibmhYY1p5T1hVeXBaQllRNUx4WWdhN295d2M?oc=5",
+      "publisher": "The Washington Post",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T16:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI, Google made illegal AI deal - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdXNXdHh5ekoybGxxM3B1R0Q4SVU1Tkpxcng1VzgxNHpnMDlqVUFNc1cwS2xwR2JWU1UwTUF0aGpLTW5YLWluYVRLdWhRcWNNaElOMlFHenRpdzNmVjlHdElRdEhDQ1BFRFBWRVMyVHpEU1JmYzV1UHhCRlZBVFdTS192aVpJRXQxaWNnamUtTzNrSV9vY3NjODhDTTlFblFoT1BYdTVsNkFCM1NhNkF3Y21wWjMyRzN4VW1DXzMwWlJzX1NjV2JZLXNnZk0tX3VUdkRDRUhzLWXSAd4BQVVfeXFMTTVCVXBvUGo2Q25JSXFsWkZ0RXFnaU1zQnV5aHk0Z0VlT18wYUg0dU40b3dXVnFMYXZqUnZTM2hnS3pxZjQyTjdmdnJRcEtXLTFmNUxaQllzWkJVaDlNV19CaURMYW1veUZBZzhvOWttM1V4bFdfVURGaW1Yd3YxRkJOQzltNWdmVUxVTVFGcGgybEtPeTJDTnB5M0p3YnA5NF90eUs1RElEVkFfVFVYUmNvanhqQkZMb2JJYUpvTXE3RFdrMWNDVHJoUXE5Y2FZaXZFeTFJUmhKVDFWekhR?oc=5",
+      "publisher": "Business Standard",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:42:19+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "特朗普：计划建“AI部队”、任命高智商“总管”，还想给AI改名！马斯克发帖回应 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOUF84OU5yTy02Skh1MndXcGxkSkdwTlpNUm5qaVNib05xeUFubmIyeDFQWVhtVmlYUDRwaDJlXzk5czFsM0lUXzlNUlNXemxfLU5nU0RmMWg5a1JiVFRxWk52akRlTnNjR2J2WlRBS28weWp5LVh2V3FoaDNOY1FSMlhBeGc5VENjd1NPVEhYaDJ1Yjgwdy1lS3p5SXo0bVNyOVg2ZXYtN1pCdnE5bWdyVEprVFVYUmxjeDNaZHJTblA1bE5pYU55YmE1WGYtZ09HWngyTXJaTVkxcnh6c256d1hBM1J0R1BjdXJMXzVVRzJlR2lvTE5CdHRYQVVKQ19oVHVQQXhUZ09qa0lRcEFLaFY2N25kMEdpSV9panRXSDYyamZX?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:37:44+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Anthropic Says Claude Leads 26% of Its Own AI R&D [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91anIwdEVrOU41TFBMREo2cXhIVjMxZF82dmxMRU9xc2h5UmVuenpCSUhXRVFBNkN5Mk51djhHaklreWR6WV9LWWtfM2I0TEQwMzNVTGZhN3ptMXRKZUgxUWxWZzNyNmNMaUd1aQ?oc=5",
+      "publisher": "shattered.io",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:30:32+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Meta's AI agent, Muse, is chasing ChatGPT's App Store rise — and hit No. 1 with fewer downloads - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVFAzY1J5bHVpQVl2ZWRmUGhTSmJ3bVhPckpmcjJyNVJEU1BqQi1laDlTY2t5SjVoOVhnd0JTYzR2MXJ6TDJyRjRfR2dpYUN6eEdHZTFBNWNVUTNCQlRWRFlhOTNwRDBEN3ZLWmgtb0VwTHVxSGJFYXU4aVdxTlJtakJ3VVlzOEFsRHdHbkN6RFVFUGN0RW9OOHMwbERueXYyeW44aUR5MVFPVEF1V01vMWdBUHFrSTF4ZUFWTDduMXBqVGRWNGs0NUhkV0JPUEJTLVJfS2xYa0daQQ?oc=5",
+      "publisher": "Yahoo",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:29:12+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "While everyone in the AI Agent space is focusing on simple - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmdENZVDFwN0NtTUFlOTNYM1N0alYxZl90WU5pcVhoRGVjNktvRVJRNmRmZE5LVXZWZzBXOGxNa295Uml2VUgzY280TjNCc2FvdmpsZ2V3WkdsSjlQNVJZNFdYMWlfLXhlNkQ1bmYyODBadm8?oc=5",
+      "publisher": "KuCoin",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:08:04+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "AI Coding Tip 037 - Stop Patching Blind - HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xNVpWQlBHMXpGS2NQOUZOX042eWJpeVFRbFBmOFE4aTR4SUVHenh5MzBqbzI3d2cxUjcwUllIZUQ5Nm9rM3VCamxsbHNMT1pzZjlaSTk2cXNYQVFxNUhiTk1hR25JdUJ6Tnk0RA?oc=5",
+      "publisher": "HackerNoon",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:06:05+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "「Whisper」OpenAIが開発したオープンソースの音声認識AIモデル - 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vaGktWEloMHhjSFU5VlBUYVRyeTdtR28tcUdxZ1BIeFM4RkRVcFRxdTNGN01YR215OUhKbGQyQ3FONU4yVVZOU2dOb09HR0xPZE5Qa08wa0FqZ0F6WTBMU0hVRjZpSjdsOTJGMQ?oc=5",
+      "publisher": "窓の杜",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:05:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "「生成AIチェッカー」記事やレポートがAIで生成されたかを判定する無料ツール - 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CU3hNOHZJeTBzdW92LVA1bng5S0kxZEpNYklRXzFRTUYzdkZMZTNkYnV4aDNfSnBxZDEtLXJtZEV5UmM0bzM2b1lEUnZpWm5vdFJlRDFoM1RoR1VaSncyX05SOGstZmk3MTgtaw?oc=5",
+      "publisher": "窓の杜",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:05:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "云南省人工智能技术应用人才培养计划正式启动，AI双证体系落地云南 - 昆明信息港",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55dTVGOGFyM3Ewdl9xcVhfM1JyQUVGdzVhMTVKNzB6djhacG40OFBUdFFQTkx0YmNBV0FvYjdZTXowc2NLcUgyQ2pEeTJEb1kxdkFoem83M3M5bHJ1ZXJMSS1wNA?oc=5",
+      "publisher": "昆明信息港",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:03:48+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Killing us softly with AI - Daily Kos",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUFdxNmFXMzg4dWJnR0szeURRRjRiMGZzQXpkbHZuSV96OHhxTHdibVdwbmhudmtUVnVTNXZEdXBfUWNUdWNTSFk3VlVxSVZWZ0ZYa29qdW41OXllRTVzSXZ2Rkc0UlNDU0lqemxZajh6UHZfOS1neWVySW5mM2d0cGtuODNLTFhHbWl1eVVubw?oc=5",
+      "publisher": "Daily Kos",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "The AI safety paradox | Op-Ed - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zTXk0UFVvWl9oSTRQZU10SExqRkUwVmtNa1BVejE0a0k3QmJQZF90WVh1d05fWW93YVJGOXF1b0QzQ3V1Nm5aRHdsY3V0RjZ4TzdXRDUwT2JUaEFmSkY5Z0JnWXp6UU5iUmNZ?oc=5",
+      "publisher": "The Seattle Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T15:00:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "False AI-generated US intelligence highlights urgent need for China-US cooperation on AI safety: experts - Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNm54T2tLUF9uY3h1TTM1d2QxeDREUDB6MFdzNWJkUGxIblFrX3VURXhuYjB3UHd2Q29nN0dwc3JaYXJsQV9rUGdPUjl4aTZKVk9Pb3VzVmtCZFktUm9nc1p3?oc=5",
+      "publisher": "Global Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:55:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "How concerned should we be about AI's supposed existential threat to humanity? - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS1NkeVJ5MUxXQy1ITkFJR3V4STJiMmtjN0ZKOVlLTGJSNUFGTHhwV2VTXy1qaG5CbmFibU5yRlVaSGVmcE1SZlJ6MmJqYXpaYTJnQWFnWV9NYzNNVE10dVhkVnJ1aWpJM1JUdXhoUkltc0dEVW1DWmlYdW1VQi1kTjJsRlM5UGNUeVIxUVFxMndRejBNTHhoa001X1JhUi1VdXNEb2RjaU93eXNGZVZuYm9iV1lybWgyWU45cklwUmZ2RFBQdFpyVFFBNmtpSnhSX1hsQks3Z1AzVHRheHc?oc=5",
+      "publisher": "Le Monde.fr",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:49:12+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan has been in motion for months before, calls agreement ‘self-serving’ - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNWkxCQWN6Yl9tc3JjbVlLUGg1S1diMFM4RHhTYS1nQkRUTWdxQjloeW1LR2oxY1NUSjFBZkV0WWd1ZzRSV1FJeUltaE5jNjFLVC1UTGhDVEFyc2g0Q0NFaFZBOW9vOHNsVkU3eU1XRU41Z1ViaFhFSkp2YjdXLWhyUEhMVTRLNHlIcHRPS3M4YVJxSVl0R0F5YWhLYmRVV3ZYUzQyQWhlLTdVeUJQcHRBMGVVc0NkbkoyUU1uNWc1cVpuc1FaNHd3d2xjSkdqWjQ5Z2ZiWElldXNRUlQtalJjdk95cGNPM1RyWjdoczdQQlNmaWpkNERqR2p6Vi1KQ2RxZUlLcjJUaVhrSlZzNWtPVmFBbGFwdXFKX0JRUW5oaEFHRWttZDdWZkhUelI4N0R5QzIwNjJLc3F0TF82SUhyX1pCd1FDWVlTWndjcGZkeUtsMUU?oc=5",
+      "publisher": "Tom's Hardware",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:48:57+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "【構築費30万円・固定】AIエージェント活用でLINE構築の工数を圧縮。Notre、価格を全公開したパッケージを提供開始 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kYlIyU0s2a3dpbDZBYXdoSnRvcXFMY3NUQThBb1c3NjhYNmhWMkgwVWZZRm9KRUVKaF9SQjRMRjlxXzlkQ3lsNG9MeVJiblZ6VHljQUpTdjFkXzg?oc=5",
+      "publisher": "朝日新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:47:45+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "AI Giants Face Antitrust Suit Over Coordinated Push to Slow Development - pymnts.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVZoLTNZUVJCaGpKTE5xMEs4dGFxMHFsMHBBZThKSGxoSFpWby1XSVpkakpjQURhaWZvX1pOQW9hSDdIN1NEWjJjZTZWREY4d0MydW9JM2JTeGd1UjNlLTZJZ1VtYktLd2VvNDZFMVd6cUc3RTFaT0Q5Zzd5TVNpcUFiNUI5Y2ZCaDh1MzJXeEFlRmNTdHh3SnRUam9qNTN0bGFuUU50SS0?oc=5",
+      "publisher": "pymnts.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:43:01+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "AI safety plan - LAist",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdjRUUVRuU3dDWUhlSDdOUW9ObXRlVlczdVNnMFlydXRxZ2ZoNndzaWQwdVFzb0xXbS1iSGYySXVhcGZWbHZSRG1MMlRyeFZSRTdBNHAtUno3clpzNU9qeUdvYUdCMlFRVnVOWEk5SzkwMldGdWRoMElvY3pwenNIX0dUc3NOVmNXZDM3dHZGNjhhLVN2SkZwQS15YVhWTjJWd2FqQjhxbHdKNkFEaEM3N2ZGYklVRzlGcE45dWNSQzZrNWoyc1p0eFp3?oc=5",
+      "publisher": "LAist",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:40:37+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Eliminating AI Code Hallucinations with TypeScript Compiler Diagnostics and TDD Loops - SitePoint",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0JRVFBxTWZ5dEdfVzlqM19YbklSaTZtcDM3ZDktMVpkMFhQSXNHTDRvbFhsNWd5ZDd5R3RsOUN2cTdPUklzdWZZcktpbnRzcjQ5THVRNUZCTTAxQkh4MDNQT2lRQzN0TVBYOGdFeUxYNWQtMW91WTBLdnE2eE1haEM4NmlLdE5QZkIzOGh3?oc=5",
+      "publisher": "SitePoint",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:39:28+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "CENI筑底 南京锻造AI时代“算力高铁” - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CSnZtdUVUVDBvRjVsbUh1Y2ZzWG4tZjVCRC1tdDRyRDFhRXBDenp3Z2o3cVAzR2kxczM1M0JzdkhNMkU1NUVpLUtmMlRBWUpJc01TYUdOMEtfZGk2eVdHT09IYnFSNXdacDdQajhUWXY?oc=5",
+      "publisher": "中国科技网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:34:56+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "如何解决人工智能时代的法治难题？天津大学举办首期“法·智高端对话” - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UQl9QWlZ2LUdvdDAxa1NCd2c1TDNpWDFtVHgyaElLRW1Fb3BlbkphTDQzQUNuanNWN3lFLXhGeEdvc3BEbEoySU5NMWNGSFlRc3B5YXFOdTg3UFp1QWdPc056SHA3ZGRUa1N3bklDZWw?oc=5",
+      "publisher": "中国科技网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:28:59+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "画像生成AI「Qwen-Image-2.1」公開、7Bで透過画像に対応も商用不可 - PC Watch",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jTl81U1BEUDNocWhrM1Mxd1I1eFZsVUFRVl9NZHk0aFk5Q2JPck45TUdaVm00S3JmUUFPUHZLM2FlU0VJXzVyRjYxVGQxSHZGRThhMWxqVjVqMWdBSjFEMEpwaw?oc=5",
+      "publisher": "PC Watch",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:26:41+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "画像生成AI「Qwen-Image-2.1」公開、7Bで透過画像に対応も商用不可 (PC Watch) - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbWpoZE9pdlpFM1RxelhtZG8yZVJxUVl4bzRTREJEbnhuR0IzN0lRSElxMlNUQVh6OFN5RzFNU2RHMVk2OW5ZWWUxWElaUV90QW9sTkRYMDVXNXBaYkdXeTlvREF4WnNLek51MUVzbnd3R3dqQkJpMVdDMl9aZUo0TDZGSkwzTFFiSlA2dWF3?oc=5",
+      "publisher": "Yahoo!ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:26:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within 2 to 3 Years. With Anthropic's Revenue Up 7-Fold This Year, Is That Timeline Still on Track? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOekZpcGk4TWhmY0NfclpCalpNMWhZOWt2YUR4WnlnZzJsMlVGQzFaZmRNVHZFZ09TTXNvV0toRG5uNEdJY1FkWlJOUmxXeXlyajRvU3BwOFI5aGJDaVpmaEIyamdwNUlBZHNLN2Z0UXRhYVE2T1hoM2F0SU5FcDNjMVIyX2pVV19femg0blhJb2lRektlYWRLaw?oc=5",
+      "publisher": "The Motley Fool",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:25:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "湖南空中急救进入人工智能时代 - 科学网—新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYbklhVVJfaWV5VlA4SjZFcEEtbzdlSm8xbWdyTlZQTkw0a0QzcjVMUzF6ZDdoeno3XzZyTDBZTFdxd2JPaWZUejJ1UVdrUmZ0SWtKMUdBTmlob2Rma3NOZC1rT1k?oc=5",
+      "publisher": "科学网—新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:17:53+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "院士学长张钹返校，以AI哲思赋能附中育人新程 - 东南网",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qRnRLWnhZamVpb3lCTmxRZUVnVEQteTg4Zkc4S29lM1NZZkFmeTJJZVJjOGticVlKUEdwdVVuNG1rS2ZwSWw5QnYtZHl1U3hObUdWTEdPajJDSUZQVFpoY1NzY1p5MHNrQ2I2Tw?oc=5",
+      "publisher": "东南网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:16:02+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "美国人工智能四巨头集体遭起诉 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiNlFkdkw4aEZ1alJKWTNMTy1pX3BwY3I1SjVaQ0JoTjhtRGNvbmxaYjU2SkxWTGVnUk5mdnJ2ZlRLMGtzYVJFS2wzREQwbzRWcHZqSTk4Q0MzVmtQQWc?oc=5",
+      "publisher": "京报网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:14:07+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Google upgrades CC AI agent for family management | Tap to know more | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUVYSEJ6R01kM2k2S0V5Y014QlhkUjFmNUtjTUo2QlpjOGQ3WXpSdFBxU0VnQ3pKRE00X29xUVBfa0ZCZ1NuUDhBWVkyMGl6TU5SV2xIYlJkdXZYTW92aUQzZWUyN1VqbFpQMDYyNGJYNy15cDVPS1A2ODR1LW0yUUZsQXdjNm5CUEVZcDhKdFVTakN5TjFnaHFpVWXSAZwBQVVfeXFMTW1FWEhCekdNZDNpNktFeWNNeEJYZFIxZjVLY01KNkJaYzhkN1l6UnRQcVNFZ0N6SkRNNF9vcVFQX2tGQmdTblA4QVlZMjBpek1OUldsSGJSZHV2WE1vdmlEM2VlMjdVamxaUDA2MjRiWDcteXA1T0tQNjg0dS1tMlFGbEF3YzZuQlBFWXA4SnRVU2pDeU4xZ2hxaVVl?oc=5",
+      "publisher": "Inshorts",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:13:46+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "bgrassが提供する採用AIエージェントOS「フェアパス」、株式会社SPEED EFFECTが導入 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0weVJkQmJ5bHp2REsyT01fbUU1M05IMVN5VVNjb1pEV1h1Qk4tYWY2bUUwSTBTcGw3MVJoWGl0aldkU3Rla0cwRDJGSXl6MUprbVpNMkh4OUNlRkdOUUhOTFRSQXktV2RXa0tCeFlicTEyZw?oc=5",
+      "publisher": "Infoseek",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:10:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "ジョーディ・ヴィッサー：暗号資産は人間のために作られたのではない——AIエージェントのために作られたのであり、ブレイクアウトはすでに始まっている - finance.biggo.jp",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50UUJvMm1VeDV2bERpcnNIZ05wRG5ULVBEa2hhMUh5UEoyaWVhMVBNZmthVWI4V3l1OWpYcWNLbmFjRm9reFJOaTlxRzhveTJzbWltSmduNHJnUQ?oc=5",
+      "publisher": "finance.biggo.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:08:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Meta's Muse AI agent overtakes ChatGPT on US App Store | Tap to know more | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOak9tblBjNjE4cWxTV0Y3RG0yR0ZSTkFBQ2g3QTlPbVJ3dndOR2hJWk16WmtKM3R5d1NPS3Rnc3lRNjdWWG80Y1FLMDRVa3V2UWJTOVJabHZqQlF4YWxwNEM1OFdWd1pDUVh3U2dnMjdZM3BUbjRFWjhUM19ubjNsaFl6YVJ5cEduVkxIZTZpNGpTVkNuMmplLWVjXzROUdIBowFBVV95cUxNaE1wUUtFcGhrVDFleVlpNEk2NUVRQ2txVWc4R0ZjN0l5RVZKY0pwRGJYZXRQSWZ5VUdiektRWmZWVVdOOGlDVV80YTNRZ21HMGxiNzV0bnVldFpEMmI1Q2p5WXR5cU1YQ011SGt6OHBtZHJXYm05WDNFbXZHSjNjeUNpRDk3TENleHBKS1c2djlacEV4bmVEMGlYd09CUk1RVTVj?oc=5",
+      "publisher": "Inshorts",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:07:16+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Your AI agent failed. The model might not be the problem. - The New Stack",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BWDAxd1hBeFpXVEhtR25NYUZIa0libjc4dENtYzVNdUFfM0tPVk9BTmRKQVRmbjB5dVJKbmJvYzdlNmJKV0VORGpOeGtHaW5WS3JsNms0Y2p5R0c2NlRQdg?oc=5",
+      "publisher": "The New Stack",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:05:30+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Sued for seeking ‘safer AI’: Lawsuit against Google, xAI, Anthropic, and OpenAI - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXF5bVhycWNsM0xGbFNrdFVKUFpZT1FmN1IwOWVQdzNPZFJabHpJb0w5SzBMLXREa2tfUXlBTHB2aGxrS2tKWDE4R0oyWDNjdUsxUWxTOE9ueXRxMUtPbTN0NmNQWnowLWNHOVZGemRFSmo5VVpzc2laTmtMQjBmMVFIeFBpTjE2UEUwZ21xaGlINUV4ajZqY2s3SXhLSE1oQmJ0QWptc2ZEVGJtWFFpRktYRlTSAbsBQVVfeXFMUHRTZnUtdkFQbHJTRXJjNnViU2U1VUdmRGVYVUxkVFNodllTTEpVaEtfZW9nNEN0M1VzV09IUks4Mk40d1VNZXV2a0ozX09PajhXc0VIR3h4QUNfa3ZubkNGenlHWThTUWNYTkFBazJNU3M2T2NNaGp1T0Z6TnBIMEN6aktlTkdKTU1kQTk1d09sNXY3VXRDc3VYRkQ4dHdQX1NwakxuQVhTR2x5Uk1vQVVGV1l2ejRTYVhWRQ?oc=5",
+      "publisher": "The Indian Express",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T14:03:06+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "中国工程院院士孙其信：人工智能技术应到下一代农业生产方式变革 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nVlluMEJ1aXdJM004Q0dWdHRmQktCb0YwRm5HUUYwRXB4bzVUcnp4akRzU25DWE1jYzZOZXo3NEYxeXdheWtfbjc5dnp2alZZZ0ZVaVRZUjk5UDV0SDMwTmpZMkRubjFXM1V3TWxMSHctcTBrVm5r?oc=5",
+      "publisher": "中国农业大学新闻网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:58:44+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "クラウドストライク、AIエージェントのアイデンティティ制御プレーンを確立する“IdP”発表 - enterprisezine.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jMXJvd0xqTTVHYUR1elN3N3VfV3V5UktWRU42Mi1HM3RSQjFVa01UbFRnUlFDbDJKTVVydXNOYU5RMGkyVjNseldsN3RDcThUaWRFQ2dR?oc=5",
+      "publisher": "enterprisezine.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:57:20+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "One flaw hit all four major AI coding assistants! Two are still unpatched - WION",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT0dYT2FrOVlCNzVfWHREYXlDdVk4LXNRZTJiQXYyMDhsZmhMTHZJMEhaTFhkUXl3TXlvcUVNbDFseHZnalJ4aHM4YU5hWi04dk5iVGhXUWJ2aEE2ZUNXaVZjMXJYMlV6T0h0SnNrcFd2d3RQX3lJZ21HNkJSeXoydjRTc21uc2JjOC1zYUozWjNQdmQwVVZDTnY5UW1uODM5VHgzSkUyd0ttU3hSWkxwbmdUd0NDTDjSAbwBQVVfeXFMUEdZc09FTXc5Wm44WnNGTzNzLWp5akY0MUlESEwxU2xYd2w0YXhuUzBvZE9mM1l4SWhBU3VRS2dyQkN1cnRVYjBnUi1iNUVpcWp4TEQ4bzQ5dXF2OG1tVDJVU3ZUVU0wdmh4cXJkX2x0UkhsRkgwSlFKbXJ3QlZHR29aeHlsWW5fdFZkcUQ0N2ZGZVNLOWR6dHVCOVFyeE5PRHhlN0M2WFUzN0ZHVnd0cmY5NFlFcGdwVWtRYWc?oc=5",
+      "publisher": "WION",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:56:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "OpenAI 研究员提示：AI 能力提升或带来思维链监测难题 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQODl1NG5EdVRtVlRBRE5TMDgzMy1VRGdMMk9jTWtfX1l1cnB1OFpMMFhabGE0dmpXNGhOSHk4clYzT3loQy1oMENlSWRzOXZoMkphOWJhT3I0cXdBZnhUU0FxYTFYSVIzUzM0WTUzSU5kbjRvOWsxWjFYSVR4THlPZGdBQnlqeEFza3h5Rnk1NGNSUQ?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:52:30+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Why Trump trusts Jensen Huang over AI safety warnings - The News International",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0R0TnQzV2hQaDBGcFh3ZWZiQlRhRjhFVENXTUUxVzFKVzBYYjhBY0tlZDRKUF9ZRS10dlJ3cmVfZ2pGcm5nREpTWWZjdlBZY2pyaUE1WU9xV25XNG9TdzFqcURmelhUV0RPUzFPaXJxellTalBlVEY3ZDJLUmNCa2YzVDl5aUpWQVE5Z09pZ1pxX2l5RWEtdkZ4Y9IBlwFBVV95cUxQWlNyRXNyNUtXR2NlcENsMGFkM25DeVgtTjBObEF3bzFCdGlJU25KeHNDZTNvUGt4U0NRWlFaSmZQMGhfZm1rMENpbzVmRkRSVzI0LV9Ud04wR1lOVDdBTURnNFhkZTZjanhhMjFhZDNCc01KVkk0c3pwYmVseVBJX2ZjY29BU3RTX21jM2VmeUY0M1NXLXZN?oc=5",
+      "publisher": "The News International",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:50:02+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Artificial intelligence giants sued over collaborative call to ‘pace’ AI - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXF4ZFd4MlU4STlFa1BjYVFfcUFzcWZrRXhIbUlSMVM3U2tETTFKc2pvbjc5Z1FqZWVGMWFNMjR4eVlGa3hXcnZjZzVmMWd0NmUxS2NWbF9taGFmR0oybG5jMkVTX3pmUVVqT2o2N2hQeVJ3VHprYmFydkVneGpLZnFERjlxZi1ldW5UeUdKYWZMcWljNFJ6LWh6cExUdWJ3TzNjOWZFMlJrQQ?oc=5",
+      "publisher": "The Independent",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:38:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Nvidia's Jensen Huang rejects AI extinction warnings as \"doomsday narratives\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYW5zMHVGQTA0bXB5dlhtcXVlY0JMRmstbzNobVItUWZxS1FlSnhDSkZVa0JpVFYtQld5VHZtSnhGUGVJb0RtUEFxcWd3YUxKU09PRXJkNXNuN0pobHIyN1VBdjNtcEM4Qm5RYWplWE9uMDd1TElZSjJmazhuS29zVWlCdEg2RnM?oc=5",
+      "publisher": "CBS News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:37:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "OpenAI, Anthropic, Google and SpaceXAI sued over alleged AI development slowdown - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT3FXQlExX09pR0Voa2NuZThXcXg4QzdvNDQwOTBxX2dlZHpuSVhTYUtKUVlhOC0wbENsZmNrM0FwQ0xjY0c0ZWpzYUNpVWtsOGJUeHJ4VUJHREtDWlEwSTFKMDZlYmFHWnh6Vy1UWFNrT3dHalpLNG81VXprbExQSWwydDNDOFNlSFZxZE9zWGVMYjREb1psczVtaC11d1g5aHJtWTl4eUZzcUs2ZF80YUxDQVBpQ1ZXRGxPcUlVVEjSAcYBQVVfeXFMUEpPLTYwNFIwal9QZlB2ZkJLdEY4d0twTU02UlNEa1oxNzh0U05ocDhuVHo3WGtfR3M3ZjV0dlF2Rkc0M2dpVmNMZ3lFMVhYWmd4MnNJVlNQZkdpVzdCTFZYaGdqTjZucndnOHZuYW1wczZSeDFHUVNDb01vdEVZQ1AzcUd4amkyVkRfRnEwQjFNUDM5aWhqVy1Zb0JCRGFNbUV5Tks3dHl5NjcwZlBiR0Yzenh5akgtVlkxeUpraUZvUFdHTjNn?oc=5",
+      "publisher": "Firstpost",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:29:09+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "特朗普要给“人工智能”改名，近17万人投票，“卓越智能”票数领先 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtY3BqaU5SZzMwLWl3SmlIcTkwci1ESkJtSTRqNXZqc1h2RHFueVNRek5MeUlFUktmcVA5X0k3M1BaRkZCX2FuMGlEN3YyVE9oUXUzTlg1eWxkQQ?oc=5",
+      "publisher": "上观新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:29:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "部省联合研发求职招聘大模型亮相南京 江苏打造人社领域AI创新范式 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RTllIYjUyRVczNGVZM1RGOEtOeGJNemh1X3VwTWdzMUVlMlNjTkZQTm5FMlI3YUhZZG4xbWdSeFR3b3YwZVBJY3g4b3VueDBha2c4QzViTHF0X1l0X3ZTZk5pSkdUYlBZaEFWcmpYMTByWGluREdpQQ?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:24:14+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem - BusinessMirror",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVjRLTVlhZjBFYll0amZ5Y1JmWVJnMXFtVmJQbG43Z0pJRlBFX2tWU0xmcFVEdGc5RngtVm1PcHU1SWhyVklzRF80MU5KTXVORjcxcDd1dndJZmt2dmxtdGtrRW9ocTBEcFJvVEhBZ1hEUnllM2RYNzJFZVo2X0RPTU5Cd1hVRndaM3lqTzFrTnNQSmdyX2dTY01kenNVaTkwRTNYNTNkc1RpU1Z4czlid2NMbUNHdEZrd05RZWdwNlg1SFdNb3pzWU51SlJBdE1KZFZHUUswOA?oc=5",
+      "publisher": "BusinessMirror",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:22:12+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Secure AI Coding Security for AI Agents - Palo Alto Networks",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iR1JyZk1qQUF5VTF4d0U4VUE5S0I4LW5rTHRnTEdKb1VtZlRFdUJWckZ4Tm5LbjBfYUpLbGhRbHBjTW0tWG5yUk9pclJNYjdTODJKVjNOVU05ZU9pREE?oc=5",
+      "publisher": "Palo Alto Networks",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:17:59+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Circle CEO Urges Anthropic to Go Public for AI Safety - ForkLog",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU0t5SElZQjlELTN0UXFhdWVMaWtPRWEtS2tvdUxmUHFsSldLQ193dGhUUnlyNFpqZ01mV0dZVFFvZHBIZWVhazMwWGREWS03d2E0VjRRMlpOOW51bmxrZHV1TG5MUFFFTmRmczhiZmZKSFdfYXMtdU5JVUJNVHVFZzc4aw?oc=5",
+      "publisher": "ForkLog",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:14:13+00:00",
+      "matched_queries": [
+        "us_core_ai",
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "制造业人工智能重点场景普及率达34.2% 两化融合发展水平67.1 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jWFZuQm9jamNhMkY3N2dVYTVqUDdlRmFtcG5PaWlKZGxfSzVZeG9fWG5KOEVzeGo4YnhBYzVmamNIVzAxek5zc3Ztb3RPT2tpaHNYUVQxdjJmaG1LZmdoYkZn?oc=5",
+      "publisher": "观点网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:14:05+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "New Filing Shows OpenAI and Microsoft Debated AI Threats to the Web - The Mac Observer",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU20tbVlTeWZUVEJXaVRtX1JNMzRHWXpMR1pGV3M1LVZHZF84NThJLTliWmhwWkRpWF9BWEhTYmVlRmNTY1ZnU25KaGY1Qm1BSTk3SkRjSEtVMTZ0M2F2RkRJYUthSWc5NFBXTlI0WXA4YTN6bkNPeHpOcTg1M2ZyR2g2eG42ZXNQ?oc=5",
+      "publisher": "The Mac Observer",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:08:15+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Tempus Secures Up To $9.5 Million From ARPA-H To Develop Autonomous AI Agent For Heart Failure Care - Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVZxV0hFQkk5TmVsQTlzV1pkREswczRYWkxyVmxVZzBYMlh1OTduNHpvclA5SjdKQXJfZVpQMkVFMU9kSXl5RmJHcXdnQUdGdkNUaXF4bnBsVkJjT2FSQzBEeEk3bDNOVDFlTDNhMVhMSG5TRkx1SlVYaU03TWEwLVdZakJHZ1ljSHJaLVRkZnBGd2Z1MXJZUGJtNlcwOGxydDF5LW54ai1pVUhFZE5kZVM5d3QzX3pUUmfSAb8BQVVfeXFMTU1yV2tJV1NscXBKRmNIUjNsanR4VEJhcU9iU0JKYlJVR2hDU0hBZ0VBdnAwWUhUbTY5Y2tKVUlnbVRJWlFJRlJXcjBZWW04cWQ2c0F3bi1EaEpnaEVDaVRJZjNuSEtXemJXS3U5TmhwNVpTRlhaaG1JNENJUTRfYVFlUTI1TzJkMGF2MXlFc0RWNTdZenpGblhIREZrQzNGVHBDNUlqY0VLeFVRWXBKdkJ2VWZqR3gwMGI4WmhEcWs?oc=5",
+      "publisher": "Pulse 2.0",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:02:48+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "OpenAI's Cash Burn, Google's Rogue AI, Spacex's FCC Nod and More: This Week in Tech - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdHRVUkJUbjVmbTBZbnlpTTZLdTl0S19MSHpMbUFQYlJyNC1HSDlkN2QyZ0lZS1cxZWp2WVV5SGtMYU00ZUN3Y1Z0TjlpRWJwTjN6Rkt3dVVkZzJxTU9idGlHb2RqVzlxX1Z3X1A4dXBHdHNGakFQd2RxTlhkY2hiVmpjTXBlSUplUnAtTW4zam1US3RwalJiMWRzNjlyMW51SmFmeDkwMW91Q2lOUXc0enhpZUxVVGZkZFdjSXdTSFZCSWRCYlBsVlpn?oc=5",
+      "publisher": "Benzinga",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:00:28+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Meta’s New AI Agent Could Be the Missing Piece for META Stock - Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVXVIYzdWT1B1X0t3QW9DWWszOGZ6cmpRM3FicDJYOWY1RjlSMTZRTmhhWFppM2p5aFo3X1dWb1lQRkdIYlJITXNTQVFTcmxUdzNPTHQwc0FMUWp2bjNvc2ZZMkgyY1NCdFItOTMtTHItby03RzZ0cTVYUk1ld29pdHNzU3pCeFRpcUhXaEcxd0d4MkxNcE5INGF0QmNTck1Yajl2U2ZHZw?oc=5",
+      "publisher": "Barchart.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:00:02+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Meta’s New AI Agent Could Be the Missing Piece for META Stock - inkl",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc2lkSVhzY1R3R3dseFVZdjNTQ19EZGtFaFI5aklqeFBNOXJvbXpIOFlOaHFSdW9GQ3pVS3ZhWGtfTlEzeHF5d0tsWE9BSWR3U3ZucFhnNXN3VVpScllQMFMwcWNsS0hsZ1JwMkstM0llWXNVU014aVd2TkR2UjJwYjZUX1VlcnBiNDR0VjJncw?oc=5",
+      "publisher": "inkl",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:00:02+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "‘An out-of-touch Silicon Valley radical’: meet Trump’s AI whisperer pushing for limited regulation - theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JN25CZzl1dW8wbXdqdEoxSkVjZGhyTUQ5R2k4ZVJqMDlTZm5yaVBJQVpxeVJRYlF2eTV5TnV5dHViYk9jeFdjZmp5OVh0a01NSHZpOE12eW1FNTFhdFRIXzJGcC11YURiMVJUUUVPVUs0a0JvT0p2V2tsSWdKUQ?oc=5",
+      "publisher": "theguardian.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "【社科荐书】周丰/译：《人工智能美学》 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MbXNNa2lPX21VQWI4WU1nZHlVdGVtenJHU3JRNE9TRUxid2pDWnRkVGRpRnROSklraVphNkl0cDh4WmtPVmdEYlJxcGZwVzAxSDB3aDdpMnU?oc=5",
+      "publisher": "上观新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T13:00:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "AI大模型现场荐岗，5万人现场寻机遇，国际（江苏）人力资源服务业发展大会在宁举行 - 中国江苏网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVF9UZlZZNTFCMUFObjVwaExJLWN2NFZXWThxTGg0WndmQ1lmVTZjRzZrUWxqMHlqSHRfX0UwbmE0bF94V2U3dWYyWmw2ZTVTeElnZE1TSHlqd3duSGdFenhBUmZ3S0FZSW5EVG5XbjM3U0tCeklQQmtLZzk5U0g2YUF1QS0yNUtRNmF3?oc=5",
+      "publisher": "中国江苏网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:59:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "智能体支付可以从美国学到什么 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUxSbFNyZzJfMjNxZ1BCdWlMbjBVb3Y5OXhvQ0MzZnhMcGhoZzBrZmZOMk1XOUtsRTVkUDVsSXA1Wk56NGRzSzU4TURQcnFQVG5zY2dqaGNBVGVGVVFtaTB1UTFKNXdQZ2hTSFhILWU1Y05mYmpBOUdwSFFxR0M2ZU5CZjlXRVFZeHV2bEVyVTlIMjZyTVEySUNrbWFFZUVhQmJyanQ4R1p3LVpvUm8tdjRB?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:56:05+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Helpful companion or privacy concern? Meta Muse draws questions over data use: Report - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbVRWQ1pWSmJCOTI3UmtKbnA3UE9KY0JQbTB0X3lvc3F4Y3lNck90c0plTU9QWFVzb0xsYlBQMDBWcXFVNUZpYVBtbUJYM01ZZ1E5a24yYjR1c2Y5Mmd2WFBEUFFQTy0xSXZ4b3hkOHoyVGtEOHZNYjZWOGlaWDlWUzh0T25CbzhxbnJycENPTEhaSVllQ0tMWFJJSldYalduTm5wak5hWkhOM1A2bGRhMVZUdnR5ZlRlYW9XQ3dUY3A2TThsdk9n0gHMAUFVX3lxTE1kTDEtd29mVlQ3QnhEalVXdW52ZEliQS1NVmRBOW5WN1BpTV9xTUVpdGo3Qk5zaTBISmpkQWFQOEIwaE92ZDROTzhLUTRiOUQ1OXJ3NjZsR3ByLUtTSGdXNmNBS2I0eDRzbndNcXpiT2xtN29yZlBSckV4VUl5SGRMNV9tWlMyLXlTbHJjMEk0Zk5YeEQwNVhEN1lTbmVXQlFaNWRhTlJlM1JSNXNJZVBqdUUtbmtmZ0FTU3pUSVotdFlPQkNNYkhOQnFEbA?oc=5",
+      "publisher": "Firstpost",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:51:50+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "37个AI智能体同台比拼！这场智能体开发大赛决赛在南京举行 - 紫牛新闻",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92SjFtWHhsWTlFOWY2OEJNVTVkbEJJNUE4NWthREJvT1lndEw2YmJNMnFpNmhhZHpaTU1oWXpCMnBXMWtWUFhOMVY5eXdTVmR6bm4tUHVzTHdoSDhvV2RXeTdPcHJ2UzVu?oc=5",
+      "publisher": "紫牛新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:43:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "FOXON、BCP策定支援AI・製造業向けAIエージェントの構築を拡大｜Infoseekニュース - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GbmNkQk1tWEhVOGJZVWVGTmozT3NZRzJrWmhXenpjZ1FIdkxUczhuTExSaTdBNE9iUUh4SEJfS3pLYjFzMTZrbnd6X04wYU9ta3lRNHlEajQzMzVKTDlqcWp0NnBfc0FIR0JTbzJqclowQQ?oc=5",
+      "publisher": "Infoseek",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:40:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Trump announces new 'AI force' amid mounting pressure - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LcWdsWGF6emZpT2d1ajc1SDRLalNnNmN2WGFDekF2WnBpWUJ3NjduWVhsdGoxc2psdVRkTU5vakhTdHNENkowclBadlA0dV9sTFdmVkVfWGtuQjTSAVtBVV95cUxNYk9GUG9yX3VfQVFBVENnWGkyWjZ4UHJJYXFuWVRrdV9yU2dRV19sNU45b1dpeWc4NnE2cnFPYUt0MDZOLVBtT1l0aE02bk9HS1U4cjJtYWhlRWUw?oc=5",
+      "publisher": "dw.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:34:48+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "网易有道发布AI Agent全景生态 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Lb0tGYUNydXFhWHE5LWdRNFZKVkQwU0hZUVp2X1Y0bXpnNHJHRTFzc3NHd3FPRmItcnk0NmhyMnBTTzlDaUZKUXNnYkRJT1MtRzJnQVhPNHR0enN5eGZ1Z01ESDdTUU93QTYxZnNIbmY?oc=5",
+      "publisher": "中国科技网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:30:43+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Google Gives Families Their Own AI Agent To Manage Daily Chaos - HotHardware",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOTU5enNkam9LNENrdENWX2JrZGxCQlAycjRDUi00eTVkajFSejdsX1VyRl81R2ZOQlZWR1JkdTNWSmt5cldlRzdkeUpWNjgwd3FaV1E3Ty0zSUo0MVI1WHBwc2FmbVoydmFrZ3VPMkhNUkF1QWt1QVdjemh3SXFRMWk5Z1RZNmxaNXBCaG1TRXRyZw?oc=5",
+      "publisher": "HotHardware",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:30:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Anthropic found a hidden whiteboard inside Claude - startuphub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa29VenRGT1V5N0lZYzJzVWtzam5WWVA4dmxaS216Y1FNMEEyaXROZy1qdjJvNGwzaWNQb3BjaEZnX1ZYQ0hubGVmNXdJdGxaNGhkMWk3LURzWFNGbDdQU1pJVkEza1hSd0llSmE0eFlHYlRMMW8yaHpPR3hWelUtRzVnR3JMRC0zRl84MXl3anpkaGRleHFhaVNNb3Jqa05ZWGc?oc=5",
+      "publisher": "startuphub.ai",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:28:04+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "中外专家共探人工智能赋能城市应急搜救新路径 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTmtNZWsydnR6MWVaZFRWekpyVjFyY2RCZnI1eGk2bTFGNV90VFdDeGROZ1pUeGNtZEdxTm1iWWNKbUx5endXcUVHRDlOQlhnRDdWazNwdkVmMVBfbGFoLWtnbDNYUksyZzJITExJRW83SndyR3F5ZlY1UEgycGtkYUl3?oc=5",
+      "publisher": "新华网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:18:46+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "一图读懂｜关于加快推进“人工智能+消费”发展的若干措施 - 大众网",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zZkdQUVFyTnlGako4TzFnVlozRGRCdWg2bDU1c2FTdXV2c1VVa3NhNFpQYmliV2VjNm5ULWJMcy1LNmFidW5tY3JRMXhBZkJGUTRIZ0wyeVRveEhxN05BSUh4RFdGSXR3?oc=5",
+      "publisher": "大众网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:10:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Jensen Huang Becomes Trump's Key AI Safety Advisor - The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR19faXJoVTJ6S1JIYnJSOGlhZHYwX1lnNC1xUmxvWkxKMGprcUp2OHduX2tnWHY4cEJHQ3FmXzFXbmN5U2cxUEg0VWJJdHdiMzhYb2ItNEZFMmN5eDVNQ2RjcFQ1MjlERTFCMFhHdXRsNnRXN3k4dGltaGpoM3d0WlZueHhlME5EY2o0?oc=5",
+      "publisher": "The Tech Buzz",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:04:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "How Is China Changing the AI Game for Advisors? - The Daily Upside",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmZmbHhJbWFZWWF6QjdaWWFGVmZsRnpkS2VMMG1vVDlLQlhyS09KREJfalM3N0h5aGJHRzJHV2NxRWl3R3UwNkRET1l2czdGZ19YNFlSYk9CZG5Bb3NHSkNoeFBod2l0dnFTc0lwWFlCeFBHU2ZkY0sxbnd6Y1JCR1dwWDI4SFI2T3BTSElFcWIyNGdtbVZPQ3F6bVVtUQ?oc=5",
+      "publisher": "The Daily Upside",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T12:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Not Elon Musk, this tech CEO has emerged Donald Trump’s ‘favourite’ AI safety ally - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVTV3RFg1Z1VPNDFJSjFaQWhDeHhCNV9TZ2tzV1J3VDdndFZDVnpVcmdqTzBNSnpVZUxMY0pvUzVUZlB0bGV4NUdqMUFnWFlqcGRTNzZEc1Vla2ZMcFZMRzduRjRpcXBhbVdBNmdmSFlSSHhCUUxZSEYwRWVNNTlMbXNtWVc4dHJFYzJITnVJMUVxLVZ3dUJ0WUNYUW16a3JSVF9nUzYxLW1DSGhjUVNWRjMzRzh5TlR6eHg5ekZYYkFhQXUya2NORVdCSVh1V1FHZ2d6QWh5WEVyTlMwZVFmakRHbm4wRm9NS1hGZ29pal9ZZVHSAfgBQVVfeXFMTXg4UXlCSVN3SWZuZmRPQS1tRVg3Rk4wVm42U2lZTndfQWJCTXRZM01PUWwwOTN4SFBrenRNNEt2cGxFNFNIN2JQbGlscEl0NXJuNHgzbWhEay1hLTFLTURyREp1M1FBcDIwQXlPTk9ReFdmOW5SdXZlYU9ZbTFaTWFQOUZSNUJaR0tkZFFhTFAyNFJURlplaTVNT3cwN1p5OF9jLUZzaFRNT3dOS3piZGRESnpKOUVRdW12QjkxTVdBYkt1MTM0UWRoTDViNk9ZZ0QydUY0eHRQZkVVbkc2Y0U5VFZRX1U5S2M0aVp6VWhINWwybkhjMXU?oc=5",
+      "publisher": "The Times of India",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:51:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "浦东三家机构联合组织人工智能训练师培训 10月17日开班 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1MWxzbHd2VmFZUmZ5bFZaSk9kWkwteXNmdEtyMklPbzczZENSSVNZbTNhc2dobEV2Sl9rSUtsUDY0SDJnTDc3YmhCUUpLYm1ZLVQ0UTczMVZjVE05aUVldGJ3?oc=5",
+      "publisher": "观点网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:50:41+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "关于组织开展人工智能应用服务商征集工作的通知 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHZGSWJ0RktJaUcwcVpkc2hNY09jcW5NT1FVeDhLVG9ldXNrY0tRV2Z6X25YbGRqanZ1QlJlSzY2clNVQTNjQ2tjeWJYQUhZd3Z5SzBnTVZzNWdEMHRQMk9McEhCT2dDVlNmcW4wSHl3QkxKVS1PRVBtaUdmM1JnRmdRUVlnRmxEc0N4MTJfMDBUSGkwd0k1RQ?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:42:52+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "2026年国家网络安全宣传周观察 - bjnews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40UUxzVW9VbUhTanhiaWlENDY1S1Y1dy1mUzJhNFVMbFRJa3RiMGN1NE1XaHdFU010OExDaldMakhnTkV4aEFLQzZfQzhVNVI4d09zT29tcDZBSVhjV0JOd0lMWFI?oc=5",
+      "publisher": "bjnews.com.cn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:33:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "From hallucinating AI chatbots to wiping out humanity: How did we get here? - crossroadstoday.com",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQWmJRSFVBRWFIRnU0R1RYMVRkaHpwRjJ4aEtDdTJBbnl3YjBqRklUSUZfODdDbExMOEl5Tm9kb3EyT1BvTHBjb0VPR3kyMG5DYkpjT1lSMVdMbzdMNEdrVGMwcGx5RDEzUldXMFRGS0lvekxKR2ZJdmNkcUY0Y0hyUkgwOXRUbUtNdi1NdTJOZmhZb2FIMS1tZXlBekdoQ3BMOGdGY1lQSklwejh2bWZNVnpGeVlQSWk5UHpRUkFFM3g5VmU2cDBZdzZFWS1ueGNEbEdDX2w3ME9aTXpoQnFBLXpRcnRoX1Q4Tm5PWDZTZGtMT0RORkE3ZTJhbVRIalN1X2hvZlQybXMxdw?oc=5",
+      "publisher": "crossroadstoday.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:30:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "OpenAI Discloses Six New AI Safety Incidents, Says Report — Models Hid Errors, Sought Credentials And More - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdEROMnhnQVptZGRYLU1vSVBjQ0lQSGR1eHRSYWtJRHZYUEdzcjVsQnduYzRmTy10dmtIX25WRzNwTnlNRjlZVExUU180cTZfNGpVZXJIcV9CX0pPR3VUMzhubTd3UFNhT0V2UzloNFJkMVJBX2x4ek5EdkxGU2t3ZmhhUGFIMVRNZmVOY0tqREZPVXQtTVVnTzJaamRPZElHTE1UVU0yLXhfUWdmOW94SXBMTkFfRzJjdF9uc1RuT1VNZTBOcWxLVzE4WUdhZkJJLW9zLURGM29NRVlNYURjNXZqYXFjSkgyVlVldDR2RjA5djUxZHN1dkxB?oc=5",
+      "publisher": "Stocktwits",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:29:15+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "中国—东盟人工智能产业创新中心（广西）启动运营 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwYTJDTm42VDNSY001NEtaSElhdEZoaGdiX0hpY3p6YjF3b21zMkdOcTVEQ0tDX1Q1Sk83MlFld3htYUNMaExOeTYtRUxKRjQyNTdrT2JCX0M3TTctanExNWJHUHRBaVBlYTZCNFltaS0?oc=5",
+      "publisher": "中国科技网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:27:33+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Anthropicは、OpenAIからの競争圧力が高まる中、新たなAIモデルを発表しようとしている。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVVJaWThQT1U1cU1sM2lZZXptUDBkSXpjVEFZSkQ4YVExV3RiUVN2YnoxZHZSMzZ5NmcxelZnaTN0dXRRY1o3ZlhfOGF0UU9odl94dFJJS1VnUFlnNFkyZUZrYzNweEZtTmVQQ2ZXdW5xTVAtWG9iYnQtckNuNjBYZjY5VkpoRm9rQU5OTnJMRHdqVmFxQW02MkpJbVRKY1VoWlpqaFFETQ?oc=5",
+      "publisher": "Vietnam.vn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:27:14+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "百度沈抖：产业智能体可内化企业所有任务，智能体竞争最终是AI云的竞争 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9DTUtZXzV0Z2tCU0pXVVU2cnMzbEZTUENpVHQ1aFlPZVBLbThzOUN3NHhYalozVjVoMktFXzRHZjFiUlFoblpnRkIxcU1UazJfU0VJR0I4VVpWVTRaaU9PWGdaY2VJQlRCcks2cEVrdXdPU24zWjRrM2UxQkpLSVdKWTlQTXNJbUpldHRB?oc=5",
+      "publisher": "手机新浪网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:20:38+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Your new AI agent wants your passwords, should you say yes? - The News International",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPakNWNkplVzlkbk0xODdDVk1iZ3MwUXduTEVJanFlX3hEVEoyaUNHcnR5b1RyVXVzQkpWZ0FneVZFS2pMQVZ1YlB0TWkzRWtybFBwelN6MVl2X0FpZk1yU0JrQmRnaEVaemlKWnZVS1RocTZFdWl2amdkTi04TVhpbE5jR19vRElTWVdZWjJFajF4dTVTbmYxSnlMek9sLTFC0gGcAUFVX3lxTE1yamdMQV8zdUxPSDM0VVNEV2RJSHZESFVZMVlHZ0ZTS2l0TmMyb1U0Z2dUdUxWZ2hDQldzc0dRU1VXUzA2c3pHY0hoMG5UcldCY0hWRXp6dDFkTkZKbjlwTzFJQy1jWUx6eGlnZlh2TUxiaXVrNDlmbVYxUVI1UmJ1SlBPVjJ1ekMwRnc0QkkzZm5ZX2NacnRiWEYyag?oc=5",
+      "publisher": "The News International",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:18:21+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Op-ed | AI’s Biggest ‘Critics’ Are Helping Sell the Hype - Davis Vanguard",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SUU90UWRzUjAxRTduUTM5b3FOUHpIaWYxeVRGWkRxQjVGT084dE5ldVp4cTNPa0ltM0NCRXo3TjFyXzhteGZnLVptazVDMEpqZmdGRGJnV3hkNlFBSjBVWFRWZ1FSNmV1cHc?oc=5",
+      "publisher": "Davis Vanguard",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:10:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "The Company Trump Can’t Ignore - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMkFEMFZieUNpR3V6SkxTM0dSMDctZC1Ockl4Qms4bDY0X0xFc2dCSHUxREExWlZ4RjFpQTk2dVNBRW9vVnNvX2VDTnpsNnVrME5nWkJBcFVzWjZtME5Gc01HYnVKSnlpX1laRjVscjJhMXlKM0xkRXZYRF9rMlpzS05jMVl5cDgwRDlN?oc=5",
+      "publisher": "Politico",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:01:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "WATCH: AI safety scare sparks Cap Hill fight over guardrails: 'China's going to eat our lunch' - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbUIzT3RzYlJiRk1rZWgyUlFFS2V0VGpTXy1XOTBoTDJPUlFqRjh0OEMxZ24yY2t1V2pWVktyOTlla1VzWGxVcGZFVlpsYm5yeEtYQUJaeFhFdnFDNFowWnJqQWNVS1FEMi1LeXE3V2hibnlpM0t3QnFKRkVVRlFiRVd6bmg1eVFoYzRleGZDdFBpN283NFg1VnlrYVFkeFprOXhYQU90SDRkX3BoUFI5UEFaUzRRemtIYUFv0gHAAUFVX3lxTE1hX1JiLXd5TUdrS3VtWlMydDhmblh1cDdnUTItTFNIdWc1ZXlmY1N6WHhxa2YtYUJaM3ZMSHBfQzVTb29KTDl6MzBxMEplQ3I5dWJ4aktOaVZZUjJFRWluZUVCWTNQaGpuUjVYdEE2alR2SDNzNy16ZXJSSHg1QmRFSkFJd3R4SzhpZGVnRnJ5eXJ5SGV3MmVtU2pKNFQyckY0eU1aaDdubEdQOEE1c0h2VUIzTTMxNUYyaUpuZU9FQQ?oc=5",
+      "publisher": "Fox News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:00:33+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnRwN284dVBRR1NqTHk3ellnNXcwQU1WRkNvR3RtdjdoZHF3Y21meXY0cGNEdmZzZUFjX2o4d3h4TG9HNXhmcFpZbkVaVkJQMEhrQ0NMTi1nRmw0ZU1OdF9JZndyUk1mcDdZS2J6STFhTVlHX1pOZ3JvR2xlUi1DQmdwcGlYMHhoWlNQSEZMUGZuazVXOUN1czVsMnBRajRoQ1HSAacBQVVfeXFMTzNvQ2VidEg5Uk9PbVdFWHdiSnJLLXZvamp3SFF6N1NlT2VGaGlEMGowMVQ3c19lNTZsdkJoWHJQSzFVLWpvbjc1RGlWVUdoRDJsbUpMOHdsU3J6eEJhVnJvTjdoU1JKdWtXQ0ktYjRUZG1QSVYyTWhyS2MyQU5qeldNVmZLbnhlVkViS2E5Zl9MXzFwVVJ6cjI2ZXVLZlEyRWMyTF83NnM?oc=5",
+      "publisher": "CNBC",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:00:01+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - Herald-Banner",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPazktNzBDbU1zR0FTY1FYckpXbzhOcDVicXBQaHBQalo0a3hJYVUybWpsWEF4STc1ZGRCRkxUeDRHQTdWT0ZPT2Y0ZDRYMmtETS1QRDFtU3ZTX05jZHJYVHVkZV8zWmtjUC1VOHRQV1o1bjRlalEyZEtQSkFiTExXTGlHeUpUNVY0VzF1cGxRV0M0c1AySmxPVWtpcjQ0S1kwZmxkMXJlYjJHT2Yxd1d4V0c1bTFMaDBteWNBdTNqanR5S0VFYmlxR2RrTkFzejY1OXpRUDBWcWxBcE1nQmozZHl3YTZ0LVdzTWU2OVotTE5icV9xWV9OZHdxYkg2UQ?oc=5",
+      "publisher": "Herald-Banner",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T11:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Jensen Huang says there is '0% chance' AI destroys the world by 2030 — 'We should go as fast as we can, irrespective of anyone else,' dismisses Anthropic doom warnings and rejects new regulations - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPRUxLZEl6TGlfUVlKbVh2UVFKRmR6dnZHblpPUlRKZkVyUmRKNkZFOTZaWUNzWmNMQkNfS0VwLW9XUFFQelhad3dtNjhTOFVCRENaSzdBdUpVOVZHNGpjYi1ab0dCdTRpVk5RRTZMUDlFNlF1MHAtbDVhaGNZVDJRX0MtNk5pOERuT3pkcUlBR3drLUdRY2FfZzBNTjZ2YkhJVUg5WklBelpMZEI1SzA2UW85QWhPZk4zWXA4eU0yNk1BMlJ1NkFrRWt2Tm41RGhKUTY4N1dqYi11Y0l3WGRLUTNwVDloRDBJLUFlR3JMUmNLY3FzN0VKdVZ5YmcwOE56NHZNVllYc2x4UFFRWTR4RW4xNUpsbVAzUGFDU0xFaDlhMTNkUjJoRm5hSFpLZTFRdVZxc3FOTkYzaUdqRjRvQVBaRXprM3JTNjR6aEtuS3VvUjZtcnd2SGczMHlzbExtSU9yaXl2bnBseXJDVFZqeE42VnBSenoz?oc=5",
+      "publisher": "Tom's Hardware",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:55:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Anthropic plans new model to counter OpenAI’s GPT-6 Astra momentum: Report - ET Enterprise AI",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRnJpWE9pWmNSeWpGQ3htRTJHelBpcXNKSVlwS0d2M2hKcWVpOHBLSkpGRUlhdHBxV3ktRjBXc2tKcE04eXk2cHpnVUNuYm5LNnlZOXQ0UE95N25GQTBaREFHbXpGNVdUTUU2QUpwVmhYX3hBZzU1dU9xdzhoREc5RU9UN0JMcUVpTThKajF1ZUl6RU40Zk9XcHE0RHExWkpFTy0xclBhTV95MWo0d1hWdDU0ZEN1UnpvcXQyblJlZ2RTdmxBWDNCdktRaWpfVjdOeU9jeFgtSlRNSERSRlRN0gHkAUFVX3lxTFBoY19VN2ZYcDZYS05UQ0lRZEV3TndQN2xpZzhUZUE0dERFc3B5QnZqaDMxeHYxMWljaWhmQjdTRkFRSnVPWlVLU3Y5S282YmVQUTdHTXRCNUxFdlVQcUo3RWlpcGFMUVY4T0pvNDJyZ21jOVJzXzc4ZWdhTlBrMDlTUVFvTzlsdlN3Wi1wVXZOM3lSWVpuenVMbGduS2dvOGFXTWVGdGlINTBPSXo0cG9kanJsbjRibEoyQl9LWkt2cVlOUmtsamx2SWtwT0hOM2FVakZUa0lLVTMwVDhma0I1b2E4WA?oc=5",
+      "publisher": "ET Enterprise AI",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:53:13+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "70 强会师杭州，世界人工智能开源大赛（GOAI）总决赛即将启幕 - InfoQ-CN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Nc0dzT2JQYjFFanA0elhJblBIWktQbVJ5UHJPZnMwMktVZXZJam9zMVdmdnhWaV9LMzJQZTJSWUppQ3VJRWtMRkdXZkU5WkwyaDcxZ1NIUmw5NV9DZ1E?oc=5",
+      "publisher": "InfoQ-CN",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:53:13+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "沙利文发布2026年智能体市场研究报告：WorkBuddy稳居企业级、个人应用双榜第一 - cnr.cn",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qME91SnhwVHl6dnZmUVR5REM4amJJMDh5c2NKTXQyNFpWTUQwSzNTcjA3ZGNfYW5jU1ZmbGl2UGxpSjc3RGtkM1hnX0YtVkVibjkySHlUUFNaLS0yUjllOVY4VVphUllTQTJ4d1Q0allCQWs?oc=5",
+      "publisher": "cnr.cn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:52:31+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Vance’s “Frankenstein” AI defense is a blueprint for 2028 - Salon.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZm5ETE1OdXZtbTh0NTFkRkhXU1hpNG00Z1N4b2lCU3VEX3d6U1l6OGdjNjlpUTMtUTc5VjFqZW54QUstNmxjU0VtNkRkX0hlZjR1M2lBLTlmdDZoVjQwNHdMQVBPaXpyR2RPUGNCcUxuR0pFRmIza2pqRzNSU2VjMjVUSjRsaGR5QmdWNEJlWjdNUQ?oc=5",
+      "publisher": "Salon.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:45:06+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "法人AIサービス、Claude・Geminiでの社内データ質問回答に対応予定(2026年9月18日10時59分) - oita-press.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UUWlDby1fem1OS2VESkRlUURseHExX3huRVVLWHJmWHZZWEE3R25UQ3pJRmlqRF9pTG1naEVUcllsX3NOczctVkdINzBzc3J0ekNmZHNmWmJLU2J4NWlxcVZNOW5ZT2pYcTBUODN3?oc=5",
+      "publisher": "oita-press.co.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:37:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "The Linux kernel has 5 AI coding rules every vibe coder should use - MakeUseOf",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40bTVtQ2I1MG9QQmd4aWRaSEFhZlZsNVBWTnJQYlBvaFJkbnZhVHg1VDVmUmFDcnhoWldVb192bVY0TDF2VC00RGQzc1NYaDA3QjdvenFhY050QkZ2T3c?oc=5",
+      "publisher": "MakeUseOf",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:30:14+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "The big AI labs’ safety push could come with a competitive advantage - Fast Company",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb3BQaGxySmI0MEFXUU96Vk1mWGF6azBaYURIR3FIbzBNNHhTVDZQWTBac2pZdFhSRDVsLV9OTFJhdjZiZ0dnZWZUNW9sWmplTjVPWV9IWTdwcFAwZ0ozUEw5WHRmcnNsbHo5ekFNMExTQkRvdy1nckVFQlhsUFAzMUZNLXkxNllmcmV1OEdiQzJ4bExQYmh6dWNIWkNCWno2STVZRlBENA?oc=5",
+      "publisher": "Fast Company",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:30:11+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "イーロン・マスクがOpenAIを提訴、非営利化と賠償を要求 | ウクライナニュース - #Mezha - Межа. Новини України.",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpSXVnd3IxVTlHS29KclBHbmxZNFcxLTk2UlBwMXJ1bnpqQ3g2SmUyV2pJR1ZvZkVmUUZmbndaS1pCZ1NyVDlqZHY5ZER4U3d5bG9pQUJwRXZHUFc0YW9v?oc=5",
+      "publisher": "Межа. Новини України.",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:28:21+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Nasdaq Today: Composite Falls to 26,186.41 Amid AI Safety Warnings From Anthropic and OpenAI Spook Tech Traders - BBN Times",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSHE3RXp5YzN0d1J4MTFvcy1fWklrT05hbVI3RGtudms1dG9lNFFTUmR6dnM0RVY4ZzN1ZHJOYjVPM2ZSdkZMbzVqVk9KNGo1TmpUWHR5SDZVZVBqMElsMklzZnQ1YlpveUVfc3BoY1cyeFNFNHZhWS1sZ3ZiSDhmV1lUcy1YZlJHTGdxRnNNbkxpUXByQTRMNVFMaWxxanlZTVNHYUZMZzI3M3VjZTJxZEhsSjBwWjlZT0ZoUHdQX3BxLXB3M1RJRXBaT1BoSHdWNHVRZVhNcWp0OW9lMlFN?oc=5",
+      "publisher": "BBN Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:26:07+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "百度智能云超级智能体大会深圳站举行 百度搭子用户规模环比增长9倍 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jQVdJM2hjaUNYMFJxck1hbkh0blFoS1o2VG8zX0NnMC1OOTh1VVdfU3labFBrSVp5N2g5STJ3N1FoTzN6d0JKUWlOMXdtQQ?oc=5",
+      "publisher": "观点网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:18:18+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "世界人工智能开源大赛（GOAI）总决赛 70 强名单公布 - InfoQ-CN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0eUI1amhvWHJSTjhHRFNaVXoxWUhlODZ4QWU0aWlDczFkUWlkMkJQX25KTGtDdzAwYjVneC02Y0hXcndNeHhCcWQxSEFVa25xT1o1TnNXWkVSWm5DbVE?oc=5",
+      "publisher": "InfoQ-CN",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:16:34+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "厦门市发布人工智能与具身智能合作创新采购项目实施方案 - 投资厦门",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RMU82UjVZYUpKazc2eGo3WHItOW9XX0Q0RmVBa01qMVNPX243T21DVDJ2T1EzbzFqb3BEUTF0Z3ZheXhQLW9xbnoyakFFeGhNMTItVDFydTBydzZaOEE?oc=5",
+      "publisher": "投资厦门",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:09:52+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Accenture and Anthropic partner to build embedded AI safety evaluator team - Indian Television Dot Com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOUZZQ0pIZmQtUWxFNTlBN3J1ZS1kdUx2dXRJTFEwdWItazNDOUpWTU9kVzAzQWV1cTRjM2U2dW55aWFJYjhlall6aDBJMWdyY2t5YnQ5YUljc2hOZlZLbF9JVXl2OFRXczg5LVBpY1NSVDM3XzJLazRmZlAxbzUxcll6WUhpVzcwM3FEMDlQUjdWQ2ktdkt2c25kTWdyRUhiME9OM2xzZE1WeFhHYW9TYWFqMldrRUU?oc=5",
+      "publisher": "Indian Television Dot Com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:08:16+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Is AI a threat? What Ohio experts say about worrying AI revelations - The Columbus Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSWNKX0FxcDFaZnhiZnBaLURCc1RCbkhIWTNmMVVrRFVxSHRIQU5VdWc2QzZEc1A3ZFJ1dXRZRW9WR0JFX2FZcjRRSUVNbGNWU0laNG5hMkN2dkdvWWk2QVg0M21DM2NFRGsyWnZTMmVoWEtxMjc2ZjcwTWJVbjNTMjNrVUt0S0hvMkFNYmNNRi0yaEFfQ2hnMFczVzR1UnM4eElZT3QyY0cycmlRVkxyWmpGSHRFUEhVSDJkYUNrdVFTdFpLbEdzX0pOV3BKUEd3ZTNXbw?oc=5",
+      "publisher": "The Columbus Dispatch",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:03:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Googleの生成AI「Gemini」が実在企業のシステムへ不正侵入、開発企業で相次ぐ暴走への懸念 - 東京報道新聞",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DRzllbmJvZUkxV0FRRFVFT0xCZEQtSnVnemIzcWV0WFJoRXI5Y1lYcThfNzBkTW05a0J6aTlOYUhQdFJUWFdqTE92MmlBbmw1Mml3?oc=5",
+      "publisher": "東京報道新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:02:36+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "元OpenAIの研究者による「生成」しない「判断」のみ行う新AIモデル「Jev」とは何か？ (ビジネス＋IT) - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMlJoZWk5c2wtbFBXTlA4VVJtcVo5VXhUdWltczEzQ3BZQWVwSTg5ME1vV3NkX0o4a0lPdmRvQUlzNmRfQlk4cWtuVnZ0c0h5V0dtMEk1a2VmSFdYODFGNHlWb05MMFlUWUN4Xzg3eTNXeTVIRGs3Mk5Lc0RvbTVwcGExRlJlcWJ5VndHNTdR?oc=5",
+      "publisher": "Yahoo!ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:00:06+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "OpenAI boss named exact date AI 'could kill humanity' - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vajB4YjVYN1NsaDI4SGxRS09nVV9IXzJ0RkY1SmVyODBQYk11T0paZXdDdGgzVFE2WEllbVhZbzdIUG5LeGgxZVFFUDY1NjZpRU5mMkFCRUpVeGtaQWpWbHFGWnBQeG1iNGVxRjB5clBHRWxoX3RVdk1xOXY?oc=5",
+      "publisher": "AOL.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T10:00:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Anthropic Considers New AI Model To Counter OpenAI’s Astra Days after CEO Called For Slowdown - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTDdUbkdkWmpoaTlEQzVrNlNicW9reHZaRlBVMnQwc0ZTMEtNZFdyUTJON1JPUFQ2M3UxSjh4d2c1Q29LbHBfSXJrRk4zT3RWMUo4UnJNOEc5TEQxVDRmbEI4R1o4T3hGeFRTenFIRjg2b2k0eFEtUC1Qc3I4WW1LMFF0YVZuUEVnNVBMd1FTRE1HeHozM2ZHLURKcVBNNDVUQjM4dDdlck5hNHUtSW9aX3B0YWlQS21VNFJFbFdaSGZiUWZXUFM5MnI5Z1ZJNWFiUnhWLUR2VTNCejjSAeABQVVfeXFMTXU2UDRwV2F6RHpOcS1uZG9OakFOejFMWHpkcGZleWc3bGFBOFNBODY2SDZzQ3FTRXBpcDdFUEptLXNObmd1X2dwNVNtT3llc0llQ2ZvMjBIbG1Ic01Gc01jd3NfeVJ3X0t0ajhmLVdxVVltbnJZT1R3VlZQQTdIbEhSQUkzMkZYbEEtc1ZEV1Z5YjJPUDJKb184SGRnMkl2TUhJLVIxeVR3dWRiWGh4cXVla1FuMkE2czVMbVF0b3NfS0I0OGQtbEE3ek1rZTRXbnBaZ3VpMEh1Y05FSjFNbU8?oc=5",
+      "publisher": "Deccan Chronicle",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:57:14+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "黄仁勋反对放缓人工智能发展节奏，称2030年不会出现AI引发的世界末日 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxPb3dvbDJySGlpYldsUVFCYzYwTi11bkRyeDd1a0VhWnFfcGd2QXJQbmxTN0JYWWxvMGxTN2NPbk9KSXBzanNJdVFRRERaT3dwTkdBS2ZaWkIxVnRyVXdOZWMyUWpGd2F4cE9ObC1ZbVVGQ2YtVGpyQUF1REdWRzlCVUlGRDVLMEVkaXpUTUQxT0pRWjhHb1NfbmZnUnU3RkxRRmFsWHZXUnFha0NjeEEtUlR1cjZEa0x0RjR2NmJHNHp2SVl3eEg4THNzcW9zNUtQVDVvbUE1NTQ2Mi03Sld0SXA1d1VOdVZ3YzczSmVSWWh0MWVKTmlENWNhVjFwWUh1aVgydEMzZXV2MlhhaEJZTG50MVhObHNYbGZaQ1pJVzVLM21hQnlPMWNXVGI2dFY2MFU2V2dza0prMlQ5cVIwNkktSFBvVUJyRE16YW9vQTBLbXBZVkhSbFNBdmtSZ0ZlWVJPRFZFTV9UZTBsek5QOEhVeVk3MEY2bm5DTklEMU1qM2xEREdnbC0yczZWZ19fY3J0QnRhX3F4VTV3cEFNY0hHcVMwazFkQ3NqeG81X1B4WWlyUXRaUkM3TQ?oc=5",
+      "publisher": "新浪财经",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:32:43+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Google’s new AI agent CC can help run your household: All you need to know - storyboard18.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSU5kSUNrdXZqcWRGT29iZnVPMVhXLU1jMzVuZFFEMXBadENUYXFRcERqdmZaSjlKRmdBVTNyaUhiZG5LUHB1ZDdldDRwZkZ5UjYyMGZKWFQyaTJvYi13QWViSWVvd2ZzMm5LSWgyMERzYTZWckdRbVgwMDhyVTRqeHVSeU1UTVdXdGs3cmttX0lEVWJZdGZIbFc5TTJTYjU5MjRRQUU0bFNNOTVYUFltdW92Y1F6MmluMUgzbNIBwgFBVV95cUxQMHBrVzZCRE9TdzN4OGJ6TXF2Zng0eHB5S1FOcDBqX1BUeThzcklocjhyejdJdDE3X1VNWGtrMDBTdXVpTk5OVVRQQmF4OEszTXo0bkNocmtNYXBVOGJMVjBvOTVMWUpYQUZZX3ctWjlsWGhwOFhoV3U3ZUJLNWRYZDFKY2YzN1dLMDYxR3BEdERHU3ZmbG5aMnpkN2l2WnRTVHRyQnEyQXRsVElkcDFlVzJJUG1jV2NUZElEU1g5bXZnUQ?oc=5",
+      "publisher": "storyboard18.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:31:02+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Should You Invest in an Anthropic IPO ETF? What Investors Need to Know Right Now. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY3B6c0dlTmktLVdUcmJNUG1oZVRWaVA4R2IxMHZUZXpDX1NqQjZnMHdtSW5UY0NQUFg1LXZXcG9jbWxmbGZKS2dBUFBBcGJtSnFqb0I0ODBvMVB0c0lrSVYzc1dWVkttVkJ0TGxNWmNzLU40VDliRnVUN1BabV8ycGVKV096ZTJQaUw4ZTd6V195Q2N2MnFNQQ?oc=5",
+      "publisher": "The Motley Fool",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:16:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "最近気づいた「Gemini」3つの改善点【2026年9月中旬】 - jetstream.blog",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVVcyTWp3TXZQMnZITl9aNTBXRm42Zks0bmhXeFh0Vl9nazU5TFpQSGlQYXBRUngzNnVva0pXU0pmYjBjQVdYLXlZb0FDdTRoU1JRVGFUT0dDcy1DTkY3RWxhcVFXZXRjR0c4UDFNMTMtbGFCaF9aaHhFZjlpZ1hwazBZX1VEcXRYd2FJMzhocTRxbG9hRVgwb0Z3?oc=5",
+      "publisher": "jetstream.blog",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:15:05+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "A global AI safety strategy depends on US-China cooperation - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NbGp5Y3dmX1I2OEdsendOMTFTRlBsd2l1bEFWcUd0LW5ZWjJ3YlNtclQ4LUM0a0pTRjFqU1V0Z1dIc1QtZUtnTXlWeVlLYU1LMm96Q1pVcUFqTlJmRUE?oc=5",
+      "publisher": "朝日新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:14:10+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "AI Safety Concerns Grow as Technology Accelerates - VOCM",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUcXRZOWNvR0FyWUFrWVc1Vl9JeU51Y1N1bkNmYnh2R3kxN1ZneHhVamktZ2FtLVRBblNYTmZuMDJFYTJYek56dUpicw?oc=5",
+      "publisher": "VOCM",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:09:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Labor told to push Trump, US AI giants on security access - AFR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMzBQMHFrc1I1QUdtY05uSExWQmFDWlM5WkZSUFRIUFp6MEFYWVM5T0VpQmdSLWNEVW1XZ2dROE82RVlTbEFOUDZCNFI4NFcweEdkZ2RhbzR3RWFIanZNT0FEREVxUHI2dTkweUlhVTVXcFZGRVJfaC10djcwZEM3YllYM3hROUhvOEVUOUhPNTBFemhQbzc0RHFVMVMwSGU0RTlfUDVjcnhRWF9M?oc=5",
+      "publisher": "AFR",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:08:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "北航举办人工智能及人文社科应用微专业开班仪式 - 北航新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MYWtoZHBIeklmdENWZnFhTVExLXNvLUdHNDFHM2xWZTUyRE82NTVvUm9KdmdQU01GSDlKU3dXdzNjMThpV0l3cHJsUXJncjkzSmlTNVlGQQ?oc=5",
+      "publisher": "北航新闻网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:06:01+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "MA Gov. Maura Healey calls for AI guardrails 'before it’s too late' - Cape Cod Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkw3d1JGVENxb01nbnBzZnNyWDBTZW9TYmx4UGRVZmNLQ2x3eGJKdjd4OGUzcEo2bXRkdDJuMzVCV0I3WXhMRXV4X3JhODMxbGlKYWlLMl9XYlkyY3NjU3hyRDR5SGNqTThhUmtlUWdGYTdRTGR1azdBYUl2U3R4b0VnQnhwMVhmVVNFc2pkcXY0TXh0V1pFUEV4QzV0TndiOWFTdHF5SmY5cHd3OHM3QlNCTQ?oc=5",
+      "publisher": "Cape Cod Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:05:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "中国・百度のAIエージェント「百度搭子」、ユーザー規模が前月比9倍に急増 企業版モバイルと開発プラットフォームも同時発表 - finance.biggo.jp",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsSnNGMHNxQm9IUi1YdFFMNFRkVjlPUlBXOXFKRDdnOFVJeW1BRlNaUm1nQXM1eGVfT3pocnk0N3prNjNjMnhQNzFjU0VqTnlSZWVGdlMyQ3EtMVlRajAxUHJ6Slp2bHdjS2tMZFZDRmZMVmhu?oc=5",
+      "publisher": "finance.biggo.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:05:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Researchers Breach OpenAI Using Claude in 72 Hours - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQVlZOFllUl9XUjdMaWJNX21LNEdYcFkzNWZubnFueUpsQUR4SXM5bVE3MG5GUWttVGFOSEFzSGUyc0ptdVRJcDR5dy1UQmlZS1hzYnh3TkhJYlJTSlRPOTRJMDl3Q05nZ01WVVFvLUs2WnMxQTVDWUtrZEZBTUw0RHRGckpNSVlE?oc=5",
+      "publisher": "조선일보",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:03:16+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "从金融交易到车间机器人，AI如何赋能场景 - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93QUZmR2lFaUdLcmxPRzh0QWtld1VqLUZKazBSd1FWVUJ0OE02RUxBYW5VWGk5Z2R1T3NxcHk1MEVqWEV4bVAzZDE0Tk1NTmhzTXZBQlBjTjNKR2RqUFIwbXhib0FxNlhfdWxN?oc=5",
+      "publisher": "新华报业网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:03:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "元OpenAIの研究者による「生成」しない「判断」のみ行う新AIモデル「Jev」とは何か？ - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kYWNtUW1JM3JlX0RhZUJQc0JQWTJXTGExd3dZcWMtZVpkLXJHelZDc0pFS0VRM2V4RXJ2c0JJem13VFR3eUNRdFJ0RklEMXF5djFj?oc=5",
+      "publisher": "ビジネス+IT",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T09:00:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "OpenAI, Anthropic, Google and SpaceXAI sued over alleged agreement to slow AI development - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMW02cVM2WFhYU3dwY3BfTnlkTnlDbzdONGRRU20tZGJzek1RS0h2WHR3eHU0UWdBVmhBR3ZVLWlidjNmRm96WGdXT3pJRVk3ai0tR1NlTkxFcEdXX09XbkhPeGgwT1Y4bmVSYWhpQlEyWks2TTVjRFRaQkRWZDk3eG9kM01WSVZmemJITjdKMHRJQ1RoaUl5MGJmQ1htZ3NOQURYZFlXa191ZnJKaHpvVHZlWkw2d0J2QnEycTNmSmg3d1JUeW8wejlMTUU4ZXhtdzY3RlZyWm5TYWlF0gHiAUFVX3lxTE9jaGFHaVd0aE9PX3p3YjhyOHpZRUVXWGs4U1lwb2kxdkxVVnhYd1NsMF85NklVVl9rTnhUNmtzNGs4VVZLUTZTRW9BQlViNTVxV2Q0SmZRQTZzSGVPaGxhek16ejdqalZ5VWJBYXVxMU5vN3BLanJPS2Vkc3l4S1F5NnV3Y2F2amxma2drTDVCdjF3Nk9Xa2hqUkdaTXlVdDhIdXgwcC14d0NoenM5bmZYdURHTUpRdi1vWGFOMkZ5czR0bjJJUHZ3Smh3UDRvZ25aLTdTREM0aGxPT1Nlek1GVlE?oc=5",
+      "publisher": "Moneycontrol.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:58:55+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "生成AIグラビアをグラビアカメラマンが作るとどうなる？第74回：MiniMax H3高速化、15枚参照ほか多彩なテクニックを紹介（西川和久） - テクノエッジ TechnoEdge",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1ZklpcU9QQ0pmYUJhU0pndjhvb0pBV1c4dzhZV2V1UUhDbnhxUUYxRVpMSDJubnRiTWIyMkFIN3VpanVBcGRCaXFwTjJ5QXVfeEhVaEFnS3BmV0hfekgzZkllRjQ2WFE?oc=5",
+      "publisher": "テクノエッジ TechnoEdge",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:57:43+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "全球青年投票选出，清华发布青年最关注的五大AI技术榜单 - bjnews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OeGZwbG1HU3AtN0V2aWQyYVJLVjlMWlVETVctLTB1Yjc3cEgtUENUa2lNRmNNTHBlSlEyWHp1UnVkbGJ3ZlRzeUdDek5GRHd6X2hGNVBoQnhZcy15aTRVb0hxZlU?oc=5",
+      "publisher": "bjnews.com.cn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:43:00+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "'AI could kill us...': Anthropic, OpenAI, SpaceXAI, Google face lawsuit over 'agreement' on slowdown - WION",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdDlNT1dWY1Q5OEluZXNOT0lYeHdCb0FSLVJKMlJQRVVMXzFDeHhXdXQ0YUhqVUJYRjdHY0hfRnZsZkxWdWhFOFdOYU5UdmpxNVd5Qm5oTkRZcVV6Y1h2S0hMd3piQ1JCV2xQR3U2LThPaHd6b24zdVhvSzZSS0JWRmhuSEJYRURFUnI5THdWWEQtdUJvYkhGUTNNdWt1YWZQaFA0eW12c2M0Z0ZQTDRHQkowZ2w3QXFlOGhaSGhzMTZvamdBaU8ydkl2Wm1SSG5ZdHNJ0gHTAUFVX3lxTE50OU1PV1ZjVDk4SW5lc05PSVh4d0JvQVItUkoyUlBFVUxfMUN4eFd1dDRhSGpVQlhGN0djSF9GdmxmTFZ1aEU4V05hTlR2anE1V3lCbmhORFlxVXpjWHZLSEx3emJDUkJXbFBHdTYtOE9od3pvbjN1WG9LNlJLQlZGaG5IQlhFREVScjlMd1ZYRC11Qm9iSEZRM011a3VhZlBoUDR5bXZzYzRnRlBMNEdCSjBnbDdBcWU4aFpIaHMxNm9qZ0FpTzJ2SXZabVJIbll0c0k?oc=5",
+      "publisher": "WION",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:38:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "沙利文发布2026年智能体市场研究报告：WorkBuddy稳居企业级、个人应用双榜第一 - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CZzJFRTR6cUxWN1Z3c191NElkNmR3Nk13d1FWZ3BOZzVtdjFWWUNiVVBfalJ4UFh6ejlIcERzSzBMbmZlTmI2dkxlbHBQUThWaUNPekZJRFBPLW5nbUE?oc=5",
+      "publisher": "同花顺",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:33:06+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Apply for the Cambridge Boston Alignment Initiative (CBAI) Fall Research Fellowship in AI Safety 2026: Fully Funded 10-Week Research Opportunity in the USA - Global South Opportunities",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNSXI5endZUmlwZ212aHR4dC1zaXhzSGlGZHhBSHpOd1VPRENOX1dqTmVYVWJEZE03SnJYM3RKRG1yZnVta1FYTW02bXRPWjJ1VF9zTjhXdmw0VzlrVDZWVWJCM01ja1h1?oc=5",
+      "publisher": "Global South Opportunities",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:20:58+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Meta's Muse AI agent gets a Mac app, and Meta says it is coming soon to AI glasses - MIXED Reality News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQnhmeE5DWGdqeS1RZmtWZGRpZ0t0cndEaW9EcEdfUVMxVG9jY0pYRzhkYnRRZHliMm5JLWM1U21helNyS2VxcE1zWnpwOXlycDZ4WmJUeEUyZzV3cHkwZ0Z2Ui1iQkk0RUtPV3NVZm1ZTy14SDFxN2Y3M2ZXMlJ4RmR3?oc=5",
+      "publisher": "MIXED Reality News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:10:44+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "OpenAI, Anthropic And Google DeepMind Discuss AI Safety As Industry Faces Pressure To Slow Frontier Development: Report - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOczIwLUh4ekpuTDNLTjAyN21fbVNlakdEMUdTY21uN0JJWmRhVFhxRnQ4aUNqMTRFTFFVMmhRak5OdmdTNGQ4TFgtWkl3a2ZJNWZIRXZodEl1Znl5dWhsOHdMOXJIZFpmdkJWVF9NbWRzMlBKb1pCTnVXQWlJcTJiQTV4UjNRMjVPNlhlbDRzZ3RId3BSRk1yZGxzaUlKS1huTXlrbDJ4UndSZzNWNEpmYWQ0aG9TaXJjdHdvaXpkTUQwN1p1d0p4N2QxNnNuMEt2eWJuSUg4UWlHVTNYYjV5YjF0MExudlhKYmZXVDRGd1liTGJqYkFKVkE3TU5tY3dXUWdpWWh4UXAtVzlBMS04aA?oc=5",
+      "publisher": "Stocktwits",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:10:40+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "2027版高考蓝皮书发布——聚焦人工智能，共探创新人才培养新途径 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xQ3RlWnduQnNmVXNrSzFYd1lqWWJxMmV5cDl6TWhyMURodlFRcWRvZVJ3dXJ2cWNfT0hRQjBZWkx4dnYwcjhGMG10Q05wM183NVY0S1FyTEpmNjVITDh4bnhNSnQxbTJnakJaVktOMFlFN2o0ZEJURW5FdkVtUQ?oc=5",
+      "publisher": "新华网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:09:51+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "厦门智能体可信互联中心启动试运行 - 投资厦门",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tNkdDVktlVFplSEY2amNrVFotOG5qNjkzWU5xUE5yd3h5NG9yMVdSMnpuXzlrWUNDNnMtZnF4c04yR3VkaGJsMnFpWkdRXzdqVHc4Tk9NYWd0QmRTR0E?oc=5",
+      "publisher": "投资厦门",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:08:58+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "Editorial: Big Tech is warning against AI. Will our government listen? - Rock Hill Herald",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1saGdWeEJXN3RNaXNkMk5LZDVzSmxVNkVVOTZEeFpRQW5FU1FXYjUyYWg5dWdqMVF3NXVheUpERmJoYlcxSS1VQUNYaVJjajd2UXZHYmt2M0l3YTN3LVlxWF9Wb0ZoWjNmWHBmLU5lVXkzTFdIdkFnNEZKc2Y?oc=5",
+      "publisher": "Rock Hill Herald",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:06:00+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 - thinkit.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw?oc=5",
+      "publisher": "thinkit.co.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T08:02:28+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "ソニー銀行と富士通、勘定系開発に生成AIを本格適用 工数を40％削減、開発期間を30％短縮 - enterprisezine.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTek82TEFkY09Eb2xOckdhcFdoSXRpZ0RNLXNoRnNTd29idlN1UjItYXVXTUxFY2QzVUFOejNoeFAyQnVxUS0wbXJVTGlYbjZZZ0U1WGlR?oc=5",
+      "publisher": "enterprisezine.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:53:51+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "生成AIがコードを書く時代にKubernetesのPodをローカルで実行しつつクラスターをテストできるツールを紹介 - thinkit.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93SWFvQ256NkhTLW1ZVkJZQXlEejA1bmhCR2w3dGU1azJzWWFZcmJMZ045Z2plek5jbTRQbUdOWGNGMnRkZi1RWkczSQ?oc=5",
+      "publisher": "thinkit.co.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:49:50+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Human-in-the-Loop Is Not an AI Agent Strategy - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeG5tNmFjZVd3OVRNMU5ueWNMNTB0VUFlcGxTc2hqUmJiSUxtejlnclVVZEFneGtpT2tFVmVlQmR2WVdjd014UEVpWG5zSXlBalNtRUZsU3FWcHVNMEpLS1RCZFQyaG1pVWphLUtDQmZyUVZQM2JwM2NBMWdRdzVUb044c3pyRFdnOU9zaUVR?oc=5",
+      "publisher": "Cybersecurity Insiders",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:44:19+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "浙江发布“人工智能+消费”新政 2030年核心产业营收目标超6000亿元 - 浙江新闻",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLYUxSYVJFYjhla2ROUE5yTFpsTDQ4Y3VGdklnZHRHZ0tKQjU0ZUhCVWk4ZlJwaHAwQ25EcWc0R0VhMlNac3R6M1ZtRzJic1M3a2tDMDdBOXRDNFFvZXNpcUFVYnBoM25vV2hfcU41OVpibDg?oc=5",
+      "publisher": "浙江新闻",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:34:15+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "科学論文を、新たな知識を生み出す能力を持つ協調型AIエージェントへと変換する。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOODFybkU2T1VoeVp5VmY1Y0M1cDhhR05HckNqNWdWUVpOS3dXdUlCN2RYbk5QdkVMY1VhTmpKeHJ4VU43WEo0cnJ1RFZkMnlMcHRUV0t2bEtmcWNrTlp5c1lSYTZORjZNRUpvNE01cWI4aHZKQjNYNmwzSXp0a2Y2TnV1elZSNC0zMktBSU16cDdWajBuWlFJMnBrN1dYVEN0Q1pvLThGMVRqYXg1?oc=5",
+      "publisher": "Vietnam.vn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:32:07+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "生成AIで「デザイナー不要論」に、僕はこう答える 杉山知之デジハリ大前学長・回答全文 AI×人間 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jemMxWEdEQVhmYjAtX280Z0xQUUJMWlFMZ3p5ZS0zdmpDbFdaMGpJRUwwRERMSlFiWDc1cEh0dmd6T0xPdkxrSXdVX3lPTWNza1Jva296YjRTY3VmaHYzMmVYNTlaY1dwUXllWGw4YWJqMTVOX3c?oc=5",
+      "publisher": "産経ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "「Jev」とは “文章を書かないAI”がなぜ話題に？ 元OpenAI研究者が開発、「“スマートなif文”と考えてみて」（1/2 ページ） - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rYl9vQnkxTnpCeE5zWktreFdqLUt4REVqU2U5OFhpMnluNVRYLXdIb2dzZFNVdWVRbWloM0E3WFZzTzI4OVNWWnpDbTVLdTIxY3QxS1pqZnYxY1JlelZsbGY3TFl4VElvdXlXcQ?oc=5",
+      "publisher": "ITmedia",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T07:00:26+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "生成AIの影響を受けやすい職業、受けにくい職業は？ 通訳、記者、ウェブデザイナー… AI×人間 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwbDdmQU8xN0lSR0tRellCNTJSQWVyTzhmcHFtTWFpc2tXWWRnLTBmRk1aaktqSVhuSER0am1rVWtsc1Y4NExfRFFwM1gzNnJRWXNubkI0XzdXNHpHblBydXhydzVJV1pQemNOU1hQSnFMU29hanc?oc=5",
+      "publisher": "産経ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T06:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "OpenAI, Anthropic, Google and SpaceXAI sued over alleged pact to slow AI development - ET Enterprise AI",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWlNHZ1U1ZFc4ZTdUWElwSncyRncybTc1NnVNSE5Cdlc1WTFTX1dxNXVycEJmdllPM24zMGtpTnhISjlzTHFpM0NWcjdaVkNJZUd2YjhCLVQwWGQ5STVOdGlIbngtU3JCY3lyd3pzYW9SQTladXJfV04wa3ZQVHlUVjZNYzZKbXlYOTRZT2V2cmtHR1p3eWo2azF2UC14M3lMOVhJVjhEelJYbEFOZjg4ZEhGR2RyaFlVYzFIdFdRMXRzWDFPdTJKR2luMzRSVkFxcHVCT3V5MGFXc0xSMkJmYzBYTFFnWVllQUkzeNIB8gFBVV95cUxOR2FqbFBXMmw4Yk5rUDRTamlCd3pNZ0ZsWDB2ZmtFMm5QX0hXNHc5c2ZSbEJINFpBTE52akQwNkVhczBIbVV6bk5DUG9BX2JKZDljdVctVWRQYkpETGdDakRLOFIzY2l2TjdwcEJ1ME53blBIYXJmTnRSUF9wcnQ2REhaM193eHdpUk41RjBzcXRnUmdjZFV3WUt0aE53clRaQ1NHSjRSYlZjRHZzaHJGcEhMM25oV1ZKX2dKb2dDSm5vSUNna0FIUEFYaWxEd0l3eGpQY1U4RVZiSm52Y0dKbVFlWEJ0NDhYOGFhY1R3eWRTQQ?oc=5",
+      "publisher": "ET Enterprise AI",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T06:24:03+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "OpenAI Discloses Six AI Safety Incidents, Introduces Misalignment Framework - BW Businessworld",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVFI4XzZ1WjY5ZkpRRDJjY1FSRUFOVnVnbUhERV84cjg3YzM5bkphVW4zbFIwdkJyYnp1QTFKU0JCdERIbV9WZG1XMkxRWnh1T3pPNmRpRzFMdW56NXlrMGpBSmZQaVpxalphMUZLelV3aHR4b3VNQmR3OGtXcFozSk1hRFR5dTR3YlczeFBDU0Vxc1kyQ2FKMlR0Q0VnbGluaS1hN2dKYTNJV2ZWVFZabmZ0bFU5TXVsdkE?oc=5",
+      "publisher": "BW Businessworld",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T06:19:28+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "[Insight] Companies That Called for Slower AI Are Racing Again — US-China Rivalry Tests AI Safety - Korea IT Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DT2NJNW5JVjYwVWppQ1dDejdBaGJiNjIzSW9memsycGpjQ20zMkctZTczeHlxV1h6RW1kY05jeG56OWw0bkt5Qk15bk1uczJxODVtaGNDeVNNMm5oTmtRMDEtc1EwSGVLd0NUaTVyd00?oc=5",
+      "publisher": "Korea IT Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T06:02:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Rogue Security catches malicious AI coding agents in milliseconds - calcalistech.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51dDlEVVlRcTRrOGRfQXBwb2huSVItQ2hRSWY3UFh0YzliSHdhQmZQN3BBMUp4eEF6MUxaSWJKb2U2alM5SDNSS2FDXzkwMVIxZ3VQRWRXc0k0TkdPTWhoa05xLXVuZ00?oc=5",
+      "publisher": "calcalistech.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T06:00:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "OpenAIは、AIシステムを自動的にシャットダウンする仕組みを開発している。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSnhmN0dHOWhZcG5Ec2xWLXVwRWU4a3psc1dBeXpuYXpkeGRsZ2VEQjJ6Rll3MTdWdGlpSjdRZ2xHenZyNk0zVlBuaEFHRDB2SGdvRUhnRWNhSS1FOUh5UDFmOWtWNEoyanN2NXBpQVNXU2J1bmFOdE9kWUcxRUlRcGQxcE5rUQ?oc=5",
+      "publisher": "Vietnam.vn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T05:31:05+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "OpenAI、30年までにフリーキャッシュフロー2780億ドル赤字想定－FT | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WbWtxeEFwXzBZNUhNRXc3bERlTlBGMGZxTlBZalBiR0RKdEJ4a1UzRm5LNFNXTGt1Sk92LWYwaldGWDhNNzNiUUFaTWJqMDlVaXJRZnZOWDhDYUdaeC1LZk5kYmhrMmM?oc=5",
+      "publisher": "TBS NEWS DIG",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T05:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "「時短が半端ない」生成AIでクリエーターの仕事はなくなるか「選び、責任負うのは人間」 AI×人間 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5UWZwRHliWE1YekRhNnRkZ0NFdFFPY3FaTVBNXzFIZ0NuN1p5NUk4bW9jaXFiV3Vqb0hVUHVONzVWb3p3M09GWG1Cd0hvQ0hMWE1Jek5BeGVoNEoxQUxDTkNGbzduWURpOHFEV3g1NE9rRFQ2d0E?oc=5",
+      "publisher": "産経ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T05:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "ClaudeでOpenAIに侵入、72時間で社内リポジトリへ｜報奨金6500ドル - crypto-times.jp",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jeU1UNTVGTHhhZDZwNE1MT1lpLWFkUU5DWHh5Y3VCNVcxdk96eDRNQUNVS1RtZy1NSTY1SHBXMWRlUHhSNWhwNndTOWxpY3pOeWxhSnRzanJjcGJFd0VXeFpBR2NpSmlWdGNZ?oc=5",
+      "publisher": "crypto-times.jp",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T05:29:24+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "California Governor issues executive order on AI safety - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPem5tZ0dJYV9oYlc2bnctWFo4UkxOc3VpVjlxVTNhRF9Rck1xUkJ0UmJzQi1KU3RFZjYxSGM4d2hGMXFHSnRVc3FmYTdXbldQbTF2UjdOZEI1RGpzUWk0aXFKZFpFQVduLTBmYlVzcEVUWmRWZnRhSFlRejNaNzlEeUtodnZMQTNVUGxLNExOVE1YNExhZUtGbnoxSHpUb0tsMTJ2OUgwNlR2elhjN2lMTEg4QkJHbnhsMi04QVFERndOX0RZTmZQdk90UjRlU0VKalFUZmxR0gHWAUFVX3lxTE96bm1nR0lhX2hiVzZudy1YWjhSTE5zdWlWOXFVM2FEX1FyTXFSQnRSYnNCLUpTdEVmNjFIYzh3aEYxcUdKdFVzcWZhN1duV1BtMXZSN05kQjVEanNRaTRpcUpkWkVBV24tMGZiVXNwRVRaZFZmdGFIWVF6M1o3OUR5S2h2dkxBM1VQbEs0TE5UTVg0TGFlS0ZuejFIelRvS2wxMnY5SDA2VHZ6WGM3aUxMSDhCQkdueGwyLThBUURGd05fRFlOZlB2T3RSNGVTRUpqUVRmbFE?oc=5",
+      "publisher": "The Indian Express",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:12:24+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "【徳島県鳴門市】「生成AI活用ポスターコンクール」を実施 - 山陽新聞",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4c1V6dlV1SkJ1VTdQTFdnUG1OMG1WS1pFQUJGdzJLc1M1WE1kZ0JKNGl4VHNZTjJxNUp1SHA3bVpQYXdjendaNzhrMm9aQVNuanBpRDNHX3BDQjJyVGVJME9TLXhRWDg2WkFoMkx4NA?oc=5",
+      "publisher": "山陽新聞",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:11:26+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "当人工智能安全风险加剧 网络安全人才能力如何升级 《网络安全人才实战能力报告-AI赋能篇》发布 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DbWhxV3ZROENKVVBodmRzV1MwaGJWMlpLV2FZanc0a2xNTy1rTFdxa09kUURvTmI2Vkhvd2E5SzI0ZWRxbmZOck9YbnFCdUNtNGdpa3BCejJFeG9vLS1nOU43S1pncUVJaVF3Y1hQTC1hMnRhZUE?oc=5",
+      "publisher": "新浪新闻_手机新浪网",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:09:23+00:00",
+      "matched_queries": [
+        "china_ai"
+      ]
+    },
+    {
+      "title": "MICKEY FRIEDMAN: AI — Bringing loving grace or doomsday - The Berkshire Edge",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYndkS3V1dUlza0lZVlU5bG5EU29aMmFFd0RxaWhaS29XdTZWWDcyeWxQRkh3anpRVUYzTUN6WW5YUVFDbzREQXZrOS1aWW5hUDBBejh1S1dNbU1sM1JJbTVJa1VuNlFWVWNpWVJ6Q21UUnFxdFhTcy1kRzRneENXNHE5Tm85cW42M3c?oc=5",
+      "publisher": "The Berkshire Edge",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:05:34+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "AI safety debate: Trump says he will not tolerate attempts to slow AI growth - WION",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFZTX3VlNTN3em9fTzV2Z1VuY1VmUFZDMUZzTVpLV3BqbUl4ZGVDR2ZOS1o3WTFZOG5YTnFFb1NwY0lLLWFnOTRxUGJKXzlJV2dYZWRXc2JmbFVJX3BXMjR1WmdSandNcU8zMGY2Zi1JWVA4RERkMkl6VVZCSFF3WFc5ZWhTRlJjN3EzanZSNUY4d0U5cm13Zi1TakNVbTNYVG43eHJjazJwSkUtRllpTDdQblZwb19obWVqZ9IBwgFBVV95cUxNTHdleUVyLTZHQU1DTkF2cTRWOHpzN1lPRmpsM2xvZ3pOMmE4ZURWZFZWblk5MF9tQ3REZ0pCaHM5eXpGU2Q1Nk5OUTI5S1B6bTl4VEswcjBKZENkWE1nNnlBcjNZQ2FwMUZVOFB1UE1HU1laUFNhR0RyRzlveUdtQkVZaUE5NlFNZ1BuUGlLZ2h0ZEdtdUs2Q3FyT3RJMzRtb0pwa3hYWVctdUV3NUk1R0Z2RUtQcEp1VmktTEptSE1OUQ?oc=5",
+      "publisher": "WION",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:05:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Meta launches Muse AI agent: What it can do, and how it handles your data - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc055WThqYTZoY040UVBnbm9YMGxBU3N3NEZMQWZtZXFYZ3JXZTFuY2NmMnJuM2hMMC10RWNtVm5SVFNWaHFTbHlwZUthaDVncWN2QlZISjVqLTNsaHRsTWRrZXRjaHBiRVpGTzd2ZkJCVmVjUWttcXBYVHJ2YzY2Sm5HNHNUdXd5aENFOEpHVUw5ZGpCX0dUV2M3dUozVW1sOTZ1UnJGeXZEbENKRHR5dmpLaXk4Mktu0gG_AUFVX3lxTE5iTGdFNW1TTUs4bFF0WTI1ajlISGJkSFF2V3l0MnUzSnFBZllmZ0IxTXRiQ3hCLVNRdjN1WjNORnc4MEZOZGJ1RVlaUUJoTERxYi1KZG1ZQzhLbmZRUUdKakFtcDhFZURncld0MjRZVGE1eVFxY3F3QnBTa1hYZ19uV3I5VmMxMFctSi0zRVUxU3J0bnAyR0REalhjN0pkdlc4VFZ1b0x1bVJMRTBTN2xEbXlNOFJieEUwdFBIRFRZ?oc=5",
+      "publisher": "The Indian Express",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T04:01:00+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "Lawsuit accuses Anthropic, OpenAI, SpaceXAI, Google of AI pacing ‘collusion’ - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZG1naDdYR2FILUhncHVtdS0zMGJvY0hGQXA4XzZyWFAtOUFSMEFfbDZXZWxuZkEwYS15MGswbEdOWGo2NkUtbW5aZFc3NWJHdzlJT0xWSGszaUlHQXFhVVIwOE51d1podlMxX1NRaVJWTDZ3OVloUnM5blFGSFJaN2JkVjhSVE1Vb3pBLTN3REx3Ny1GZENZaFRrb3h0bVQ4R2VVWldUYzU3RGho0gGyAUFVX3lxTFA0OG1lU0hKYWVkcHJQbnhaNTljSFFOenNwMVk1bm5NSFBXSC1BVWk0WExZTGpnbFUyd3E3TUJoVFBFeXpFRV9WWkxkSGRCQzByamdQRmdkRi1RcUJBaTlfZC1veGJmWDl2OFh2OUVIVElteWo4T19GcUMxUkktSW05TzFSWEJwSzlDVFRuSE5NU1ZpU0s1RjRFNzJpM1pBbEZHRFBydlZtWmdGbUxrcjN3MXc?oc=5",
+      "publisher": "NewsNation",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T03:46:23+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Collusion in Silicon Valley: OpenAI, Google, Anthropic, and SpaceXAI sued for agreeing to a pause on AI - voz.us",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObUlpd3RFbXlHRjBQOU11V1ZIdE5LbnRHVGU4OUgwbk1nTlJwbG5IanlaTldTdWRaeERpY2JfWXRXY2ZNb3VKcFo3SUNhYXZqLWVJUGM1VFJtUDNwdVJfOGdIVUh5cEp1Z3UySDF4SWRYTDdFeGtranN5Q1ZQQVZIR1dFbHA1WjdKUTJ5RkE5UWlvdXFHOXlHRHRBVVNNUHg1YzJqNjNHS3M5MlBJdVB1ZDNCbFBXX1Utb0k4SzRMQjU4amtvdjhQR0dTblNBY0lwU3RLcnVzd0x0VDl3?oc=5",
+      "publisher": "voz.us",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T03:07:59+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "Googleは、ユーザーのパスワードを推測する行為を含むGeminiによるサイバー攻撃について言及した。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVXZfSUwyQ1ZPQzlfMXl1WngtT2RscFdJeVYwS3NQR0c4SGFvMGtDY2xITllMYjZYS3JrWHBaWW1UWUJXZEp1a1ZUTVI1QmJsVHhpODV2a0Z4VHNiTE1rT3lpOVhhOVhRTlEzNnpkeEJqN1RvR1c2OFJ0MDNKMldINGhXVEN4VVRNNFk5bXBqcndqOWc0cW45bA?oc=5",
+      "publisher": "Vietnam.vn",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T02:57:06+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQXRkTnBOWHdnZC1icnJVd0E1UGtlV1FuN0FFWFhwWV9rRW1oT2M0dE9DYl9ocmw0MHhRZWdFWUtwZ1pacVdFdExfT2dVTnY2aUZrM3lfeWxmTEtWUWRWQ3NzRkd6am1fZ0ZBTHhJcTJEeTlCbzI3Ung0MXprbHZvMTc2Mmk5cUVQbmt5UTQ1YTNmeGp4RHk2R1pLLTVybUZFTy1ySTR5Z1RsV3FCNkF3X1gwZUEyakRwTjVZUnQzNnkyMl9tMzFOeVNWQkNFTTloR0Zj?oc=5",
+      "publisher": "Los Angeles Times",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T02:38:43+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "ChatGPT starts testing ads that open a chat with a brand's own AI agent - MIXED Reality News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQTRaS2lfN3Z4Q2d0ZDZmaVFPNl9zcFlsdmU1QXEtOGFNWHFIVFBRTjl1SC1OemctSUZKYU9UV1Qya2FwR1BwaU9yQ0RKSEJsT3c5clc3cWJwSTFRRkh1ZWo5bXp3WkdBTFBTb1d4MGh2SUVhQlFiRUZ3a2ZmX3IwMTZR?oc=5",
+      "publisher": "MIXED Reality News",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T02:32:13+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "OpenAI、30年までにフリーキャッシュフロー2780億ドル赤字想定－FT - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TSkVacFczQXJTRFFOTzdHdVhIQXFDN21kUm9sUG9UdkpWTHNlZDhHa0JCMFNVVVJEUmx5X2FZWG1La3JVSVZBelY0SjlURnlhclBmZmVKNmdsMUhLUkY3eUwxZ1pEUTlTalpLaWNJUW4wZjluVms4?oc=5",
+      "publisher": "Bloomberg.com",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:49:09+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Claude・ChatGPTのサブスクで使えるデスクトップAIエージェントアプリ「Kari」をGotoAIが無償公開 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HN3laQ3FWZ3RqV20yem8wa0kyUnl4YWNKVWdnYWxJVzJhb09WZVBUYmZxcmFrb1dQYTN1NkpqeUhJaWd1UFVPbG5BSGo5cjR3LVZjY2dKbEdWOHJ2MS01YWdzVUZQYWdpdWc?oc=5",
+      "publisher": "PR TIMES",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:46:53+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Nvidia’s Huang Shuns Need For AI Safety Regulations, In Contrast To Anthropic CEO Amodei’s View At Dreamforce Conference - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOS1pGZnJZN09ldFdfYncydnpmNzdBME9ISnVsbWx3QkZHWWVoSVFFbmhBcGtwWEREX3F6cXlKRjhBd3o3UV9LUzJGS1d0TkxiTnNDcGtrZzA1WlVlNHdta0c2aDNubXgwbS1TNWZVblR2VFBYRTRmVFpVTEtGN3FySjhDeW9NYXNHaUJlTldmLWtOYzFGeEllam9Sa3g0dVJmSXlKSVFQdlA3TWpkU19Oa2s1WDJnNmFjN3RNaWU2aXJnR3h0am4wa1NldUtzT2Y3cm85QlZFWQ?oc=5",
+      "publisher": "Stocktwits",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:45:46+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "The AI safety debate: Why ‘pacing the frontier’ comes with pitfalls - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY21idFdZNzR3ZUVOSzRMSEExSVg4NnByQnBrcE8xa1ByTjI3elZYRWdrSThBV0pSODNSek9JLUtCeE1wcUNqSVVpYkdoU3hNRFVPbGVDczhuNDdaeVp6WWNka05QeXJGZ1czWDZCTl9zVHhmTE9xbzBmR1J6N3NQa3pXN1FrQkhQZnRRWU9UTVpKX1dqdzBjNWNLcmRKMXppOFJyOS0zM3dIbzdKeDdrRG1lLXNORFJQTnBRaHg5R2drWGc5c2IzT3p1ONIB0gFBVV95cUxNM281QWZTWUJnaXB6bXl2b2pPM2xRRkpYVXdGMk1uTGFObzQ2cG9VVm5kZXZObHNKcW9fV2pOT0g3Qm9hYl9YVG5sT3VrQkdXWlRNZ3N2UWszYUczSENYbjAxc2htUkxvUmVyMzhsOVJXeXl3WHJOV0pNZGdpM1E5V0xnMkQtSG1NT3ZGRW93VjAzUThkdE9wOUNHc0wxOWU0VXg4b1VKZEhQRG5SRHdVaHVxNnBMeGpGRDVuZi1OdDlZT2ZLUXhFUjkzNl96MXB0UXc?oc=5",
+      "publisher": "The Indian Express",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:30:09+00:00",
+      "matched_queries": [
+        "agents_tools"
+      ]
+    },
+    {
+      "title": "GoogleのAI「Gemini」も、セキュリティ試験中に実在企業3社のシステムに侵入（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UYWZpNUR2bVFsMllqTTZFUC1jOV9iWlB3c2lfb3Z5WmF2a3ZXVnJkcXRRU1I1RzhLd2twTXpUZFJHcjdnUjBUWmdjaFJtWVViTGNXN2VXcDRpZ1dkdDdWMFVqdTcxcThkRFVZY0dURmFkUDI2cnZTZHkwUVE5U28?oc=5",
+      "publisher": "Yahoo!ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:10:06+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "GoogleのAI「Gemini」も、セキュリティ試験中に実在企業3社のシステムに侵入 (ビジネス＋IT) - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZk1wMkRwU291alNVZnpWaENDM3RtbHVMZmlZNUpvRUs1dmoxWEROOVBqTG1EMmpQWWQ4UHh2Nm9sYnprN19VQktsMXVBZE9PalMyTnM4NmdnZWZQeUQxWWVzdmJ0WGlZWVBGUUxEWnNVT3owamhBWEd4a05rbUNXNTR0a3l2RXJzTC01WlVR?oc=5",
+      "publisher": "Yahoo!ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T01:10:06+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "生成AI使い思考広げる「新しい学び」 専門家が教える3通りの使い方と指示 高校生向けに講座 - 沖縄タイムス社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSeTBpZEdCeUJDajVDdUNQYTZ1bGVQZDl6R21hWUo1cTUzQnFZdDIwWXNHd2VwQ1ZkSXB3QjN4X3lpNUZDN0Q0M1BGY0NzTGhXUnlFNWNmTnl6OHJ5amc?oc=5",
+      "publisher": "沖縄タイムス社",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T00:30:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    },
+    {
+      "title": "Anthropic's CEO urges the industry to slow down, and Sam Altman agrees - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1B1cmVxVWc5Nkl5NHFmOWtuaHZHejN6TzBYb2QtRHlva1hUcGRpc2lPVmZIeDc1T1ppcHg0dF9raWcxcGpEVExjS1RhLU9OdmZUWlFwWGVtYzZoWTZBS1VyTTI3d3RIS0dtbDdSS3RQMEtNQlVocUVfNVlsLVhPODdtTQ?oc=5",
+      "publisher": "Mashable",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-20T00:19:56+00:00",
+      "matched_queries": [
+        "us_core_ai"
+      ]
+    },
+    {
+      "title": "ゲーム開発、8割超が生成AI活用 時間短縮、制作補助に 業界団体調査（時事通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VRHIya0oxNm1fcFdZLVNtWVhLOXJ4MmZiY3RTY1ZhOWw4MlhKQzZCZUk3ZHRNX0NFa2I3dXpoUDZFZk9PaUE1cEJ6OEpWZmtkUjU4ZE5UdGhTWnZVTVpjWlg5QzBRZE03UGRxaVA3bDl6Q29lMlVLelJtaUlaUUk?oc=5",
+      "publisher": "Yahoo!ニュース",
+      "source_type": "google_news_rss_discovery",
+      "published": "2026-09-19T23:31:00+00:00",
+      "matched_queries": [
+        "japan_ai"
+      ]
+    }
+  ]
+}
