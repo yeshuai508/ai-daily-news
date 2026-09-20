@@ -18,21 +18,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install 'twikit @ git+https://github.com/unclecode/twikit.git' pyyaml python-dotenv
+      - run: pip install 'twikit @ git+https://github.com/unclecode/twikit.git' pyyaml python-dotenv requests beautifulsoup4
       - name: Collect X whitelist read-only
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
         run: python scripts/export_x_cloud.py
+      - name: Collect official GitHub Trending snapshot
+        run: python scripts/export_github_trending.py
       - name: Publish cache
         run: |
           cp cloud-output/x-latest.json /tmp/x-latest.json
+          cp cloud-output/github-trending-latest.json /tmp/github-trending-latest.json
           git config user.name ai-daily-news-bot
           git config user.email actions@users.noreply.github.com
           git switch --orphan x-cloud-cache
           git rm -rf . >/dev/null 2>&1 || true
           cp /tmp/x-latest.json x-latest.json
-          echo "# X Cloud Cache" > README.md
-          git add x-latest.json README.md
-          git commit -m "chore: refresh X cloud cache"
+          cp /tmp/github-trending-latest.json github-trending-latest.json
+          echo "# AI Daily News Cloud Cache" > README.md
+          git add x-latest.json github-trending-latest.json README.md
+          git commit -m "chore: refresh cloud source caches"
           git push --force origin HEAD:x-cloud-cache
