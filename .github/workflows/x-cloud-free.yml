@@ -33,7 +33,10 @@ jobs:
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-        run: python scripts/export_x_discovery.py
+        run: |
+          python -m venv /tmp/xsearch
+          /tmp/xsearch/bin/pip install 'twikit @ git+https://github.com/sakenuGOD/twikit.git@e9b5acf140492fb642b2e5322a9ad55ee10415bc' pyyaml python-dotenv
+          /tmp/xsearch/bin/python scripts/export_x_discovery.py
       - name: Discover web/news candidates
         run: python scripts/export_web_discovery.py
       - name: Collect official GitHub Trending snapshot
