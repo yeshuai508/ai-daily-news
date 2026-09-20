@@ -1,7 +1,11 @@
 name: X Cloud Free Collector
 on:
   schedule:
-    - cron: '25 21 * * *'
+    # Redundant pre-report runs. GitHub scheduled jobs can be delayed, so use
+    # three free checkpoints instead of relying on one 06:25 JST trigger.
+    - cron: '30 19 * * *'  # 04:30 JST
+    - cron: '30 20 * * *'  # 05:30 JST
+    - cron: '15 21 * * *'  # 06:15 JST
   workflow_dispatch:
 permissions:
   contents: write
