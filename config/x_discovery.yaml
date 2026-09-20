@@ -1,0 +1,13 @@
+queries:
+  - id: openai_codex
+    query: '"OpenAI" OR "ChatGPT" OR "Codex" OR "GPT-6"'
+  - id: anthropic_claude
+    query: '"Anthropic" OR "Claude"'
+  - id: google_gemini
+    query: '"Gemini" OR "Google DeepMind" OR "Google AI"'
+  - id: china_models
+    query: '"DeepSeek" OR "Qwen" OR "MiniMax" OR "Kimi"'
+  - id: agents_tools
+    query: '"AI agent" OR "computer use" OR "AI coding" OR "AI safety"'
+  - id: japan_ai
+    query: '"生成AI" OR "AIエージェント" OR "生成ＡＩ"'
