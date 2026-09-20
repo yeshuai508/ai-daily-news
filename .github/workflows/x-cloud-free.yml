@@ -37,6 +37,18 @@ jobs:
           python -m venv /tmp/xsearch
           /tmp/xsearch/bin/pip install 'twikit @ git+https://github.com/sakenuGOD/twikit.git@e9b5acf140492fb642b2e5322a9ad55ee10415bc' pyyaml python-dotenv
           /tmp/xsearch/bin/python scripts/export_x_discovery.py
+          if ! /tmp/xsearch/bin/python - <<'PY'
+          import json
+          import sys
+          with open("cloud-output/x-discovery-latest.json", encoding="utf-8") as f:
+              data = json.load(f)
+          sys.exit(0 if data.get("semantic_health") == "HEALTHY" else 1)
+          PY
+          then
+            echo "SearchTimeline discovery is not semantically healthy; using browser read-only fallback."
+            /tmp/xsearch/bin/pip install playwright
+            /tmp/xsearch/bin/python scripts/export_x_browser_discovery.py
+          fi
       - name: Discover web/news candidates
         run: python scripts/export_web_discovery.py
       - name: Collect official GitHub Trending snapshot
