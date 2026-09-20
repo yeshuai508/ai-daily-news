@@ -7,12 +7,17 @@ on:
     - cron: '30 20 * * *'  # 05:30 JST
     - cron: '15 21 * * *'  # 06:15 JST
   workflow_dispatch:
+  # One-shot repair/UAT trigger. Remove after the new discovery caches are verified.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/x-cloud-free.yml'
 permissions:
   contents: write
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,19 +29,30 @@ jobs:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
         run: python scripts/export_x_cloud.py
+      - name: Discover X candidates read-only
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: python scripts/export_x_discovery.py
+      - name: Discover web/news candidates
+        run: python scripts/export_web_discovery.py
       - name: Collect official GitHub Trending snapshot
         run: python scripts/export_github_trending.py
       - name: Publish cache
         run: |
           cp cloud-output/x-latest.json /tmp/x-latest.json
+          cp cloud-output/x-discovery-latest.json /tmp/x-discovery-latest.json
+          cp cloud-output/web-discovery-latest.json /tmp/web-discovery-latest.json
           cp cloud-output/github-trending-latest.json /tmp/github-trending-latest.json
           git config user.name ai-daily-news-bot
           git config user.email actions@users.noreply.github.com
           git switch --orphan x-cloud-cache
           git rm -rf . >/dev/null 2>&1 || true
           cp /tmp/x-latest.json x-latest.json
+          cp /tmp/x-discovery-latest.json x-discovery-latest.json
+          cp /tmp/web-discovery-latest.json web-discovery-latest.json
           cp /tmp/github-trending-latest.json github-trending-latest.json
           echo "# AI Daily News Cloud Cache" > README.md
-          git add x-latest.json github-trending-latest.json README.md
+          git add x-latest.json x-discovery-latest.json web-discovery-latest.json github-trending-latest.json README.md
           git commit -m "chore: refresh cloud source caches"
           git push --force origin HEAD:x-cloud-cache
