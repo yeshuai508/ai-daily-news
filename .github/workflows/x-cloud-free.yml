@@ -30,12 +30,36 @@ jobs:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
         run: |
-          python - <<'PY'
+          if python - <<'PY'
           import json, sys
           d=json.load(open("cloud-output/x-latest.json",encoding="utf-8"))
-          sys.exit(0 if d.get("coverage")=="COMPLETE" else 2)
+          sys.exit(0 if d.get("coverage")=="COMPLETE" else 1)
           PY
-          python scripts/export_x_network_discovery.py
+          then
+            python scripts/export_x_network_discovery.py
+          else
+            python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+          p=Path("cloud-output/x-discovery-latest.json")
+          p.parent.mkdir(parents=True,exist_ok=True)
+          now=datetime.now(ZoneInfo("Asia/Tokyo")).isoformat()
+          p.write_text(json.dumps({
+            "schema":"ai-daily-news.x-discovery.v1",
+            "generated_at":now,
+            "write_actions":"NONE",
+            "scope":"DYNAMIC_NETWORK_EXPANSION_FROM_CORE_X",
+            "candidate_only":True,
+            "verification_required":True,
+            "coverage":"SKIPPED_CORE_X_PARTIAL",
+            "semantic_health":"DEGRADED",
+            "items":[],
+            "note":"Core X was not COMPLETE; skipped extra X calls so Web/GitHub discovery can continue."
+          },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          PY
+          fi
       - name: Mark X discovery not run at early checkpoints
         if: github.event_name == 'schedule' && github.event.schedule != '15 21 * * *'
         run: |
