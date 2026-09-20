@@ -7,10 +7,6 @@ on:
     - cron: '30 20 * * *'  # 05:30 JST
     - cron: '15 21 * * *'  # 06:15 JST
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/x-cloud-free.yml'
 permissions:
   contents: write
 jobs:
