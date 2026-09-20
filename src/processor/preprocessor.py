@@ -49,7 +49,7 @@ def score_items(items, accounts_config):
     for item in items:
         decay = _time_decay(item.get("published"))
 
-        if item.get("source_type") == "twitter":
+        if str(item.get("source_type", "")).startswith("twitter"):
             metrics = item.get("metrics", {})
             likes = _safe_log2(metrics.get("likes", 0))
             retweets = _safe_log2(metrics.get("retweets", 0))
@@ -122,7 +122,7 @@ def dedup(items):
         if item.get("source_type") == "twitter":
             summary = item.get("summary", "")
             for k in kept:
-                if k.get("source_type") == "twitter" and _similarity(summary, k.get("summary", "")) >= 0.8:
+                if str(k.get("source_type", "")).startswith("twitter") and _similarity(summary, k.get("summary", "")) >= 0.8:
                     k.setdefault("related_sources", []).append({
                         "source": item.get("source"),
                         "url": item.get("url"),
