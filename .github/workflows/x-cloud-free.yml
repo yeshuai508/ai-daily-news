@@ -7,7 +7,7 @@ on:
     - cron: '30 20 * * *'  # 05:30 JST
     - cron: '15 21 * * *'  # 06:15 JST
   workflow_dispatch:
-  # One-shot repair/UAT trigger. Remove after the new discovery caches are verified.
+  # One-shot repair/UAT trigger for semantic X search validation. Remove after verification.
   push:
     branches: [main]
     paths:
