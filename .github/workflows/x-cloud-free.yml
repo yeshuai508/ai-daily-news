@@ -7,11 +7,6 @@ on:
     - cron: '30 20 * * *'  # 05:30 JST
     - cron: '15 21 * * *'  # 06:15 JST
   workflow_dispatch:
-  # One-shot repair/UAT trigger for semantic X search validation. Remove after verification.
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/x-cloud-free.yml'
 permissions:
   contents: write
 jobs:
@@ -30,10 +25,40 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
         run: python scripts/export_x_cloud.py
       - name: Discover X candidates read-only
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 21 * * *'
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-        run: python scripts/export_x_network_discovery.py
+        run: |
+          python - <<'PY'
+          import json, sys
+          d=json.load(open("cloud-output/x-latest.json",encoding="utf-8"))
+          sys.exit(0 if d.get("coverage")=="COMPLETE" else 2)
+          PY
+          python scripts/export_x_network_discovery.py
+      - name: Mark X discovery not run at early checkpoints
+        if: github.event_name == 'schedule' && github.event.schedule != '15 21 * * *'
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+          p=Path("cloud-output/x-discovery-latest.json")
+          p.parent.mkdir(parents=True,exist_ok=True)
+          now=datetime.now(ZoneInfo("Asia/Tokyo")).isoformat()
+          p.write_text(json.dumps({
+            "schema":"ai-daily-news.x-discovery.v1",
+            "generated_at":now,
+            "write_actions":"NONE",
+            "scope":"DYNAMIC_NETWORK_EXPANSION_FROM_CORE_X",
+            "candidate_only":True,
+            "verification_required":True,
+            "coverage":"NOT_RUN_EARLY_CHECKPOINT",
+            "semantic_health":"NOT_DUE",
+            "items":[]
+          },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          PY
       - name: Discover web/news candidates
         run: python scripts/export_web_discovery.py
       - name: Collect official GitHub Trending snapshot
